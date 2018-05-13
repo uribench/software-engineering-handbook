@@ -1,0 +1,156 @@
+Table of Content
+================
+
+- 1 Development
+	- 1.1 Development Environment and Tools
+		- 1.1.1 Environment Setup
+			- 1.1.1.1 Vagrant and VirtualBox
+		- 1.1.2 Automation Scripts
+		- 1.1.3 Common File Formats
+			- 1.1.3.1 YAML
+			- 1.1.3.2 JSON
+			- 1.1.3.3 Markdown
+			- 1.1.3.4 XML
+		- 1.1.4 Time Management
+		- 1.1.5 Editors
+			- 1.1.5.1 Sublime
+			- 1.1.5.2 Atom
+		- 1.1.6 IDEs
+			- 1.1.6.1 Visual Studio
+			- 1.1.6.2 MonoDevelop
+			- 1.1.6.3 Eclipse
+			- 1.1.6.4 IntelliJ
+			- 1.1.6.5 NetBeans
+		- 1.1.7 Diff and Merge Tools
+			- 1.1.7.1 DiffMerge
+			- 1.1.7.2 WinMerge
+		- 1.1.8 Linux skillset
+		- 1.1.9 Developing with Docker 
+			- 1.1.9.1 Docker concepts
+			- 1.1.9.2 Docker Compose
+		- 1.1.10 Choosing the right language
+	- 1.2 Code Development Lifecycle
+		- 1.2.1 Documenting
+			- 1.2.1.1 Principles and Frameworks
+			- 1.2.1.2 Lightweight Markup Languages
+			- 1.2.1.3 Mind Mapping Tools
+		- 1.2.2 Version Control
+			- 1.2.2.1 Tools
+			- 1.2.2.2 Git
+			- 1.2.2.3 SVN
+			- 1.2.2.4 TFS
+			- 1.2.2.5 CVS
+			- 1.2.2.6 Perforce
+			- 1.2.2.7 How to write commit messages and release notes
+		- 1.2.3 Testing
+			- 1.2.3.1 Unit Test
+			- 1.2.3.2 Integration and System Test
+			- 1.2.3.3 Performance and Memory check (Big O)
+			- 1.2.3.4 Test Code Coverage check
+			- 1.2.3.5 Load and stress tests
+			- 1.2.3.6 Static Analysis
+			- 1.2.3.7 Effective Peer Code Review
+			- 1.2.3.8 Root cause analysis
+			- 1.2.3.9 Effective problem solving - Debugging Mindset
+		- 1.2.4 Continuous Integration (CI)
+			- 1.2.4.1 TravisCI
+			- 1.2.4.2 CircleCI
+			- 1.2.4.3 Jenkins (see also 
+		- 1.2.5 Testing with Docker
+	- 1.3 Software Development Processes
+- 2 Production
+	- 2.1 Deployment Management
+		- 2.1.2 Virtualization
+		- 2.1.3 Containerization
+			- 2.1.3.1 Deploying with Docker
+			- 2.1.3.2 Docker orchestration
+		- 2.1.4 Automation
+			- 2.1.4.1 Ansible
+			- 2.1.4.2 Puppet
+			- 2.1.4.3 Chef
+			- 2.1.4.4 Terraform
+		- 2.1.5 Build Servers
+			- 2.1.5.1 Jenkins
+		- 2.1.6 Deployment workflows
+			- 2.1.6.1 Using a staging environment
+			- 2.1.6.2 Green-Blue deployments
+		- 2.1.7 Production tests (Acceptance-Smoke-Sanity)
+		- 2.1.8 Continuous Deployment-Delivery (CD)
+	- 2.2 DevOps
+		- 2.2.1 Building a solid infrastructure (monitoring, alerting, logging)
+		- 2.2.2 High Availability
+		- 2.2.3 Auto Scaling
+	- 2.3 NOC (Network Operation Center)
+- 3 Coding
+	- 3.1 Code Quality
+		- 3.1.1 General Coding Best Practices (e.g. optimize for reading, not writing)
+		- 3.1.2 Optimization and Refactoring (approaches, when not to overdo)
+		- 3.1.3 Clean Code and Code Smells - General Overview
+		- 3.1.4 Common Smells - Patterns and Remedies
+		- 3.1.5 Software quality metrics
+	- 3.2 Development Models
+		- 3.2.1 Test First Approaches
+			- 3.2.1.1 Principles
+			- 3.2.1.2 Hands on practices
+			- 3.2.1.3 Supporting Frameworks
+		- 3.2.2 Code Composition
+			- 3.2.2.1 Principles
+			- 3.2.2.2 IoC, DIP
+				- 3.2.2.2.1 Frameworks
+					- 3.2.2.2.1.1 MEF
+					- 3.2.2.2.1.2 Unity
+			- 3.2.2.3 Composite Applications
+				- 3.2.2.3.1 Principles (Vertical Concerns)
+				- 3.2.2.3.2 Frameworks
+					- 3.2.2.3.2.1 Microsoft PRISM
+		- 3.2.3 Domain Specific Language (DSL) Based Development Model
+			- 3.2.3.1 Internal vs External DSL
+			- 3.2.3.2 Externalization of code
+			- 3.2.3.3 Supporting Frameworks
+		- 3.2.4 Defensive Programming
+	- 3.3 Design patterns
+	- 3.4 Polyglotism
+		- 3.4.1 Side-by-side languages clusters syntax comparisons
+	- 3.5 Regular Expressions - Syntax, Patterns and Tools
+	- 3.6 Anonymous methods and lambda expressions
+	- 3.7 Developing an Interpreter
+	- 3.8 Frameworks and Libraries
+	- 3.9 Ecosystem-Community-Open Source
+		- 3.9.1 Private repositories
+			- 3.9.1.1 GitHub
+			- 3.9.1.2 BitBucket
+		- 3.9.2 Public Repositories
+			- 3.9.2.1 How to choose an open source license
+	- 3.10 Common Standards
+		- 3.10.1 Coding style standards
+		- 3.10.2 Medical Domain Specific Standards
+			- 3.10.2.1 DICOM
+			- 3.10.2.2 HL7 Standards
+	- 3.11 Web Development
+		- 3.11.1 Web Development Toolkits
+			- 3.11.1.1 UI Toolkit
+				- 3.11.1.1.1 Bootstrap
+				- 3.11.1.1.2 Foundation
+				- 3.11.1.1.3 Kendo UI
+				- 3.11.1.1.4 Material UI
+			- 3.11.1.2 UI Frameworks
+				- 3.11.1.2.1 Angular
+				- 3.11.1.2.2 React
+				- 3.11.1.2.3 Vue
+			- 3.11.1.3 Testing Libraries
+				- 3.11.1.3.1 Mocha.js
+				- 3.11.1.3.2 Jasmine
+				- 3.11.1.3.3 QUnit
+			- 3.11.1.4 Validators
+				- 3.11.1.4.1 W3C website Validator
+	- 3.12 Security
+	- 3.13 Databases
+- 4 Soft Skills (The Human Factor)
+	- 4.1 How to effectively interact with other people
+	- 4.2 Difficult Conversations
+	- 4.3 Effective Communications with Teams
+	- 4.4 Effective Communications with Managers
+	- 4.5 Global Cultural Differences
+	- 4.6 Influencing without being judgmental
+	- 4.7 How to interview (skill testing)
+		- 4.7.1 TestDome.com
