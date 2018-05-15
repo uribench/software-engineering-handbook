@@ -1,4 +1,6 @@
 # createTOC.py
+# MIT license; Copyright (C) 2018 Uri Benchetrit
+#
 # Traverse a directory tree and generate an ordered linked validated TOC
 
 import os
