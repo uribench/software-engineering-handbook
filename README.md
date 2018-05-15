@@ -1,156 +1,39 @@
-Table of Content
-================
+Philips Software Center of Excellence (CoE) - Certified by CoE Program Training
+===============================================================================
 
-- 1 Development
-	- 1.1 Development Environment and Tools
-		- 1.1.1 Environment Setup
-			- 1.1.1.1 Vagrant and VirtualBox
-		- 1.1.2 Automation Scripts
-		- 1.1.3 Common File Formats
-			- 1.1.3.1 YAML
-			- 1.1.3.2 JSON
-			- 1.1.3.3 Markdown
-			- 1.1.3.4 XML
-		- 1.1.4 Time Management
-		- 1.1.5 Editors
-			- 1.1.5.1 Sublime
-			- 1.1.5.2 Atom
-		- 1.1.6 IDEs
-			- 1.1.6.1 Visual Studio
-			- 1.1.6.2 MonoDevelop
-			- 1.1.6.3 Eclipse
-			- 1.1.6.4 IntelliJ
-			- 1.1.6.5 NetBeans
-		- 1.1.7 Diff and Merge Tools
-			- 1.1.7.1 DiffMerge
-			- 1.1.7.2 WinMerge
-		- 1.1.8 Linux skillset
-		- 1.1.9 Developing with Docker 
-			- 1.1.9.1 Docker concepts
-			- 1.1.9.2 Docker Compose
-		- 1.1.10 Choosing the right language
-	- 1.2 Code Development Lifecycle
-		- 1.2.1 Documenting
-			- 1.2.1.1 Principles and Frameworks
-			- 1.2.1.2 Lightweight Markup Languages
-			- 1.2.1.3 Mind Mapping Tools
-		- 1.2.2 Version Control
-			- 1.2.2.1 Tools
-			- 1.2.2.2 Git
-			- 1.2.2.3 SVN
-			- 1.2.2.4 TFS
-			- 1.2.2.5 CVS
-			- 1.2.2.6 Perforce
-			- 1.2.2.7 How to write commit messages and release notes
-		- 1.2.3 Testing
-			- 1.2.3.1 Unit Test
-			- 1.2.3.2 Integration and System Test
-			- 1.2.3.3 Performance and Memory check (Big O)
-			- 1.2.3.4 Test Code Coverage check
-			- 1.2.3.5 Load and stress tests
-			- 1.2.3.6 Static Analysis
-			- 1.2.3.7 Effective Peer Code Review
-			- 1.2.3.8 Root cause analysis
-			- 1.2.3.9 Effective problem solving - Debugging Mindset
-		- 1.2.4 Continuous Integration (CI)
-			- 1.2.4.1 TravisCI
-			- 1.2.4.2 CircleCI
-			- 1.2.4.3 Jenkins (see also 
-		- 1.2.5 Testing with Docker
-	- 1.3 Software Development Processes
-- 2 Production
-	- 2.1 Deployment Management
-		- 2.1.2 Virtualization
-		- 2.1.3 Containerization
-			- 2.1.3.1 Deploying with Docker
-			- 2.1.3.2 Docker orchestration
-		- 2.1.4 Automation
-			- 2.1.4.1 Ansible
-			- 2.1.4.2 Puppet
-			- 2.1.4.3 Chef
-			- 2.1.4.4 Terraform
-		- 2.1.5 Build Servers
-			- 2.1.5.1 Jenkins
-		- 2.1.6 Deployment workflows
-			- 2.1.6.1 Using a staging environment
-			- 2.1.6.2 Green-Blue deployments
-		- 2.1.7 Production tests (Acceptance-Smoke-Sanity)
-		- 2.1.8 Continuous Deployment-Delivery (CD)
-	- 2.2 DevOps
-		- 2.2.1 Building a solid infrastructure (monitoring, alerting, logging)
-		- 2.2.2 High Availability
-		- 2.2.3 Auto Scaling
-	- 2.3 NOC (Network Operation Center)
-- 3 Coding
-	- 3.1 Code Quality
-		- 3.1.1 General Coding Best Practices (e.g. optimize for reading, not writing)
-		- 3.1.2 Optimization and Refactoring (approaches, when not to overdo)
-		- 3.1.3 Clean Code and Code Smells - General Overview
-		- 3.1.4 Common Smells - Patterns and Remedies
-		- 3.1.5 Software quality metrics
-	- 3.2 Development Models
-		- 3.2.1 Test First Approaches
-			- 3.2.1.1 Principles
-			- 3.2.1.2 Hands on practices
-			- 3.2.1.3 Supporting Frameworks
-		- 3.2.2 Code Composition
-			- 3.2.2.1 Principles
-			- 3.2.2.2 IoC, DIP
-				- 3.2.2.2.1 Frameworks
-					- 3.2.2.2.1.1 MEF
-					- 3.2.2.2.1.2 Unity
-			- 3.2.2.3 Composite Applications
-				- 3.2.2.3.1 Principles (Vertical Concerns)
-				- 3.2.2.3.2 Frameworks
-					- 3.2.2.3.2.1 Microsoft PRISM
-		- 3.2.3 Domain Specific Language (DSL) Based Development Model
-			- 3.2.3.1 Internal vs External DSL
-			- 3.2.3.2 Externalization of code
-			- 3.2.3.3 Supporting Frameworks
-		- 3.2.4 Defensive Programming
-	- 3.3 Design patterns
-	- 3.4 Polyglotism
-		- 3.4.1 Side-by-side languages clusters syntax comparisons
-	- 3.5 Regular Expressions - Syntax, Patterns and Tools
-	- 3.6 Anonymous methods and lambda expressions
-	- 3.7 Developing an Interpreter
-	- 3.8 Frameworks and Libraries
-	- 3.9 Ecosystem-Community-Open Source
-		- 3.9.1 Private repositories
-			- 3.9.1.1 GitHub
-			- 3.9.1.2 BitBucket
-		- 3.9.2 Public Repositories
-			- 3.9.2.1 How to choose an open source license
-	- 3.10 Common Standards
-		- 3.10.1 Coding style standards
-		- 3.10.2 Medical Domain Specific Standards
-			- 3.10.2.1 DICOM
-			- 3.10.2.2 HL7 Standards
-	- 3.11 Web Development
-		- 3.11.1 Web Development Toolkits
-			- 3.11.1.1 UI Toolkit
-				- 3.11.1.1.1 Bootstrap
-				- 3.11.1.1.2 Foundation
-				- 3.11.1.1.3 Kendo UI
-				- 3.11.1.1.4 Material UI
-			- 3.11.1.2 UI Frameworks
-				- 3.11.1.2.1 Angular
-				- 3.11.1.2.2 React
-				- 3.11.1.2.3 Vue
-			- 3.11.1.3 Testing Libraries
-				- 3.11.1.3.1 Mocha.js
-				- 3.11.1.3.2 Jasmine
-				- 3.11.1.3.3 QUnit
-			- 3.11.1.4 Validators
-				- 3.11.1.4.1 W3C website Validator
-	- 3.12 Security
-	- 3.13 Databases
-- 4 Soft Skills (The Human Factor)
-	- 4.1 How to effectively interact with other people
-	- 4.2 Difficult Conversations
-	- 4.3 Effective Communications with Teams
-	- 4.4 Effective Communications with Managers
-	- 4.5 Global Cultural Differences
-	- 4.6 Influencing without being judgmental
-	- 4.7 How to interview (skill testing)
-		- 4.7.1 TestDome.com
+<style>ul { list-style-type: none; }</style>
+
+### Table of Content (high level only)
+
+*For a **detailed version** see [TOC.md](TOC.md)*
+
+- 1 [Development](./Development)
+    - 1.1 [Development Environment and Tools](./Development/Development%20Environment%20and%20Tools)
+    - 1.2 [Code Development Lifecycle](./Development/Code%20Development%20Lifecycle)
+    - 1.3 [Software Development Processes](./Development/Software%20Development%20Processes)
+- 2 [Production](./Production)
+    - 2.1 [Deployment Management](./Production/Deployment%20Management)
+    - 2.2 [DevOps](./Production/DevOps)
+    - 2.3 [NOC (Network Operation Center)](./Production/NOC%20%28Network%20Operation%20Center%29)
+- 3 [Coding](./Coding)
+    - 3.1 [Code Quality](./Coding/Code%20Quality)
+    - 3.2 [Development Models](./Coding/Development%20Models)
+    - 3.3 [Design patterns](./Coding/Design%20patterns)
+    - 3.4 [Polyglotism](./Coding/Polyglotism)
+    - 3.5 [Regular Expressions - Syntax, Patterns and Tools](./Coding/Regular%20Expressions%20-%20Syntax%2C%20Patterns%20and%20Tools)
+    - 3.6 [Anonymous methods and lambda expressions](./Coding/Anonymous%20methods%20and%20lambda%20expressions)
+    - 3.7 [Developing an Interpreter](./Coding/Developing%20an%20Interpreter)
+    - 3.8 [Frameworks and Libraries](./Coding/Frameworks%20and%20Libraries)
+    - 3.9 [Ecosystem-Community-Open Source](./Coding/Ecosystem-Community-Open%20Source)
+    - 3.10 [Common Standards](./Coding/Common%20Standards)
+    - 3.11 [Web Development](./Coding/Web%20Development)
+    - 3.12 [Security](./Coding/Security)
+    - 3.13 [Databases](./Coding/Databases)
+- 4 [Soft Skills (The Human Factor)](./Soft%20Skills%20%28The%20Human%20Factor%29)
+    - 4.1 [How to effectively interact with other people](./Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20effectively%20interact%20with%20other%20people)
+    - 4.2 [Difficult Conversations](./Soft%20Skills%20%28The%20Human%20Factor%29/Difficult%20Conversations)
+    - 4.3 [Effective Communications with Teams](./Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Teams)
+    - 4.4 [Effective Communications with Managers](./Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Managers)
+    - 4.5 [Global Cultural Differences](./Soft%20Skills%20%28The%20Human%20Factor%29/Global%20Cultural%20Differences)
+    - 4.6 [Influencing without being judgmental](./Soft%20Skills%20%28The%20Human%20Factor%29/Influencing%20without%20being%20judgmental)
+    - 4.7 [How to interview (skill testing)](./Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20interview%20%28skill%20testing%29)
