@@ -1,7 +1,7 @@
-Philips Software Center of Excellence (CoE) - Certified by CoE Program Training
-===============================================================================
+Certified by CoE Program Training
+=================================
 
-<style>ul { list-style-type: none; }</style>
+The training materials in this repository are for the **Certified by CoE Program** of Philips Software Center of Excellence (SW CoE).
 
 ### Table of Content (high level only)
 

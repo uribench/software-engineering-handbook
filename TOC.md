@@ -1,5 +1,3 @@
-<style>ul { list-style-type: none; }</style>
-
 ### Table of Content
 
 - 1 [Development](./Development)

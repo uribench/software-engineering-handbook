@@ -5,7 +5,7 @@ import os
 import sys
 from urllib.request import pathname2url
 
-targetRoot = '.' + os.sep
+targetRoot = '../Training/'
 tocFile = 'TOC.md'
 tocHeader = '<style>ul { list-style-type: none; }</style>\n\n'  # kill bullets of unordered list
 tocTitle = '### Table of Content\n\n'
@@ -19,6 +19,7 @@ includeIndex = True
 includeItemPrefix = True
 includeItemLink = True
 displayWarnings = True
+includeTocHeader = False
 
 def createTOC(path, tocFileObject, level, index):
     """"""
@@ -122,7 +123,8 @@ def main():
 
     try:
         with open(tocFile, 'a') as fo:
-            fo.write(tocHeader)
+            if includeTocHeader:
+                fo.write(tocHeader)
             fo.write(tocTitle)
             root = targetRoot
             level = 0
