@@ -7,7 +7,8 @@ import os
 import sys
 from urllib.request import pathname2url
 
-targetRoot = '../Training/'
+dirsTreeRoot = '../Training/'   # relative to 'Tools/' directory
+tocPath = '../'                 # relative to 'Tools/' directory
 tocFile = 'TOC.md'
 tocHeader = '<style>ul { list-style-type: none; }</style>\n\n'  # kill bullets of unordered list
 tocTitle = '### Table of Content\n\n'
@@ -99,8 +100,6 @@ def formatTOC(path, fileName, level, index):
     # compose indent string
     indent = ' ' * 4 * level
     # compose optional index string
-    # list('-'.join(ls))
-    # str1 = ''.join(str(e) for e in list1)
     indexString = ''
     if includeIndex:
         indexString = '.'.join(str(e) for e in index[:level + 1])
@@ -119,16 +118,17 @@ def formatTOC(path, fileName, level, index):
     return '{}{}{}{}\n'.format(indent, itemPrefix, indexString, tocItem)
 
 def main():
-    if os.path.exists(tocFile):
-        print('Error: TOC file <{}> already exists'.format(tocFile))
+    tocFullFileName = os.path.join(tocPath, tocFile)
+    if os.path.exists(tocFullFileName):
+        print('Error: TOC file <{}> already exists in <{}>'.format(tocFile, tocPath))
         sys.exit()
 
     try:
-        with open(tocFile, 'a') as fo:
+        with open(tocFullFileName, 'a') as fo:
             if includeTocHeader:
                 fo.write(tocHeader)
             fo.write(tocTitle)
-            root = targetRoot
+            root = dirsTreeRoot
             level = 0
             index = [initialIndex]
             createTOC(root, fo, level, index)
