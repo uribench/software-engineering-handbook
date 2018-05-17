@@ -9,6 +9,7 @@ from urllib.request import pathname2url
 
 dirsTreeRoot = '../Training/'   # relative to 'Tools/' directory
 tocPath = '../'                 # relative to 'Tools/' directory
+tocLinksRoot = './Training/'    # relative to 'tocFile' location
 tocFile = 'TOC.md'
 tocHeader = '<style>ul { list-style-type: none; }</style>\n\n'  # kill bullets of unordered list
 tocTitle = '## Table of Contents\n\n'
@@ -112,8 +113,9 @@ def formatTOC(path, fileName, level, index):
     tocItem = fileName
     if includeItemLink:
         filePath = os.path.join(path, fileName)
-        filePathURL = pathname2url(filePath)
-        tocItem = '[' + fileName + '](' + filePathURL + ')'
+        fileLink = filePath.replace(dirsTreeRoot, tocLinksRoot)
+        fileLinkURL = pathname2url(fileLink)
+        tocItem = '[' + fileName + '](' + fileLinkURL + ')'
 
     return '{}{}{}{}\n'.format(indent, itemPrefix, indexString, tocItem)
 
