@@ -1,4 +1,4 @@
 Tools
 =====
 
-Collection of automation scripts to maintain the Philips_SW_CoE_Training directory structure.
+A collection of automation scripts to maintain the [Training](../Training/) directory of the Software Engineering Handbook.
