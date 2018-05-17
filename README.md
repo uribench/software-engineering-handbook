@@ -1,7 +1,7 @@
-Certified by CoE Program Training
-=================================
+Software Best Practices
+=======================
 
-The training materials in this repository are for the **Certified by CoE Program** of Philips Software Center of Excellence (SW CoE).
+The training materials in this repository are recommended best practices for Software Engineers.
 
 ### Table of Content (high level only)
 

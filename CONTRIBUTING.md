@@ -1,8 +1,8 @@
-# Contributing Training Materials to Philips SW CoE
+# Contributing Training Materials to Software Best Practices
 
 Thank you for taking the time to contribute!
 
-The following is a set of guidelines for contributing to the training materials for Software Engineers, which are hosted in the [Philips SW CoE](https://github.com/uribench/Philips_SW_CoE) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the best practices training materials for Software Engineers, which are hosted in the [software-best-practices](https://github.com/uribench/software-best-practices) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -17,7 +17,7 @@ The following is a set of guidelines for contributing to the training materials 
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Philips SW CoE Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [uribench@gmail.com](mailto:uribench@gmail.com).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [uribench@gmail.com](mailto:uribench@gmail.com).
 
 ## How Can I Contribute?
 
