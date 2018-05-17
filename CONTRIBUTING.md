@@ -2,7 +2,7 @@
 
 Thank you for taking the time to contribute!
 
-The following is a set of guidelines for contributing to the training materials for Software Engineers, which are hosted in the [software-engineering-handbook](https://github.com/uribench/software-engineering-handbook) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the training materials for the Software Engineering Handbook, which are hosted in the [software-engineering-handbook](https://github.com/uribench/software-engineering-handbook) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 

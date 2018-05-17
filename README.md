@@ -1,7 +1,7 @@
 Software Engineering Handbook
 =============================
 
-The training materials in this repository are intended to provide references and practical information on Software Engineering.
+The training materials in this repository provide references and practical information on Software Engineering.
 
 ### Table of Content (high level only)
 
