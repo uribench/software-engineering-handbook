@@ -1,4 +1,4 @@
-### Table of Content
+## Table of Contents
 
 - 1 [Development](../Training/Development)
     - 1.1 [Development Environment and Tools](../Training/Development/Development%20Environment%20and%20Tools)

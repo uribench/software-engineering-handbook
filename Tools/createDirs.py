@@ -1,4 +1,6 @@
 # createDirs.py
+# MIT license; Copyright (C) 2018 Uri Benchetrit
+#
 # Create a directory tree from an unordered tab-indented directory list (TOC)
 
 import os

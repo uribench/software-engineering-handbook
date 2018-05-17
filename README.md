@@ -3,7 +3,7 @@ Software Engineering Handbook
 
 The training materials in this repository provide references and practical information on Software Engineering.
 
-### Table of Content (high level only)
+## Table of Contents (high level)
 
 *For a **detailed version** see [TOC.md](TOC.md)*
 
