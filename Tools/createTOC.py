@@ -4,10 +4,10 @@
 """Traverse a directory tree and generate an ordered linked validated TOC.
 
 Usage:
-  createTOC.py [options] [TOC]
+  createTOC.py [options] [FILE]
 
 Arguments:
-  TOC  destination TOC filename
+  FILE  destination TOC filename
 
 Options:
   -h --help             show this help message and exit
@@ -15,10 +15,6 @@ Options:
   --dirs-root=PATH      directories tree root relative to program location [default: ../Training/] 
   --toc-path=PATH       TOC file path relative to program location [default: ../]
   --links-root=PATH     TOC file links root relative to TOC file location [default: ./Training/]
-  --include=PATTERNS    include files or directories which match these comma
-                        separated patterns [default: .md]
-  --exclude=PATTERNS    exclude files or directories which match these comma
-                        separated patterns [default: .git]
   -d --depth=LEVEL      max depth of the generated TOC tree [default: 8]
   --start-index=INDEX   start index of the TOC items [default: 1]
   --no-item-prefix      do not include item prefix for the TOC items
@@ -150,14 +146,12 @@ def processArgs():
     includeIndex = not args['--no-index']
     includeItemLink = not args['--no-item-link']
     includeTocHeader = args['--header']
-    whiteList = list(set(whiteList + args['--include'].split(',')))
-    blackList = list(set(blackList + args['--exclude'].split(',')))
     dirsTreeRoot = args['--dirs-root']
     tocPath = args['--toc-path']
     tocLinksRoot = args['--links-root']
 
-    if args['TOC'] is not None:
-        tocFile = args['TOC']
+    if args['FILE'] is not None:
+        tocFile = args['FILE']
 
 def main():
     tocFullFileName = os.path.join(tocPath, tocFile)
