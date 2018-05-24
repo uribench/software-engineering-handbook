@@ -1,0 +1,26 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# The most common configuration options are documented and commented below.
+# For a complete reference, please see the online documentation at
+# https://docs.vagrantup.com.
+Vagrant.configure(2) do |config|
+  forward_port = ->(guest, host = guest) do
+    config.vm.network :forwarded_port,
+      guest: guest, host: host,
+      auto_correct: true
+  end
+  
+  config.vm.box = "ubuntu/xenial64"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "Xenial64 Box"
+    vb.memory = "2048"
+  end
+
+  forward_port[80]        # nginx/apache
+  forward_port[3000]      # generic web dev
+
+  config.vm.synced_folder "./", "/vagrant", nfs: true
+end
+
