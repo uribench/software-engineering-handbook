@@ -2,7 +2,7 @@
 
 ### Using 'Git Bash' instead of Windows command window
 
-If you already have Git installed on your Windows host system, you can use 'Git Bash' command window
+If you already have [Git][1] installed on your Windows host system, you can use 'Git Bash' command window
 that is bundled with the installation of Git, instead of the Windows command window.
 
 The 'Git Bash' command window not only feels better, but allows executing git commands.

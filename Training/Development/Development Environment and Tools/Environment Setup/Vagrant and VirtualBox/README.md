@@ -19,7 +19,7 @@ All the above steps, except of step 3 obviously, typically involve a single comm
 
 The steps described in this tutorial refer to **Windows** as the host operating system and **Linux**
 as the guest operating system on the Virtual Machine (VM). However, with some minor modifications
-these steps can be adapter to other environments.
+these steps can be adapted to other environments.
 
 ## Table of Contents
 
