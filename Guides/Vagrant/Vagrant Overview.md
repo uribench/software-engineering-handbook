@@ -27,6 +27,15 @@ instead.
 
 ---
 
+**Related Guides:**
+
+- [Vagrant Installation][4]
+- [Getting Started with Vagrant][5]
+
+---
+
 [1]: /Topics/Vagrant
 [2]: https://www.virtualbox.org/
 [3]: /Topics/Git%20Bash
+[4]: /Guides/Vagrant/Vagrant%20Installation
+[5]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant

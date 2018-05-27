@@ -60,7 +60,7 @@ described in the next section.
 
 ### Vagrant Configuration File
 
-To create and provision the Virtual Machine you'll need a [Vagrant configuration file][6] called 
+To create and provision the Virtual Machine you will need a [Vagrant configuration file][6] called 
 **Vagrantfile**. You can use the 
 
 If you decide to use the included Vagarantfile as-is (recommended at least for a start), then 
@@ -77,9 +77,16 @@ consistency:
 
 ---
 
+**Related Guides:**
+
+- [Getting Started with Vagrant][7]
+
+---
+
 [1]: /Topics/Vagrant
 [2]: https://www.virtualbox.org/
 [3]: https://www.vagrantup.com/
-[4]: /Guides/SSH/Recommended%20SSH%20Clients.md
-[5]: /Topics/SSH%20Clients.md
+[4]: /Guides/SSH/Recommended%20SSH%20Clients
+[5]: /Topics/SSH%20Clients
 [6]: /Topics/Vagrantfile
+[7]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant
