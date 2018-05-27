@@ -23,8 +23,8 @@ these steps can be adapted to other environments.
 
 ## Table of Contents
 
-- [Setting Up the Vagrant Virtual Machine](setup.md)
-- [Running and Stopping the Vagrant Virtual Machine](controlling_vm.md)
+- [Vagrant Installation](vagrant-installation)
+- [Vagrant Life Cycle Management](vagrant-life-cycle-management.md)
 - [Using the Vagrant Virtual Machine](using_vm.md)
 - [Known Issues](known_issues.md)
 - [Appendix](appendix.md)

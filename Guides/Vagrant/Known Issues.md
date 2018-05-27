@@ -1,15 +1,15 @@
-## Known Issues
+# Known Issues
 
 The following sections describe solutions and workarounds to common known issues.
 
-### Enabling Virtualization Technology
+## Enabling Virtualization Technology
 
 The Virtualization Technology (VTx) has to be enabled in the BIOS of the computer. 
 To enable the VTx on the HP EliteBook 840G2 for instance, enter the BIOS by pressing F10 multiple 
 times during restart. In the BIOS go to: (Advanced | Device Configuration), and scroll down and 
 check the option of: 'Virtualization Technology (VTx)'.
 
-### Microsoft's Hyper-V Technology Clash
+## Microsoft Hyper-V Technology Clash
 
 Oracle's VirtualBox Virtualization is hardware assisted by Intel's Virtualization Technology (VTx). 
 Microsoft's Hyper-V Technology clashes with Oracle's VirtualBox, therefore it should be disabled 
@@ -21,7 +21,7 @@ system administrator):
 1. Go to 'Control Panel | Programs | Programs and Features | Turn Windows features on or off'
 2. Uncheck Hyper-V settings, and click OK.
 
-### Vagrant Update
+## Vagrant Update
 
 If after turning on vagrant using 'vagrant up' command you get a notification saying that vagrant 
 has an update, execute the following command to update vagrant (from the command window running from 
@@ -31,7 +31,7 @@ the directory containing the Vagrantfile of the target machine):
 [cmd]> vagrant box update
 ```
 
-### Oracle's VirtualBox Guest Additions
+## VirtualBox Guest Additions
 
 The VirtualBox Guest Additions consist of device drivers and system applications that optimize the 
 guest operating system for better performance and usability by providing closer integration between 
@@ -63,7 +63,7 @@ $ sudo apt-get update
 $ sudo apt-get install virtualbox-guest-dkms 
 ```
 
-### Setting SSH key for the SSH Client
+## Setting SSH key for the SSH Client
 
 If the SSH Client you are using does not recognize the 'insecure_private_key' provided by Vagrant as 
 a valid private key, use the workaround provided below to resolve that.
@@ -83,7 +83,7 @@ no need for a separate PuTTYgen download.
 
 To do so, perform the following steps:
 
-#### Step 1: Get Vagrant SSH Configuration
+### Step 1: Get Vagrant SSH Configuration
 
 - Move inside the Vagrant Boxes folder under Windows (e.g., D:\Vagrant\xenial).
 - Open a command window (in Windows: SHIFT + Right-Click and select "Open command window here") and 
@@ -105,7 +105,7 @@ run:
               LogLevel FATAL
 ```
 
-#### Step 2: Open the PuTTYgen Utility
+### Step 2: Open the PuTTYgen Utility
 
 - Click on the "Load" button.
 - Open the Identityfile that is mentioned above (it doesn't have an extension and that's fine 
@@ -117,11 +117,11 @@ run:
   Notice where you save the file.
   (e.g., some_path\SSH Keys\SSH_vagrant-xenial_private_key.ppk)
 
-#### Step 3: Set your preferred SSH Client
+### Step 3: Set your preferred SSH Client
 
 Following are two examples of common SSH clients ([PuTTY][2] and [MobaXterm][3]).
 
-##### Setting PuTTY
+#### Setting PuTTY
 
 If you intend to use PuTTY as the SSH Client: 
 - Open the PuTTY Application.
@@ -140,7 +140,7 @@ Private key file for authentication: (point to the file saved above by PuTTYgen 
 
 - Go back to the 'Session' tab and save the session with a preferred name (e.g., `vagrant`)
 
-##### Setting MobaXterm 
+#### Setting MobaXterm 
 
 - Open the MobaXterm application.
 - Go into 'Session settings | SSH | Advanced SSH settings'.
@@ -148,19 +148,31 @@ Private key file for authentication: (point to the file saved above by PuTTYgen 
 - Point to the file saved above by PuTTYgen utility.
 - Press 'OK' to dismiss the dialog (MobaXtermsave session settings changes automatically).
 
-### Packages Update
+## Packages Update
 
 If in the 'welcome message' you get a notification of "...packages can be updated", run the 
 following command to update the package list and upgrade all of your system software to the latest 
 version available:
 
 ```
-$ sudo apt-get update && sudo apt-get -y upgrade
+$ sudo apt update
+$ sudo apt -y upgrade
 ```
 
-**apt-get** provides a high-level command line interface for the package management system.
+**apt** provides a high-level command line interface for the package management system.
 
-### Ubuntu Update
+Note: **apt** is a new package manager for Ubuntu that is intended to take over for **Apt-get**.
+apt overcomes some design mistakes of apt-get. It is built to be more efficient, more secure, and 
+more user friendly. Apt was introduced in Ubuntu 16.04 to simplify the package manager and to merge 
+multiple commands into one single command.
+
+To list pending updates:
+```
+$ sudo apt update
+$ apt list --upgradable
+```
+
+## Ubuntu Update
 
 If in the 'welcome message' you are informed that a "New Ubuntu release '...' available", 
 run the following command to upgrade to it:
