@@ -7,6 +7,7 @@ To setup the [Vagrant][1] virtual machine you'll need to install a few pieces of
 
 Additional software tools may also be required, such as one of the [recommended][4] [SSH Clients][5].
 
+
 ## Customizing Oracle VM VirtualBox Settings
 
 After installing VirtualBox it requires some minor modifications to the settings as follows:
@@ -14,6 +15,7 @@ After installing VirtualBox it requires some minor modifications to the settings
     - Select (File | Preferences... | General)
     - Set the "Default Machine Folder:" (by default it is on Drive C and it will take at least 6 GB)
         Example location: D:\VirtualBox VMs
+
 
 ## Creating Directory Structure for Vagrant Boxes
 
@@ -48,11 +50,13 @@ Drive:\                                 For instance D:\
           |----Vagrantfile              A common config. file for all projects in this directory
 ```
 
+
 ## Provisioning the Virtual Machine
 
 Once you have VirtualBox, Vagrant, and optionally an [SSH Client][4] installed on your system, then 
 you can move on to provisioning the Virtual Machine as 
 described in the next section.
+
 
 ### Vagrant Configuration File
 
@@ -73,9 +77,9 @@ consistency:
 
 ---
 
-[1]: Topics/Vagrant
+[1]: /Topics/Vagrant
 [2]: https://www.virtualbox.org/
 [3]: https://www.vagrantup.com/
-[4]: Guides/SSH/Recommended%20SSH%20Clients.md
-[5]: Topics/SSH%20Clients.md
-[6]: Topics/Vagrantfile
+[4]: /Guides/SSH/Recommended%20SSH%20Clients.md
+[5]: /Topics/SSH%20Clients.md
+[6]: /Topics/Vagrantfile

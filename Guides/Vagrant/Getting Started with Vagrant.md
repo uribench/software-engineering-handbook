@@ -4,8 +4,9 @@ Once the [Vagrant][1] Virtual Machine has been [installed][2], it is ready to be
 
 Two main subjects are covered in the following sections:
 
-- [Vagrant Life Cycle Management](#Vagrant Life Cycle Management)
-- [Basic Use of the Vagrant Virtual Machine](#Basic Use of the Vagrant Virtual Machine)
+- [Vagrant Life Cycle Management](#vagrant-life-cycle-management)
+- [Basic Use of the Vagrant Virtual Machine](#basic-use-of-the-vagrant-virtual-machine)
+
 
 ## Vagrant Life Cycle Management
 
@@ -22,6 +23,7 @@ and 'shutting down', are also being used here interchangeably.
 
 The remaining of this document explains the above commands in details, and provides help with common
 known issues.
+
 
 ### Running the Virtual Machine
 
@@ -47,6 +49,7 @@ with the last one like:
 default: Finished provisioning, now run 'vagrant ssh' to enter the virtual machine.
 ```
 
+
 #### Potential Issues with `vagrant up` Command
 
 While the system processes the `vagrant up` command it is supposed to display progress status lines
@@ -58,7 +61,9 @@ Bringing machine 'default' up with 'virtualbox' provider...
 
 Observe the status lines carefully for potential issues (e.g., errors, request for update).
 
+
 ##### Errors
+
 If you see an error, check the following known issues:
 
 - VirtualBox and Vagrant are both [installed][2].
@@ -67,12 +72,14 @@ a file named 'Vagrantfile'.
 - The [Virtualization Technology (VTx)][4] is **enabled** in the BIOS.
 - The [Microsoft's Hyper-V Technology][5] is **disabled**.
 
+
 ##### Update Request
 
 If you see a request to update, check the following known issues:
 
 - [Vagrant Update][6]
 - [Guest Additions Update][7]
+
 
 ### Checking the Status of the Vagrant Virtual Machine
 
@@ -82,6 +89,7 @@ window running from the directory containing the Vagrantfile of the target machi
 ```
 [cmd]> vagrant status
 ```
+
 
 #### Status Output Examples
 
@@ -118,13 +126,14 @@ follows:
 
 ### Stopping the Vagrant Virtual Machine
 
-After [finishing to use the VM and exiting the SSH](#using_vm.md), you can tun off the virtual 
-machine using the following command (from the command window running from the directory containing 
-the Vagrantfile of the target machine):
+After finishing to use the VM and exiting the SSH, you can tun off the virtual machine using the 
+following command (from the command window running from the directory containing the Vagrantfile of 
+the target machine):
 
 ```
 [cmd]> vagrant halt
 ```
+
 
 ## Basic Use of the Vagrant Virtual Machine
 
@@ -133,13 +142,14 @@ virtual-machine).
 
 The following sections describe a typical usage workflow:
 
-- [Connect](#connecting-with-the-vagrant-virtual-machine) to a running Vagrant VM, 
+- [Connect](#connecting-to-the-vagrant-virtual-machine) to a running Vagrant VM, 
 - [Log in](#logging-into-the-vagrant-virtual-machine) into it,
 - [Share files](#sharing-files-between-windows-and-vagrant-virtual-machine) between the host and 
 guest operating systems, 
 - and finally [log off](#logging-off-the-vagrant-virtual-machine) the VM.
 
-### Connecting with the Vagrant Virtual Machine
+
+### Connecting to the Vagrant Virtual Machine
 
 Now that vagrant is up, you have to connect to the running Vagrant Virtual Machine.
 
@@ -148,6 +158,7 @@ the next sections:
 
 1. Using Local SSH
 2. Using Remote SSH
+
 
 ### Using Local SSH
 
@@ -159,8 +170,10 @@ machine):
 [cmd]> vagrant ssh
 ```
 
+
 After completing the above successfully, you are now connected to the running virtual machine and 
 ready to [log into it](#logging-into-the-vagrant-virtual-machine).
+
 
 ### Using Remote SSH
 
@@ -177,6 +190,7 @@ a valid private key, use the [workaround][10] to resolve that.
 
 After completing the above successfully, you are now connected to the running virtual machine and 
 ready to [log into it](#logging-into-the-vagrant-virtual-machine).
+
 
 ## Logging into the Vagrant Virtual Machine
 
@@ -209,6 +223,7 @@ want to [upgrade](#known_issues.md#ubuntu-update) it to the latest version avail
 
 After completing the above, you are now connected to the running virtual machine and ready to use it.
 
+
 ## Sharing Files between Windows and Vagrant Virtual Machine
 
 The `config.vm.synced_folder` definition in the [Vagrantfile][11] specifies the two folders to be 
@@ -226,6 +241,7 @@ Mounting shared folders...
 /vagrant => D:/Vagrant/xenial
 ```
 
+
 ## Logging off the Vagrant Virtual Machine
 
 When you are done using the virtual machine, you can log off and exit the SSH using:
@@ -236,14 +252,14 @@ $ exit (or Ctrl-D)
 
 ---
 
-[1]: Topics/Vagrant
-[2]: Guides/Vagrant/Vagrant%20Installation
-[3]: Topics/SSH%20Clients
-[4]: Guides/Vagrant/Known%20Issues#Enabling%20Virtualization%20Technology
-[5]: Guides/Vagrant/Known%20Issues#Microsofts%20Hyper-v%20Technology%20Clash
-[6]: Guides/Vagrant/Known%20Issues#Vagrant%20Update
-[7]: Guides/Vagrant/Known%20Issues#VirtualBox%20Guest%20Additions
-[8]: Topics/SSH%20Clients.md
-[9]: Guides/SSH/Recommended%20SSH%20Clients.md
-[10]: Guides/Vagrant/Known%20Issues#Setting%20SSH%20key%20for%20the%20SSH%20Client
-[11]: Topics/Vagrantfile
+[1]: /Topics/Vagrant
+[2]: /Guides/Vagrant/Vagrant%20Installation
+[3]: /Topics/SSH%20Clients
+[4]: /Guides/Vagrant/Known%20Issues#Enabling%20Virtualization%20Technology
+[5]: /Guides/Vagrant/Known%20Issues#Microsofts%20Hyper-v%20Technology%20Clash
+[6]: /Guides/Vagrant/Known%20Issues#Vagrant%20Update
+[7]: /Guides/Vagrant/Known%20Issues#VirtualBox%20Guest%20Additions
+[8]: /Topics/SSH%20Clients
+[9]: /Guides/SSH/Recommended%20SSH%20Clients
+[10]: /Guides/Vagrant/Known%20Issues#Setting%20SSH%20key%20for%20the%20SSH%20Client
+[11]: /Topics/Vagrantfile

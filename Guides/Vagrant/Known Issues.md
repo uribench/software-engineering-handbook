@@ -2,12 +2,14 @@
 
 The following sections describe solutions and workarounds to common known issues.
 
+
 ## Enabling Virtualization Technology
 
 The Virtualization Technology (VTx) has to be enabled in the BIOS of the computer. 
 To enable the VTx on the HP EliteBook 840G2 for instance, enter the BIOS by pressing F10 multiple 
 times during restart. In the BIOS go to: (Advanced | Device Configuration), and scroll down and 
 check the option of: 'Virtualization Technology (VTx)'.
+
 
 ## Microsoft Hyper-V Technology Clash
 
@@ -21,6 +23,7 @@ system administrator):
 1. Go to 'Control Panel | Programs | Programs and Features | Turn Windows features on or off'
 2. Uncheck Hyper-V settings, and click OK.
 
+
 ## Vagrant Update
 
 If after turning on vagrant using 'vagrant up' command you get a notification saying that vagrant 
@@ -30,6 +33,7 @@ the directory containing the Vagrantfile of the target machine):
 ```
 [cmd]> vagrant box update
 ```
+
 
 ## VirtualBox Guest Additions
 
@@ -63,6 +67,7 @@ $ sudo apt-get update
 $ sudo apt-get install virtualbox-guest-dkms 
 ```
 
+
 ## Setting SSH key for the SSH Client
 
 If the SSH Client you are using does not recognize the 'insecure_private_key' provided by Vagrant as 
@@ -82,6 +87,7 @@ PuTTYgen is normally installed as part of the normal [PuTTY][2] .msi package ins
 no need for a separate PuTTYgen download.
 
 To do so, perform the following steps:
+
 
 ### Step 1: Get Vagrant SSH Configuration
 
@@ -105,6 +111,7 @@ run:
               LogLevel FATAL
 ```
 
+
 ### Step 2: Open the PuTTYgen Utility
 
 - Click on the "Load" button.
@@ -117,9 +124,11 @@ run:
   Notice where you save the file.
   (e.g., some_path\SSH Keys\SSH_vagrant-xenial_private_key.ppk)
 
+
 ### Step 3: Set your preferred SSH Client
 
 Following are two examples of common SSH clients ([PuTTY][2] and [MobaXterm][3]).
+
 
 #### Setting PuTTY
 
@@ -140,6 +149,7 @@ Private key file for authentication: (point to the file saved above by PuTTYgen 
 
 - Go back to the 'Session' tab and save the session with a preferred name (e.g., `vagrant`)
 
+
 #### Setting MobaXterm 
 
 - Open the MobaXterm application.
@@ -147,6 +157,7 @@ Private key file for authentication: (point to the file saved above by PuTTYgen 
 - Check the "Use private key" check box.
 - Point to the file saved above by PuTTYgen utility.
 - Press 'OK' to dismiss the dialog (MobaXtermsave session settings changes automatically).
+
 
 ## Packages Update
 
@@ -171,6 +182,7 @@ To list pending updates:
 $ sudo apt update
 $ apt list --upgradable
 ```
+
 
 ## Ubuntu Update
 

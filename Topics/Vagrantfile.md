@@ -51,16 +51,20 @@ end
 
 Several definitions in the above Vagrantfile example that are worth mentioning are described in the following sections.
 
+
 ### Required OS for the Virtual Box
 
 The `config.vm.box = "ubuntu/xenial64"` definition specifies the required guest OS.  
 This example is using one of the [Ubuntu releases][3]: 16.04.4 LTS (Xenial Xerus) as the guest 
 operating system.
 
+
 ### Name of the Virtual Box
+
 
 In the above example, only one **Virtual Machine provider** is defined (e.g., "virtualbox").
 The `vb.name = "Xenial64 Box"` definition specifies the name of the Virtual Box.
+
 
 ### Synced Folder between Host and Guest Machines
 
@@ -81,6 +85,6 @@ to `/vagrant` on the guest VM.
 
 ---
 
-[1]: https://github.com/uribench/software-engineering-handbook/topics/vagrant.md
+[1]: /Topics/Vagrant
 [2]: https://www.vagrantup.com/docs/vagrantfile/
 [3]: http://releases.ubuntu.com/

@@ -1,6 +1,4 @@
-## Appendix
-
-### Using 'Git Bash' instead of Windows command window
+# Git Bash
 
 If you already have [Git][1] installed on your Windows host system, you can use 'Git Bash' command window
 that is bundled with the installation of Git, instead of the Windows command window.
