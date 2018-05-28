@@ -7,7 +7,7 @@ The following sections describe solutions and workarounds to common known issues
 
 The Virtualization Technology (VTx) has to be enabled in the BIOS of the computer. 
 To enable the VTx on the HP EliteBook 840G2 for instance, enter the BIOS by pressing F10 multiple 
-times during restart. In the BIOS go to: (Advanced | Device Configuration), and scroll down and 
+times during restart. In the BIOS go to 'Advanced > Device Configuration', and scroll down and 
 check the option of: 'Virtualization Technology (VTx)'.
 
 
@@ -20,7 +20,7 @@ where available.
 You can disable Hyper-V using the following steps (if the windows feature was not disabled by the 
 system administrator):
 
-1. Go to 'Control Panel | Programs | Programs and Features | Turn Windows features on or off'
+1. Go to 'Control Panel > Programs > Programs and Features > Turn Windows features on or off'
 2. Uncheck Hyper-V settings, and click OK.
 
 
@@ -141,7 +141,7 @@ Hostname: localhost
 Port: 2222
 ```
 
-- Using the 'Connection | SSH | Auth' tab set:
+- Using the 'Connection > SSH > Auth' tab set:
 
 ```
 Private key file for authentication: (point to the file saved above by PuTTYgen utility)
@@ -153,7 +153,7 @@ Private key file for authentication: (point to the file saved above by PuTTYgen 
 #### Setting MobaXterm 
 
 - Open the MobaXterm application.
-- Go into 'Session settings | SSH | Advanced SSH settings'.
+- Go to 'Session settings > SSH > Advanced SSH settings'.
 - Check the "Use private key" check box.
 - Point to the file saved above by PuTTYgen utility.
 - Press 'OK' to dismiss the dialog (MobaXtermsave session settings changes automatically).
