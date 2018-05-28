@@ -92,4 +92,4 @@ consistency:
 [5]: /Topics/SSH%20Protocol
 [6]: /Topics/Vagrantfile
 [7]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant
-[8]: /Guides/Vagrant%20Overview
+[8]: /Guides/Vagrant/Vagrant%20Overview

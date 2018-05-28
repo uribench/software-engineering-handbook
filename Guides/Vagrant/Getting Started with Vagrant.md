@@ -261,7 +261,7 @@ $ exit (or Ctrl-D)
 
 [1]: https://www.vagrantup.com/
 [2]: /Guides/Vagrant/Vagrant%20Installation
-[3]: /Guides/Vagrant%20Overview
+[3]: /Guides/Vagrant/Vagrant%20Overview
 [4]: /Guides/Vagrant/Known%20Issues#Enabling%20Virtualization%20Technology
 [5]: /Guides/Vagrant/Known%20Issues#Microsofts%20Hyper-v%20Technology%20Clash
 [6]: /Guides/Vagrant/Known%20Issues#Vagrant%20Update
