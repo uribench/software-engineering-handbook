@@ -34,7 +34,7 @@ instead.
 
 ---
 
-[1]: /Topics/Vagrant
+[1]: https://www.vagrantup.com/
 [2]: https://www.virtualbox.org/
 [3]: /Topics/Git%20Bash
 [4]: /Guides/Vagrant/Vagrant%20Installation

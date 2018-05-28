@@ -7,6 +7,6 @@ Recommended [SSH Clients][1]:
 
 ---
 
-[1]: Topics/SSH%20Clients.md
+[1]: /Topics/SSH%20Protocol
 [2]: https://www.chiark.greenend.org.uk/~sgtatham/putty/
 [3]: https://mobaxterm.mobatek.net/

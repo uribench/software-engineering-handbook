@@ -63,8 +63,8 @@ It is recommended to upgrade the Guest Additions, if you get the following statu
 To install the Guest Additions for Ubuntu VM from command line in the virtual machine:
 
 ```
-$ sudo apt-get update
-$ sudo apt-get install virtualbox-guest-dkms 
+$ sudo apt update
+$ sudo apt install virtualbox-guest-dkms 
 ```
 
 

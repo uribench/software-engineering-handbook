@@ -5,7 +5,8 @@ To setup the [Vagrant][1] virtual machine you'll need to install a few pieces of
 - [VirtualBox][2] -     Virtualization software 
 - [Vagrant][3] -        Wrapper around VirtualBox
 
-Additional software tools may also be required, such as one of the [recommended][4] [SSH Clients][5].
+Additional software tools may also be required, such as one of the [recommended SSH Clients][4] 
+supporting the [SSH Protocol][5].
 
 
 ## Customizing Oracle VM VirtualBox Settings
@@ -79,14 +80,16 @@ consistency:
 
 **Related Guides:**
 
+- [Vagrant Overview][8]
 - [Getting Started with Vagrant][7]
 
 ---
 
-[1]: /Topics/Vagrant
+[1]: https://www.vagrantup.com/
 [2]: https://www.virtualbox.org/
 [3]: https://www.vagrantup.com/
 [4]: /Guides/SSH/Recommended%20SSH%20Clients
-[5]: /Topics/SSH%20Clients
+[5]: /Topics/SSH%20Protocol
 [6]: /Topics/Vagrantfile
 [7]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant
+[8]: /Guides/Vagrant%20Overview

@@ -85,6 +85,6 @@ to `/vagrant` on the guest VM.
 
 ---
 
-[1]: /Topics/Vagrant
+[1]: https://www.vagrantup.com/
 [2]: https://www.vagrantup.com/docs/vagrantfile/
 [3]: http://releases.ubuntu.com/

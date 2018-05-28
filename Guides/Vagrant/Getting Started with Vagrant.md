@@ -216,10 +216,10 @@ vagrant@ubuntu-xenial:~$
 ```
 
 If in the 'welcome message' you get a notification of "...packages can be updated", you may want to
-to [upgrade](#known_issues.md#packages-update) all of your packages to the latest version available.
+to [upgrade][12] all of your packages to the latest version available.
 
 If in the 'welcome message' you are informed that a "New Ubuntu release '...' available", you may 
-want to [upgrade](#known_issues.md#ubuntu-update) it to the latest version available.
+want to [upgrade][13] it to the latest version available.
 
 After completing the above, you are now connected to the running virtual machine and ready to use it.
 
@@ -252,14 +252,23 @@ $ exit (or Ctrl-D)
 
 ---
 
-[1]: /Topics/Vagrant
+**Related Guides:**
+
+- [Vagrant Overview][3]
+- [Vagrant Installation][2]
+
+---
+
+[1]: https://www.vagrantup.com/
 [2]: /Guides/Vagrant/Vagrant%20Installation
-[3]: /Topics/SSH%20Clients
+[3]: /Guides/Vagrant%20Overview
 [4]: /Guides/Vagrant/Known%20Issues#Enabling%20Virtualization%20Technology
 [5]: /Guides/Vagrant/Known%20Issues#Microsofts%20Hyper-v%20Technology%20Clash
 [6]: /Guides/Vagrant/Known%20Issues#Vagrant%20Update
 [7]: /Guides/Vagrant/Known%20Issues#VirtualBox%20Guest%20Additions
-[8]: /Topics/SSH%20Clients
+[8]: /Topics/SSH%20Protocol
 [9]: /Guides/SSH/Recommended%20SSH%20Clients
 [10]: /Guides/Vagrant/Known%20Issues#Setting%20SSH%20key%20for%20the%20SSH%20Client
 [11]: /Topics/Vagrantfile
+[12]: /Guides/Vagrant/Known%20Issues#Packages%20Update
+[13]: /Guides/Vagrant/Known%20Issues#Ubuntu%20Update
