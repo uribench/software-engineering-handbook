@@ -28,22 +28,45 @@ Next sections provide kind of 'cheat sheet' for common Git commands.
 
 ### Basic Workflow Git Commands
 
-All the following commands has to be executed from the root of the Project directory.
+All the following commands have to be executed from the root of the Project directory.
 
-Command                            | Description/Comment
------------------------------------|----------------------------------------------------------------
-`$ git init`<br>                   | Create an empty Git repository or reinitialize an existing one
-`$ git add . --all`                | Add (stage) all files/dirs in the project folder to the index
-`$ git commit -m "commit message"` | Record (commit) changes to the repository with a message
+```bash
+# Create an empty Git repository or reinitialize an existing one
+# Note the newly created './.git' folder
+$ git init
+
+# Add (stage) all files and directories in the project folder to the index
+$ git add . --all
+
+# Record (commit) changes to the repository with a message
+$ git commit -m "commit message"
+```
 
 ## Additional Common Commands
 
-### Checking Status
+Commands for common "housekeeping" tasks are provided below.
 
-### Viewing Commits Log
+```bash
+# Show the working tree status. Use it frequently before and after staging and committing.
+$ git status
 
-### Comparing Files
+# Show commit logs history
+$ git log
 
+# Show prettier commit logs
+$ git log --oneline --graph --decorate
+
+# Show changes between commits, commit and working tree, etc.
+$ git diff
+$ git diff <tag(or)branch name>
+$ git diff <path/to/file_name (or) path/to/folder>
+$ git diff <tag1(or)branch1 name> <tag2(or)branch2 name>
+
+# If you want to see the diff output in a visual tool
+# all 'git diff' arguments and options are applicable here too
+$ git difftool
+
+```
 
 ## Typical Recovery Commands
 
