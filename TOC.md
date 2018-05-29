@@ -37,6 +37,7 @@
         - 1.2.2 [Version Control](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control)
             - 1.2.2.1 [Tools](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Tools)
             - 1.2.2.2 [Git](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Git)
+                - 1.2.2.2.1 [README.md](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Git/README.md)
             - 1.2.2.3 [SVN](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/SVN)
             - 1.2.2.4 [TFS](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/TFS)
             - 1.2.2.5 [CVS](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/CVS)
