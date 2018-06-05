@@ -3,44 +3,44 @@ Handbook:
     - Development Environment and Tools:
       - Environment Setup:
         - Vagrant and VirtualBox
-      - Automation Scripts
-      - Common File Formats:
+      - Automation Scripts @stop
+      - Common File Formats @stop:
         - YAML
         - JSON
         - Markdown
         - XML
-      - Time Management
-      - Editors:
+      - Time Management @stop
+      - Editors @stop:
         - Sublime
         - Atom
-      - IDEs:
+      - IDEs @stop:
         - Visual Studio
         - MonoDevelop
         - Eclipse
         - IntelliJ
         - NetBeans
-      - Diff and Merge Tools:
+      - Diff and Merge Tools @stop:
         - DiffMerge
         - WinMerge
-      - Linux skillset
-      - Developing with Docker:
+      - Linux skillset @stop
+      - Developing with Docker @stop:
         - Docker concepts
         - Docker Compose
-      - Choosing the right language
+      - Choosing the right language @stop
     - Code Development Lifecycle:
-      - Documenting:
+      - Documenting @stop:
         - Principles and Frameworks
         - Lightweight Markup Languages
         - Mind Mapping Tools
       - Version Control:
-        - Tools
+        - Tools @stop
         - Git
-        - SVN
-        - TFS
-        - CVS
-        - Perforce
-        - How to write commit messages and release notes
-      - Testing:
+        - SVN @stop
+        - TFS @stop
+        - CVS @stop
+        - Perforce @stop
+        - How to write commit messages and release notes @stop
+      - Testing @stop:
         - Unit Test
         - Integration and System Test
         - Performance and Memory check (Big O)
@@ -50,13 +50,13 @@ Handbook:
         - Effective Peer Code Review
         - Root cause analysis
         - Effective problem solving - Debugging Mindset
-      - Continuous Integration (CI):
+      - Continuous Integration (CI) @stop:
         - TravisCI
         - CircleCI
         - Jenkins
-      - Testing with Docker
-    - Software Development Processes
-  - Production:
+      - Testing with Docker @stop
+    - Software Development Processes @stop
+  - Production @stop:
     - Deployment Management:
       - Virtualization
       - Containerization:
@@ -79,7 +79,7 @@ Handbook:
       - High Availability
       - Auto Scaling
     - NOC (Network Operation Center)
-  - Coding:
+  - Coding @stop:
     - Code Quality:
       - General Coding Best Practices
       - Optimization and Refactoring
@@ -144,7 +144,7 @@ Handbook:
           - W3C website Validator
     - Security
     - Databases
-  - Soft Skills (The Human Factor):
+  - Soft Skills (The Human Factor) @stop:
     - How to effectively interact with other people
     - Difficult Conversations
     - Effective Communications with Teams
