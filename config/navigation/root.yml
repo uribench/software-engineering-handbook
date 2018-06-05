@@ -9,14 +9,147 @@ Handbook:
         - JSON
         - Markdown
         - XML
-    - Code Development Lifecycle
+      - Time Management
+      - Editors:
+        - Sublime
+        - Atom
+      - IDEs:
+        - Visual Studio
+        - MonoDevelop
+        - Eclipse
+        - IntelliJ
+        - NetBeans
+      - Diff and Merge Tools:
+        - DiffMerge
+        - WinMerge
+      - Linux skillset
+      - Developing with Docker:
+        - Docker concepts
+        - Docker Compose
+      - Choosing the right language
+    - Code Development Lifecycle:
+      - Documenting:
+        - Principles and Frameworks
+        - Lightweight Markup Languages
+        - Mind Mapping Tools
+      - Version Control:
+        - Tools
+        - Git
+        - SVN
+        - TFS
+        - CVS
+        - Perforce
+        - How to write commit messages and release notes
+      - Testing:
+        - Unit Test
+        - Integration and System Test
+        - Performance and Memory check (Big O)
+        - Test Code Coverage check
+        - Load and stress tests
+        - Static Analysis
+        - Effective Peer Code Review
+        - Root cause analysis
+        - Effective problem solving - Debugging Mindset
+      - Continuous Integration (CI):
+        - TravisCI
+        - CircleCI
+        - Jenkins
+      - Testing with Docker
     - Software Development Processes
   - Production:
-    - Deployment Management
-    - DevOps
+    - Deployment Management:
+      - Virtualization
+      - Containerization:
+        - Deploying with Docker
+        - Docker orchestration
+      - Automation:
+        - Ansible
+        - Puppet
+        - Chef
+        - Terraform
+      - Build Servers:
+        - Jenkins
+      - Deployment workflows:
+        - Using a staging environment
+        - Green-Blue deployments
+      - Production tests (Acceptance-Smoke-Sanity)
+      - Continuous Deployment-Delivery (CD)
+    - DevOps:
+      - Building a solid infrastructure (monitoring, alerting, logging)
+      - High Availability
+      - Auto Scaling
+    - NOC (Network Operation Center)
   - Coding:
-    - Code Quality
-    - Development Models
+    - Code Quality:
+      - General Coding Best Practices
+      - Optimization and Refactoring
+      - Clean Code and Code Smells:
+        - General Overview
+      - Common Smells - Patterns and Remedies
+      - Software quality metrics
+    - Development Models:
+      - Test First Approaches:
+        - Principles
+        - Hands on practices
+        - Supporting Frameworks
+      - Code Composition:
+        - Principles
+        - IoC, DIP, DI:
+          - Frameworks:
+            - MEF
+            - Unity
+        - Composite Applications:
+          - Principles (Vertical Concerns)
+          - Frameworks:
+            - Microsoft PRISM
+      - Domain Specific Language (DSL) Based Development Model:
+        - Internal vs External DSL
+        - Externalization of code
+        - Supporting Frameworks
+      - Defensive Programming
     - Design patterns
+    - Polyglotism:
+      - Side-by-side languages clusters syntax comparisons
+    - Regular Expressions - Syntax, Patterns and Tools
+    - Anonymous methods and lambda expressions
+    - Developing an Interpreter
+    - Frameworks and Libraries
+    - Ecosystem-Community-Open Source:
+      - Private repositories:
+        - GitHub
+        - BitBucket
+      - Public Repositories:
+        - How to choose an open source license
+    - Common Standards:
+      - Coding style standards
+      - Medical Domain Specific Standards:
+        - DICOM
+        - HLStandards
+    - Web Development:
+      - Web Development Toolkits:
+        - UI Toolkit:
+          - Bootstrap
+          - Foundation
+          - Kendo UI
+          - Material UI
+        - UI Frameworks:
+          - Angular
+          - React
+          - Vue
+        - Testing Libraries:
+          - Mocha.js
+          - Jasmine
+          - QUnit
+        - Validators:
+          - W3C website Validator
+    - Security
+    - Databases
   - Soft Skills (The Human Factor):
     - How to effectively interact with other people
+    - Difficult Conversations
+    - Effective Communications with Teams
+    - Effective Communications with Managers
+    - Global Cultural Differences
+    - Influencing without being judgmental
+    - How to interview (skill testing):
+      - TestDome.com
