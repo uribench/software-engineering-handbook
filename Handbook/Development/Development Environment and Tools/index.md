@@ -1,6 +1,6 @@
 # Development Environment and Tools
 
-## Content
+## Contents
 
 - [Environment Setup](/Handbook/Development/Development%20Environment%20and%20Tools/Environment%20Setup)
 - [Automation Scripts](/Handbook/Development/Development%20Environment%20and%20Tools/Automation%20Scripts)

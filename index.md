@@ -1,11 +1,11 @@
 Software Engineering Handbook
 =============================
 
-This handbook provides references and practical information on Software Engineering.
+This [handbook](/Handbook) provides references and practical information on Software Engineering.
 
 ## Table of Contents (high level)
 
-*For a **detailed version** see [TOC.md](TOC.md) or explore it by yourself using the following links*
+*See the [**detailed Table of Contents**](TOC.md) or explore it yourself using the following links:*
 
 - 1 [Development](/Handbook/Development)
     - 1.1 [Development Environment and Tools](/Handbook/Development/Development%20Environment%20and%20Tools)

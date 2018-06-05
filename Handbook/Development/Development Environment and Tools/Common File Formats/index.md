@@ -1,6 +1,6 @@
 # Common File Formats
 
-## Content
+## Contents
 
 - [YAML](/Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/YAML)
 - [JSON](/Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/JSON)

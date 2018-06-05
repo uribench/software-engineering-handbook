@@ -1,6 +1,6 @@
 # Coding
 
-## Content
+## Contents
 
 - [Code Quality](/Handbook/Coding/Code%20Quality)
 - [Development Models](/Handbook/Coding/Development%20Models)

@@ -5,7 +5,7 @@ The training materials in this repository provide references and practical infor
 
 ## Table of Contents (high level)
 
-*For a **detailed version** see [TOC.md](TOC.md)*
+*See the [**detailed Table of Contents**](TOC.md) or explore it yourself using the following links:*
 
 - 1 [Development](./Handbook/Development)
     - 1.1 [Development Environment and Tools](./Handbook/Development/Development%20Environment%20and%20Tools)

@@ -1,0 +1,9 @@
+intro: |
+  Vagrant is an open source wrapper around a Virtual Machine provider, such as Oracle's 
+  VirtualBox. It makes it easy to create and run a Virtual Machine (VM) from the command line.
+
+Guides:
+- Vagrant/Vagrant Overview
+- Vagrant/Vagrant Installation
+- Vagrant/Getting Started with Vagrant
+- Vagrant/Known Issues
