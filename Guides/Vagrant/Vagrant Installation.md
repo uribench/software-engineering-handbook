@@ -26,29 +26,18 @@ directory structure in Windows for the Vagrant Boxes.
 It is recommended to use the following structure:
 
 ```
-Drive:\                                 For instance D:\
-|
-|----Vagrant\                           Main location of the Vagrant Boxes
-     |
-     |----guest_os_name\                The guest OS for all child projects (e.g., xenial) 
-     |    |
-     |    |----.vagrant\                Created automatically on the first launch of vagrant
-     |    |
-     |    |----some_project_name\       Directory for a project using the same guest OS 
-     |    |
-     |    |----another_project_name\    Another project directory using the same guest OS
-     |    |
-     |    |----Vagrantfile              A common config. file for all projects in this directory
-     |
-     |----another_guest_os_name\        Optional: Another guest OS for the child projects 
-          |
-          |----.vagrant\                Created automatically on the first launch of vagrant
-          |
-          |----some_project_name\       Directory for a project using the same guest OS 
-          |
-          |----another_project_name\    Another project directory using the same guest OS
-          |
-          |----Vagrantfile              A common config. file for all projects in this directory
+Drive:\                           For instance D:\
+└──Vagrant\                       Main location of the Vagrant Boxes
+   ├──guest_os_name\              The guest OS for all child projects (e.g., xenial) 
+   |    ├──.vagrant\              Created automatically on the first launch of vagrant
+   |    ├──some_project_name\     Directory for a project using the same guest OS 
+   |    ├──another_project_name\  Another project directory using the same guest OS
+   |    └──Vagrantfile            A common config. file for all projects in this directory
+   └──another_guest_os_name\      Optional: Another guest OS for the child projects 
+      ├──.vagrant\                Created automatically on the first launch of vagrant
+      ├──some_project_name\       Directory for a project using the same guest OS 
+      ├──another_project_name\    Another project directory using the same guest OS
+      └──Vagrantfile              A common config. file for all projects in this directory
 ```
 
 

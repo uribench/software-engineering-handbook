@@ -34,8 +34,8 @@ Open a command window (in Windows: SHIFT + Right-Click and select "Open command 
 
 Now 'turn on' the virtual machine by running this command from the command window:
 
-```
-[cmd]> vagrant up
+```bash
+$ vagrant up
 ```
 
 Note: The first time the 'vagrant up' command runs it will take a bit of time as it downloads the 
@@ -86,8 +86,8 @@ If you see a request to update, check the following known issues:
 To check the status of the Vagrant Virtual Machine use the following command (from the command 
 window running from the directory containing the Vagrantfile of the target machine):
 
-```
-[cmd]> vagrant status
+```bash
+$ vagrant status
 ```
 
 
@@ -130,8 +130,8 @@ After finishing to use the VM and exiting the SSH, you can tun off the virtual m
 following command (from the command window running from the directory containing the Vagrantfile of 
 the target machine):
 
-```
-[cmd]> vagrant halt
+```bash
+$ vagrant halt
 ```
 
 

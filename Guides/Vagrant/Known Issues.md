@@ -30,8 +30,8 @@ If after turning on vagrant using 'vagrant up' command you get a notification sa
 has an update, execute the following command to update vagrant (from the command window running from 
 the directory containing the Vagrantfile of the target machine): 
 
-```
-[cmd]> vagrant box update
+```bash
+$ vagrant box update
 ```
 
 
@@ -47,7 +47,7 @@ system has been installed. There are specific Guest Additions for each guest ope
 It is recommended to upgrade the Guest Additions, if you get the following status after issuing the 
 `vagrant up` command (the listed version numbers are for example only): 
 
-```
+```bash
  Checking for guest additions in VM...
  The guest additions on this VM do not match the installed version of
  VirtualBox! In most cases this is fine, but in rare cases it can
@@ -62,7 +62,7 @@ It is recommended to upgrade the Guest Additions, if you get the following statu
 
 To install the Guest Additions for Ubuntu VM from command line in the virtual machine:
 
-```
+```bash
 $ sudo apt update
 $ sudo apt install virtualbox-guest-dkms 
 ```
@@ -95,20 +95,20 @@ To do so, perform the following steps:
 - Open a command window (in Windows: SHIFT + Right-Click and select "Open command window here") and 
 run:
 
-```
-[cmd]> vagrant up
-[cmd]> vagrant ssh-config
-        Output:
-            Host default
-              HostName 127.0.0.1
-              User vagrant
-              Port 2222
-              UserKnownHostsFile /dev/null
-              StrictHostKeyChecking no
-              PasswordAuthentication no
-              IdentityFile D:/Vagrant/xenial/.vagrant/machines/default/virtualbox/private_key
-              IdentitiesOnly yes
-              LogLevel FATAL
+```bash
+$ vagrant up
+$ vagrant ssh-config
+    Output:
+        Host default
+          HostName 127.0.0.1
+          User vagrant
+          Port 2222
+          UserKnownHostsFile /dev/null
+          StrictHostKeyChecking no
+          PasswordAuthentication no
+          IdentityFile D:/Vagrant/xenial/.vagrant/machines/default/virtualbox/private_key
+          IdentitiesOnly yes
+          LogLevel FATAL
 ```
 
 
@@ -136,14 +136,14 @@ If you intend to use PuTTY as the SSH Client:
 - Open the PuTTY Application.
 - Using the 'Session' tab set:
 
-```
+```bash
 Hostname: localhost
 Port: 2222
 ```
 
 - Using the 'Connection > SSH > Auth' tab set:
 
-```
+```bash
 Private key file for authentication: (point to the file saved above by PuTTYgen utility)
 ```
 
@@ -165,7 +165,7 @@ If in the 'welcome message' you get a notification of "...packages can be update
 following command to update the package list and upgrade all of your system software to the latest 
 version available:
 
-```
+```bash
 $ sudo apt update
 $ sudo apt -y upgrade
 ```
@@ -178,7 +178,8 @@ more user friendly. Apt was introduced in Ubuntu 16.04 to simplify the package m
 multiple commands into one single command.
 
 To list pending updates:
-```
+
+```bash
 $ sudo apt update
 $ apt list --upgradable
 ```
@@ -189,7 +190,7 @@ $ apt list --upgradable
 If in the 'welcome message' you are informed that a "New Ubuntu release '...' available", 
 run the following command to upgrade to it:
 
-```
+```bash
 $ do-release-upgrade
 ```
 
