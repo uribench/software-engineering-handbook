@@ -1,6 +1,7 @@
 # SSH Protocol
 
-The [SSH protocol][1] (also referred to as **Secure Shell**) is a method for secure remote login 
+The [SSH protocol][1] (also referred to as **Secure Shell**) is a method to secure the transmission 
+of information over an insecure network. A common use of the SSH protocol is to secure remote login 
 from one computer to another. It provides several alternative options for strong authentication, and 
 it protects the communications security and integrity with strong encryption.
 
@@ -10,6 +11,9 @@ process and uses public key cryptography to verify the identity of the SSH serve
 phase, the SSH protocol uses strong symmetric encryption and hashing algorithms to ensure the 
 privacy and integrity of the data that is exchanged between the client and server.
 
+See [How Does SSH Works][2] for more details on SSH session stages and their encryption technologies.
+
 ---
 
 [1]: https://www.ssh.com/ssh/protocol/
+[2]: /Topics/How%20Does%20SSH%20Works
