@@ -1,8 +1,8 @@
 # Metadata Configuration Files
 
 The optional metadata configuration files are used to compose the `index.md` files for each directory
-in the navigation tree. The composition of the `index.md` files is done using a **Jinja2** template 
-file.
+in the navigation tree. The composition of the `index.md` files is done using Jinja2 template engine
+with a custom [template file](/config/templates/index-template.j2).
 
 All the metadata configuration files are placed directly under `/config/metadata` directory without 
 additional grouping directories.
@@ -124,39 +124,3 @@ guides:
   - Vagrant/Known Issues
 ```
 
-## Jinja Template for Index Files
-
-The following Jinja2 template is used to compose the `index.md` files.  
-It is located at `/config/templates/index-template.j2`
-
-```jinja2
-# {{title}}
-
-{% if intro is defined and intro -%}
-{{intro}}
-{% endif -%}
-
-{% if contents is defined and contents -%}
-## Contents
-
-{% for c in contents -%}
-- {{c}}
-{% endfor -%}
-{% endif -%}
-
-{% if guides is defined and guides -%}
-## Guides
-
-{% for g in guides -%}
-- {{g}}
-{% endfor -%}
-{% endif -%}
-
-{% if topics is defined and topics -%}
-## Topics
-
-{% for t in topics -%}
-- {{t}}
-{% endfor -%}
-{% endif -%}
-```
