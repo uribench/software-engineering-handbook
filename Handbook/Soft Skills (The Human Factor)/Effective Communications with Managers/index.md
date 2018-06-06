@@ -1,2 +1,0 @@
-# Effective Communications with Managers
-

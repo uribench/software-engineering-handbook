@@ -1,2 +1,0 @@
-# Hands on practices
-

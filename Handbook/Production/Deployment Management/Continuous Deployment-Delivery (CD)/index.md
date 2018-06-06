@@ -1,2 +1,0 @@
-# Continuous Deployment-Delivery (CD)
-

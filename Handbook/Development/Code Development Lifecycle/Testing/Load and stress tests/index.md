@@ -1,2 +1,0 @@
-# Load and stress tests
-

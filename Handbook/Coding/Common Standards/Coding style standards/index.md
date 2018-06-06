@@ -1,2 +1,0 @@
-# Coding style standards
-

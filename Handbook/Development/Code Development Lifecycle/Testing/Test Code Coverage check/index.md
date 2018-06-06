@@ -1,2 +1,0 @@
-# Test Code Coverage check
-

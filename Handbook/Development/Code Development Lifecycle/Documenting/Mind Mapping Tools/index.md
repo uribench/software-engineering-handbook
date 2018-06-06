@@ -1,2 +1,0 @@
-# Mind Mapping Tools
-

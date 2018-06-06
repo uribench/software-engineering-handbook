@@ -1,2 +1,0 @@
-# Choosing the right language
-

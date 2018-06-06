@@ -1,2 +1,0 @@
-# Influencing without being judgmental
-

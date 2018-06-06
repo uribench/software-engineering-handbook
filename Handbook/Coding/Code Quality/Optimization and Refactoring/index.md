@@ -1,2 +1,0 @@
-# Optimization and Refactoring
-

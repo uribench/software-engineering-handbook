@@ -1,2 +1,0 @@
-# Green-Blue deployments
-

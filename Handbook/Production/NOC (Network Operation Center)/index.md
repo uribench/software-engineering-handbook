@@ -1,2 +1,0 @@
-# NOC (Network Operation Center)
-

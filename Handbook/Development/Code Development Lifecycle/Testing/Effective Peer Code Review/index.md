@@ -1,2 +1,0 @@
-# Effective Peer Code Review
-
