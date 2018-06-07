@@ -1,10 +1,10 @@
 # How Does SSH Work
 
-The [SSH protocol][1] is a method to secure the transmission of information over an insecure network.
+The SSH protocol is a method to secure the transmission of information over an insecure network.
 
 The following sections briefly describe the different stages of an SSH session and the various 
 encryption technologies being used at each stage. There are many sources available for more 
-elaborated descriptions, such as [Understanding the SSH Encryption and Connection Process][2]
+elaborated descriptions, such as [Understanding the SSH Encryption and Connection Process][1].
 
 ## SSH Session Stages and Encryption Used
 
@@ -50,15 +50,16 @@ private key. The public key can be freely shared, because, although it can encry
 key, there is no method of deriving the private key from the public key.
 
 The authentication process that is based on SSH key pairs relies on the fact that the public key of
-the client has already been registered by the server. During the authentication the client sends to
+the client has already been registered by the server. During the authentication, the client sends to
 the server an ID for the key pair it would like to authenticate with. The server uses this ID to 
 fetch the respective public key from its `authorized_keys` file.
 
 The server generates a random number, encrypts it with the public key of the client, and sends it to 
-the client as a challenge. The client decrypts the message to reveal the number sent by the server.
-The client then sends back to the server the hash of the combination of the revealed number with the 
-session key. The server independently calculates a hash of the number sent combined with the agreed 
-session key. The server then compares its own calculation to the one that the client sent back.
+the client as a challenge. The client decrypts the message with the private key to reveal the number 
+sent by the server. The client then sends back to the server the hash of the combination of the 
+revealed number with the session key. The server independently calculates a hash of the number sent 
+to the client combined with the agreed session key. The server then compares the result of its own 
+calculation to the hash that the client sent back.
 
 ### Session Communication Stage
 
@@ -81,10 +82,9 @@ session.
 Stage | Stage Purpose          | Encryption Method Used
 :----:|:-----------------------|:-------------------------------------------------------------------
    1  | Encryption Negotiation | asymmetric with temporary public and private key pairs
-   2  | User Authentication    | asymmetric with a permanent key pair and symmetric with session key
+   2  | User Authentication    | asymmetric with a permanent key pair, symmetric with session key, and hash
    3  | Session Communication  | symmetric with session key
 
 ---
 
-[1]: /Topics/SSH%20Protocol
-[2]: https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+[1]: https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
