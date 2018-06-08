@@ -5,3 +5,4 @@ _index
 # Jekyll files
 .sass-cache
 _site
+Gemfile.lock
