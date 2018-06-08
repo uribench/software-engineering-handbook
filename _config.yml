@@ -1,2 +1,2 @@
 exclude: [config]
-theme: minima
+theme: jekyll-theme-cayman
