@@ -9,6 +9,13 @@ The main two data elements in this repository are:
 - **Authored content** that is accessible to the end user from the handbook navigation tree 
 - **Configuration data files** to construct the handbook navigation tree
 
+All the authored content is placed under the `Guides/` and `Topics/` directories.
+All the configuration files are placed under the `config/` directory. 
+The resulting handbook navigation tree, which is created dynamically using the above two main data 
+elements, is placed under the `Handbook/` directory.
+
+On the differences between the contents of `Guides/` and `Topics/` see their respective README files.
+
 Contributors are invited to propose additions and improvements to any of these two elements.
 
 # Structure of the Repository
@@ -87,7 +94,7 @@ path leading from the Handbook root to the hosting directory).
 See the `config/metadata/` [README][3] file for more information on the structure of the navigation 
 `index.md` files and on how they are composed automatically using metadata and Jinja2 template.
 
-The entire content of the `Handboo/` directory (i.e., directory hierarchy and all the index.md files)
+The entire content of the `Handbook/` directory (i.e., directory hierarchy and all the index.md files)
 is automatically generated and maintained by the automation scripts in the [tools repository][4],
 based on the configuration files under the `config/` directory.
 
