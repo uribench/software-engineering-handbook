@@ -1,39 +1,111 @@
-Software Engineering Handbook
-=============================
+# Software Engineering Handbook
 
-The training materials in this repository provide references and practical information on Software Engineering.
 
-## Table of Contents (high level)
+The contents of this repository is used to dynamically build the [Software Engineering Handbook][1] 
+site. 
 
-*See the [**detailed Table of Contents**](TOC.md) or explore it yourself using the following links:*
+The main two data elements in this repository are:
 
-- 1 [Development](./Handbook/Development)
-    - 1.1 [Development Environment and Tools](./Handbook/Development/Development%20Environment%20and%20Tools)
-    - 1.2 [Code Development Lifecycle](./Handbook/Development/Code%20Development%20Lifecycle)
-    - 1.3 [Software Development Processes](./Handbook/Development/Software%20Development%20Processes)
-- 2 [Production](./Handbook/Production)
-    - 2.1 [Deployment Management](./Handbook/Production/Deployment%20Management)
-    - 2.2 [DevOps](./Handbook/Production/DevOps)
-    - 2.3 [NOC (Network Operation Center)](./Handbook/Production/NOC%20%28Network%20Operation%20Center%29)
-- 3 [Coding](./Handbook/Coding)
-    - 3.1 [Code Quality](./Handbook/Coding/Code%20Quality)
-    - 3.2 [Development Models](./Handbook/Coding/Development%20Models)
-    - 3.3 [Design patterns](./Handbook/Coding/Design%20patterns)
-    - 3.4 [Polyglotism](./Handbook/Coding/Polyglotism)
-    - 3.5 [Regular Expressions - Syntax, Patterns and Tools](./Handbook/Coding/Regular%20Expressions%20-%20Syntax%2C%20Patterns%20and%20Tools)
-    - 3.6 [Anonymous methods and lambda expressions](./Handbook/Coding/Anonymous%20methods%20and%20lambda%20expressions)
-    - 3.7 [Developing an Interpreter](./Handbook/Coding/Developing%20an%20Interpreter)
-    - 3.8 [Frameworks and Libraries](./Handbook/Coding/Frameworks%20and%20Libraries)
-    - 3.9 [Ecosystem-Community-Open Source](./Handbook/Coding/Ecosystem-Community-Open%20Source)
-    - 3.10 [Common Standards](./Handbook/Coding/Common%20Standards)
-    - 3.11 [Web Development](./Handbook/Coding/Web%20Development)
-    - 3.12 [Security](./Handbook/Coding/Security)
-    - 3.13 [Databases](./Handbook/Coding/Databases)
-- 4 [Soft Skills (The Human Factor)](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29)
-    - 4.1 [How to effectively interact with other people](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20effectively%20interact%20with%20other%20people)
-    - 4.2 [Difficult Conversations](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Difficult%20Conversations)
-    - 4.3 [Effective Communications with Teams](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Teams)
-    - 4.4 [Effective Communications with Managers](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Managers)
-    - 4.5 [Global Cultural Differences](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Global%20Cultural%20Differences)
-    - 4.6 [Influencing without being judgmental](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Influencing%20without%20being%20judgmental)
-    - 4.7 [How to interview (skill testing)](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20interview%20%28skill%20testing%29)
+- **Authored content** that is accessible to the end user from the handbook navigation tree 
+- **Configuration data files** to construct the handbook navigation tree
+
+Contributors are invited to propose additions and improvements to any of these two elements.
+
+# Structure of the Repository
+
+```
+software-engineering-handbook/
+├──.git/                                        local Git repository. created automatically
+├──_index/                                      created automatically by madness for the search engine
+├──config/                                      main folder for configuration files
+|  ├──metadata/                                 metadata for the template file of navigation index.md files
+|  |  ├──<metadata-configuration-yml-files>     metdata files with optional contents expected by the template
+|  |  └──README.md                              metdata files description for contributors
+|  ├──navigation/                               main navigation configuration folder for the handbook tree
+|  |  ├──<navigation-configuration-yml-files>   handbook tree navigation configuration files starting from root.yml
+|  |  └──README.md                              navigation configuration file description for contributors
+|  └──templates/                                main folder for templates
+|     └──index-template.j2                      Jinja2 template file for navigation index.md files
+├──Guides/                                      root of the contributed custom topics
+|  ├──<guides-subjects>/                        one or more folders for grouping subjects of related guides
+|  |  └──<guides-markdown-files>                markdown files related to the parent guide subject
+|  ├──index.md                                  "Internal Folder" message when rendered by GitHub pages
+|  └──README.md                                 policy and conventions for use on GitHub repository
+├──Handbook/                                    volatile handbook navigation tree. created automatically
+|  ├──<first-level-handbook-subject>/           zero or more children folders for the hosting folder
+|  |  ├──<second-level-handbook-subjects>/      zero or more children folders for the hosting folder
+|  |  └──index.md                               current level index file with next level navigation links
+|  └──index.md                                  root level index file with next level navigation links
+├──images/                                      common media resources folder
+├──Topics/                                      root of the contributed custom topics
+|  ├──<topics-subjects>/                        one or more folders for grouping subjects of related topics
+|  |  └──<topic-subject-index-markdown-file>    main index.md file for the parent topic subject
+|  |  └──<guides-markdown-files>                sub-topics markdown files for the parent topic subject
+|  ├──index.md                                  "Internal Folder" message when rendered by GitHub pages
+|  └──README.md                                 policy and conventions for use on GitHub repository
+├──.gitignore                                   list of files and directory to exclude from the Git repository
+├──.madness.yml                                 default options and arguments for madness
+├──_config.yml                                  configuration for GitHub (e.g., exclude files from MD to HTML)
+├──CNAME                                        canonical name record for the domain to be used by GitHub pages
+├──CODE_OF_CONDUCT.md
+├──CONTRIBUTING.md
+├──index.md                                     get priority over README.md on GitHub pages (becomes index.html)
+├──LICENSE.md
+├──README.md                                    becomes index.html on GitHub pages when index.md is absent
+└──TOC.md                                       automatically generated from scanning the Handbook tree
+```
+
+# Key Concepts and Principles
+
+The `Handbook/` directory hierarchy represents an instance of a handbook, which is created 
+automatically based on the `*.yml` configuration files in config/navigation/ directory. The starting
+point for the navigation tree configuration is the `root.yml` file.
+
+See the `config/navigation/` [README][2] file for more information on the structure of the navigation 
+configuration files.
+
+The idea is to isolate the actual content of the handbook, given under `Guides/` and `Topics/` 
+directories, from the navigation experience. This makes a robust and easily maintained repository, 
+which supports relatively easy changes to the handbook structure and the navigation experiences.
+
+The Handbook tree hierarchy includes directories and index.md files. All the directories under
+the `Handbook/` directory have capitalized names with spaces ('Humanized' style), which represent 
+the exact names of the Software Engineering Handbook chapters and sections.
+
+We distinguish between **intermediate Handbook directories** (i.e., directories having one or more 
+child directories) and **terminal Handbook directories** (i.e., directories having no child 
+directories).
+
+Each 'intermediate Handbook directory' contains an `index.md` file that includes, among other 
+optional parts, a contents list pointing to the child directories of the hosting directory (i.e., 
+next level of the Handbook directory hierarchy).
+
+Each 'terminal Handbook directory' also contains an `index.md` file pointing to one or more guides or 
+topics that are relevant to the hosting directory (i.e., in the context of the entire navigation 
+path leading from the Handbook root to the hosting directory).
+
+See the `config/metadata/` [README][3] file for more information on the structure of the navigation 
+`index.md` files and on how they are composed automatically using metadata and Jinja2 template.
+
+The entire content of the `Handboo/` directory (i.e., directory hierarchy and all the index.md files)
+is automatically generated and maintained by the automation scripts in the [tools repository][4],
+based on the configuration files under the `config/` directory.
+
+### Note on the use of README.md and index.md files
+
+`REAME.md` files are intended for *contributors* and are rendered by default as `index.html` by 
+**GitHub repository** site.
+
+However, `index.md` files are intended for the *end users* visiting the 
+[Software Engineering Handbook][1] site. These files get priority by **GitHub pages** over 
+neighboring `README.md` files when translating them to `index.html` files. GitHub pages is responsible 
+for translating all the Markdown files in the repository and exporting them as static html files to 
+a standalone web site.
+
+---
+
+[1]: http://software-engineering-handbook.com/
+[2]: /config/navigation/README.md
+[3]: /config/metadata/README.md
+[4]: https://github.com/uribench/software-engineering-handbook-tools
+
