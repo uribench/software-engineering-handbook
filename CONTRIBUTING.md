@@ -1,37 +1,35 @@
-# Contributing Training Materials to Software Best Practices
+# Contributing to the Handbook
 
 Thank you for taking the time to contribute!
 
-The following is a set of guidelines for contributing to the training materials for the Software Engineering Handbook, which are hosted in the [software-engineering-handbook](https://github.com/uribench/software-engineering-handbook) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the training 
+materials for the Software Engineering Handbook, which are hosted on 
+[software-engineering-handbook.com][1]. 
 
-#### Table Of Contents
-
-[Code of Conduct](#code-of-conduct)
-
-[How Can I Contribute?](#how-can-i-contribute)
-
-[Styleguides](#styleguides)
-
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
+These are mostly guidelines, not rules. Use your best judgment, and feel free 
+to propose changes to this document in a pull request.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [uribench@gmail.com](mailto:uribench@gmail.com).
+This project and everyone participating in it is governed by the 
+[Code of Conduct](CODE_OF_CONDUCT.md). 
 
-## How Can I Contribute?
+By participating, you are expected to uphold this code. Please report 
+unacceptable behavior to [uribench@gmail.com](mailto:uribench@gmail.com).
 
-### Suggesting Enhancements
+## Suggesting Enhancements and Reporting Issues
 
-This section guides you through submitting an enhancement suggestion for the training materials for the Software Engineering Handbook, including completely new subject and minor improvements to existing subjects. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
+If you spot a problem in any part of this project, or wish to make a 
+suggestion, open an issue using the repository's [issues tab][2].
 
-More TBD.
+## Submitting Pull Requests
 
-### Pull Requests
+We use [GitHub Flow][3], which means all changes happen through pull requests.
 
-More TBD.
+If you are a first time contributor, we recommend that you open an issue 
+that presents your change or fix, before submitting a pull request.
 
-## Styleguides
+## Style Guides
 
 ### Git Commit Messages
 
@@ -39,34 +37,14 @@ More TBD.
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to 72 characters or less
 
-More TBD.
-
-### Documentation Styleguide
+### Documentation
 
 * Use [Markdown](https://daringfireball.net/projects/markdown).
+* See relevant examples in [Guides](Guides), [Topics](Topics), and 
+  [config](config) directories.
 
-More TBD.
+---
 
-## Additional Notes
-
-### Issue and Pull Request Labels
-
-This section lists the labels we use to help us track and manage issues and pull requests.
-
-More TBD.
-
-The labels are loosely grouped by their purpose, but it's not required that every issue have a label from every group or that an issue can't have more than one label from the same group.
-
-Please open an issue if you have suggestions for new labels, and if you notice some labels are missing on some repositories, then please open an issue on that repository.
-
-#### Type of Issue and Issue State
-
-More TBD.
-
-#### Topic Categories
-
-More TBD.
-
-#### Pull Request Labels
-
-More TBD.
+[1]: http://software-engineering-handbook.com/
+[2]: https://github.com/uribench/software-engineering-handbook/issues
+[3]: https://guides.github.com/introduction/flow/index.html

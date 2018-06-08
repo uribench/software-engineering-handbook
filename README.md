@@ -9,7 +9,8 @@ The main two data elements in this repository are:
 - **Authored content** that is accessible to the end user from the handbook navigation tree 
 - **Configuration data files** to construct the handbook navigation tree
 
-Contributors are invited to propose additions and improvements to any of these two elements.
+Contributors are invited to propose additions and improvements to any of these 
+two elements following the [contributing guidelines](CONTRIBUTING.md).
 
 ## Structure of the Repository
 
