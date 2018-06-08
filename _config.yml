@@ -1,1 +1,2 @@
 exclude: [config]
+theme: jekyll-theme-cayman
