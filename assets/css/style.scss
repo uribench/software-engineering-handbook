@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media screen and (min-width: 64em) {
+  .project-name {
+    font-size: 2.75rem;
+  }
+}
+
+.page-header {
+  padding: 1rem 2rem;
+  background-image: none;
+  background-color: #778899;
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #444;
+  }
+}
+
