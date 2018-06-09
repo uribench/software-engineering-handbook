@@ -66,7 +66,6 @@ software-engineering-handbook/
 ├──_config.yml                                  Jekyll configuration
 ├──CNAME                                        canonical name record for the domain to be used by GitHub Pages
 ├──index.md                                     gets priority over README.md on GitHub Pages
-├──LICENSE.md
 ├──README.md                                    this README file for contributors
 └──TOC.md                                       automatically generated from scanning the Handbook tree
 ```
