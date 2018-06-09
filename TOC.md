@@ -1,158 +1,156 @@
-## Table of Contents
+# Table of Contents
 
-- 1 [Development](./Handbook/Development)
-    - 1.1 [Development Environment and Tools](./Handbook/Development/Development%20Environment%20and%20Tools)
-        - 1.1.1 [Environment Setup](./Handbook/Development/Development%20Environment%20and%20Tools/Environment%20Setup)
-            - 1.1.1.1 [Vagrant and VirtualBox](./Handbook/Development/Development%20Environment%20and%20Tools/Environment%20Setup/Vagrant%20and%20VirtualBox)
-                - 1.1.1.1.1 [README.md](./Handbook/Development/Development%20Environment%20and%20Tools/Environment%20Setup/Vagrant%20and%20VirtualBox/README.md)
-        - 1.1.2 [Automation Scripts](./Handbook/Development/Development%20Environment%20and%20Tools/Automation%20Scripts)
-        - 1.1.3 [Common File Formats](./Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats)
-            - 1.1.3.1 [YAML](./Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/YAML)
-            - 1.1.3.2 [JSON](./Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/JSON)
-            - 1.1.3.3 [Markdown](./Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/Markdown)
-            - 1.1.3.4 [XML](./Handbook/Development/Development%20Environment%20and%20Tools/Common%20File%20Formats/XML)
-        - 1.1.4 [Time Management](./Handbook/Development/Development%20Environment%20and%20Tools/Time%20Management)
-        - 1.1.5 [Editors](./Handbook/Development/Development%20Environment%20and%20Tools/Editors)
-            - 1.1.5.1 [Sublime](./Handbook/Development/Development%20Environment%20and%20Tools/Editors/Sublime)
-            - 1.1.5.2 [Atom](./Handbook/Development/Development%20Environment%20and%20Tools/Editors/Atom)
-        - 1.1.6 [IDEs](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs)
-            - 1.1.6.1 [Visual Studio](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs/Visual%20Studio)
-            - 1.1.6.2 [MonoDevelop](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs/MonoDevelop)
-            - 1.1.6.3 [Eclipse](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs/Eclipse)
-            - 1.1.6.4 [IntelliJ](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs/IntelliJ)
-            - 1.1.6.5 [NetBeans](./Handbook/Development/Development%20Environment%20and%20Tools/IDEs/NetBeans)
-        - 1.1.7 [Diff and Merge Tools](./Handbook/Development/Development%20Environment%20and%20Tools/Diff%20and%20Merge%20Tools)
-            - 1.1.7.1 [DiffMerge](./Handbook/Development/Development%20Environment%20and%20Tools/Diff%20and%20Merge%20Tools/DiffMerge)
-            - 1.1.7.2 [WinMerge](./Handbook/Development/Development%20Environment%20and%20Tools/Diff%20and%20Merge%20Tools/WinMerge)
-        - 1.1.8 [Linux skillset](./Handbook/Development/Development%20Environment%20and%20Tools/Linux%20skillset)
-        - 1.1.9 [Developing with Docker](./Handbook/Development/Development%20Environment%20and%20Tools/Developing%20with%20Docker)
-            - 1.1.9.1 [Docker concepts](./Handbook/Development/Development%20Environment%20and%20Tools/Developing%20with%20Docker/Docker%20concepts)
-            - 1.1.9.2 [Docker Compose](./Handbook/Development/Development%20Environment%20and%20Tools/Developing%20with%20Docker/Docker%20Compose)
-        - 1.1.10 [Choosing the right language](./Handbook/Development/Development%20Environment%20and%20Tools/Choosing%20the%20right%20language)
-    - 1.2 [Code Development Lifecycle](./Handbook/Development/Code%20Development%20Lifecycle)
-        - 1.2.1 [Documenting](./Handbook/Development/Code%20Development%20Lifecycle/Documenting)
-            - 1.2.1.1 [Principles and Frameworks](./Handbook/Development/Code%20Development%20Lifecycle/Documenting/Principles%20and%20Frameworks)
-            - 1.2.1.2 [Lightweight Markup Languages](./Handbook/Development/Code%20Development%20Lifecycle/Documenting/Lightweight%20Markup%20Languages)
-            - 1.2.1.3 [Mind Mapping Tools](./Handbook/Development/Code%20Development%20Lifecycle/Documenting/Mind%20Mapping%20Tools)
-        - 1.2.2 [Version Control](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control)
-            - 1.2.2.1 [Tools](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Tools)
-            - 1.2.2.2 [Git](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Git)
-                - 1.2.2.2.1 [README.md](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Git/README.md)
-            - 1.2.2.3 [SVN](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/SVN)
-            - 1.2.2.4 [TFS](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/TFS)
-            - 1.2.2.5 [CVS](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/CVS)
-            - 1.2.2.6 [Perforce](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Perforce)
-            - 1.2.2.7 [How to write commit messages and release notes](./Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/How%20to%20write%20commit%20messages%20and%20release%20notes)
-        - 1.2.3 [Testing](./Handbook/Development/Code%20Development%20Lifecycle/Testing)
-            - 1.2.3.1 [Unit Test](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Unit%20Test)
-            - 1.2.3.2 [Integration and System Test](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Integration%20and%20System%20Test)
-            - 1.2.3.3 [Performance and Memory check (Big O)](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Performance%20and%20Memory%20check%20%28Big%20O%29)
-            - 1.2.3.4 [Test Code Coverage check](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Test%20Code%20Coverage%20check)
-            - 1.2.3.5 [Load and stress tests](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Load%20and%20stress%20tests)
-            - 1.2.3.6 [Static Analysis](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Static%20Analysis)
-            - 1.2.3.7 [Effective Peer Code Review](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Effective%20Peer%20Code%20Review)
-            - 1.2.3.8 [Root cause analysis](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Root%20cause%20analysis)
-            - 1.2.3.9 [Effective problem solving - Debugging Mindset](./Handbook/Development/Code%20Development%20Lifecycle/Testing/Effective%20problem%20solving%20-%20Debugging%20Mindset)
-        - 1.2.4 [Continuous Integration (CI)](./Handbook/Development/Code%20Development%20Lifecycle/Continuous%20Integration%20%28CI%29)
-            - 1.2.4.1 [TravisCI](./Handbook/Development/Code%20Development%20Lifecycle/Continuous%20Integration%20%28CI%29/TravisCI)
-            - 1.2.4.2 [CircleCI](./Handbook/Development/Code%20Development%20Lifecycle/Continuous%20Integration%20%28CI%29/CircleCI)
-            - 1.2.4.3 [Jenkins](./Handbook/Development/Code%20Development%20Lifecycle/Continuous%20Integration%20%28CI%29/Jenkins)
-        - 1.2.5 [Testing with Docker](./Handbook/Development/Code%20Development%20Lifecycle/Testing%20with%20Docker)
-    - 1.3 [Software Development Processes](./Handbook/Development/Software%20Development%20Processes)
-- 2 [Production](./Handbook/Production)
-    - 2.1 [Deployment Management](./Handbook/Production/Deployment%20Management)
-        - 2.1.1 [Virtualization](./Handbook/Production/Deployment%20Management/Virtualization)
-        - 2.1.2 [Containerization](./Handbook/Production/Deployment%20Management/Containerization)
-            - 2.1.2.1 [Deploying with Docker](./Handbook/Production/Deployment%20Management/Containerization/Deploying%20with%20Docker)
-            - 2.1.2.2 [Docker orchestration](./Handbook/Production/Deployment%20Management/Containerization/Docker%20orchestration)
-        - 2.1.3 [Automation](./Handbook/Production/Deployment%20Management/Automation)
-            - 2.1.3.1 [Ansible](./Handbook/Production/Deployment%20Management/Automation/Ansible)
-            - 2.1.3.2 [Puppet](./Handbook/Production/Deployment%20Management/Automation/Puppet)
-            - 2.1.3.3 [Chef](./Handbook/Production/Deployment%20Management/Automation/Chef)
-            - 2.1.3.4 [Terraform](./Handbook/Production/Deployment%20Management/Automation/Terraform)
-        - 2.1.4 [Build Servers](./Handbook/Production/Deployment%20Management/Build%20Servers)
-            - 2.1.4.1 [Jenkins](./Handbook/Production/Deployment%20Management/Build%20Servers/Jenkins)
-        - 2.1.5 [Deployment workflows](./Handbook/Production/Deployment%20Management/Deployment%20workflows)
-            - 2.1.5.1 [Using a staging environment](./Handbook/Production/Deployment%20Management/Deployment%20workflows/Using%20a%20staging%20environment)
-            - 2.1.5.2 [Green-Blue deployments](./Handbook/Production/Deployment%20Management/Deployment%20workflows/Green-Blue%20deployments)
-        - 2.1.6 [Production tests (Acceptance-Smoke-Sanity)](./Handbook/Production/Deployment%20Management/Production%20tests%20%28Acceptance-Smoke-Sanity%29)
-        - 2.1.7 [Continuous Deployment-Delivery (CD)](./Handbook/Production/Deployment%20Management/Continuous%20Deployment-Delivery%20%28CD%29)
-    - 2.2 [DevOps](./Handbook/Production/DevOps)
-        - 2.2.1 [Building a solid infrastructure (monitoring, alerting, logging)](./Handbook/Production/DevOps/Building%20a%20solid%20infrastructure%20%28monitoring%2C%20alerting%2C%20logging%29)
-        - 2.2.2 [High Availability](./Handbook/Production/DevOps/High%20Availability)
-        - 2.2.3 [Auto Scaling](./Handbook/Production/DevOps/Auto%20Scaling)
-    - 2.3 [NOC (Network Operation Center)](./Handbook/Production/NOC%20%28Network%20Operation%20Center%29)
-- 3 [Coding](./Handbook/Coding)
-    - 3.1 [Code Quality](./Handbook/Coding/Code%20Quality)
-        - 3.1.1 [General Coding Best Practices](./Handbook/Coding/Code%20Quality/General%20Coding%20Best%20Practices)
-        - 3.1.2 [Optimization and Refactoring](./Handbook/Coding/Code%20Quality/Optimization%20and%20Refactoring)
-        - 3.1.3 [Clean Code and Code Smells](./Handbook/Coding/Code%20Quality/Clean%20Code%20and%20Code%20Smells)
-            - 3.1.3.1 [General Overview](./Handbook/Coding/Code%20Quality/Clean%20Code%20and%20Code%20Smells/General%20Overview)
-        - 3.1.4 [Common Smells - Patterns and Remedies](./Handbook/Coding/Code%20Quality/Common%20Smells%20-%20Patterns%20and%20Remedies)
-        - 3.1.5 [Software quality metrics](./Handbook/Coding/Code%20Quality/Software%20quality%20metrics)
-    - 3.2 [Development Models](./Handbook/Coding/Development%20Models)
-        - 3.2.1 [Test First Approaches](./Handbook/Coding/Development%20Models/Test%20First%20Approaches)
-            - 3.2.1.1 [Principles](./Handbook/Coding/Development%20Models/Test%20First%20Approaches/Principles)
-            - 3.2.1.2 [Hands on practices](./Handbook/Coding/Development%20Models/Test%20First%20Approaches/Hands%20on%20practices)
-            - 3.2.1.3 [Supporting Frameworks](./Handbook/Coding/Development%20Models/Test%20First%20Approaches/Supporting%20Frameworks)
-        - 3.2.2 [Code Composition](./Handbook/Coding/Development%20Models/Code%20Composition)
-            - 3.2.2.1 [Principles](./Handbook/Coding/Development%20Models/Code%20Composition/Principles)
-            - 3.2.2.2 [IoC, DIP, DI](./Handbook/Coding/Development%20Models/Code%20Composition/IoC%2C%20DIP%2C%20DI)
-                - 3.2.2.2.1 [Frameworks](./Handbook/Coding/Development%20Models/Code%20Composition/IoC%2C%20DIP%2C%20DI/Frameworks)
-                    - 3.2.2.2.1.1 [MEF](./Handbook/Coding/Development%20Models/Code%20Composition/IoC%2C%20DIP%2C%20DI/Frameworks/MEF)
-                    - 3.2.2.2.1.2 [Unity](./Handbook/Coding/Development%20Models/Code%20Composition/IoC%2C%20DIP%2C%20DI/Frameworks/Unity)
-            - 3.2.2.3 [Composite Applications](./Handbook/Coding/Development%20Models/Code%20Composition/Composite%20Applications)
-                - 3.2.2.3.1 [Principles (Vertical Concerns)](./Handbook/Coding/Development%20Models/Code%20Composition/Composite%20Applications/Principles%20%28Vertical%20Concerns%29)
-                - 3.2.2.3.2 [Frameworks](./Handbook/Coding/Development%20Models/Code%20Composition/Composite%20Applications/Frameworks)
-                    - 3.2.2.3.2.1 [Microsoft PRISM](./Handbook/Coding/Development%20Models/Code%20Composition/Composite%20Applications/Frameworks/Microsoft%20PRISM)
-        - 3.2.3 [Domain Specific Language (DSL) Based Development Model](./Handbook/Coding/Development%20Models/Domain%20Specific%20Language%20%28DSL%29%20Based%20Development%20Model)
-            - 3.2.3.1 [Internal vs External DSL](./Handbook/Coding/Development%20Models/Domain%20Specific%20Language%20%28DSL%29%20Based%20Development%20Model/Internal%20vs%20External%20DSL)
-            - 3.2.3.2 [Externalization of code](./Handbook/Coding/Development%20Models/Domain%20Specific%20Language%20%28DSL%29%20Based%20Development%20Model/Externalization%20of%20code)
-            - 3.2.3.3 [Supporting Frameworks](./Handbook/Coding/Development%20Models/Domain%20Specific%20Language%20%28DSL%29%20Based%20Development%20Model/Supporting%20Frameworks)
-        - 3.2.4 [Defensive Programming](./Handbook/Coding/Development%20Models/Defensive%20Programming)
-    - 3.3 [Design patterns](./Handbook/Coding/Design%20patterns)
-    - 3.4 [Polyglotism](./Handbook/Coding/Polyglotism)
-        - 3.4.1 [Side-by-side languages clusters syntax comparisons](./Handbook/Coding/Polyglotism/Side-by-side%20languages%20clusters%20syntax%20comparisons)
-    - 3.5 [Regular Expressions - Syntax, Patterns and Tools](./Handbook/Coding/Regular%20Expressions%20-%20Syntax%2C%20Patterns%20and%20Tools)
-    - 3.6 [Anonymous methods and lambda expressions](./Handbook/Coding/Anonymous%20methods%20and%20lambda%20expressions)
-    - 3.7 [Developing an Interpreter](./Handbook/Coding/Developing%20an%20Interpreter)
-    - 3.8 [Frameworks and Libraries](./Handbook/Coding/Frameworks%20and%20Libraries)
-    - 3.9 [Ecosystem-Community-Open Source](./Handbook/Coding/Ecosystem-Community-Open%20Source)
-        - 3.9.1 [Private repositories](./Handbook/Coding/Ecosystem-Community-Open%20Source/Private%20repositories)
-            - 3.9.1.1 [GitHub](./Handbook/Coding/Ecosystem-Community-Open%20Source/Private%20repositories/GitHub)
-            - 3.9.1.2 [BitBucket](./Handbook/Coding/Ecosystem-Community-Open%20Source/Private%20repositories/BitBucket)
-        - 3.9.2 [Public Repositories](./Handbook/Coding/Ecosystem-Community-Open%20Source/Public%20Repositories)
-            - 3.9.2.1 [How to choose an open source license](./Handbook/Coding/Ecosystem-Community-Open%20Source/Public%20Repositories/How%20to%20choose%20an%20open%20source%20license)
-    - 3.10 [Common Standards](./Handbook/Coding/Common%20Standards)
-        - 3.10.1 [Coding style standards](./Handbook/Coding/Common%20Standards/Coding%20style%20standards)
-        - 3.10.2 [Medical Domain Specific Standards](./Handbook/Coding/Common%20Standards/Medical%20Domain%20Specific%20Standards)
-            - 3.10.2.1 [DICOM](./Handbook/Coding/Common%20Standards/Medical%20Domain%20Specific%20Standards/DICOM)
-            - 3.10.2.2 [HLStandards](./Handbook/Coding/Common%20Standards/Medical%20Domain%20Specific%20Standards/HLStandards)
-    - 3.11 [Web Development](./Handbook/Coding/Web%20Development)
-        - 3.11.1 [Web Development Toolkits](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits)
-            - 3.11.1.1 [UI Toolkit](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Toolkit)
-                - 3.11.1.1.1 [Bootstrap](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Toolkit/Bootstrap)
-                - 3.11.1.1.2 [Foundation](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Toolkit/Foundation)
-                - 3.11.1.1.3 [Kendo UI](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Toolkit/Kendo%20UI)
-                - 3.11.1.1.4 [Material UI](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Toolkit/Material%20UI)
-            - 3.11.1.2 [UI Frameworks](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Frameworks)
-                - 3.11.1.2.1 [Angular](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Frameworks/Angular)
-                - 3.11.1.2.2 [React](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Frameworks/React)
-                - 3.11.1.2.3 [Vue](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/UI%20Frameworks/Vue)
-            - 3.11.1.3 [Testing Libraries](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Testing%20Libraries)
-                - 3.11.1.3.1 [Mocha.js](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Testing%20Libraries/Mocha.js)
-                - 3.11.1.3.2 [Jasmine](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Testing%20Libraries/Jasmine)
-                - 3.11.1.3.3 [QUnit](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Testing%20Libraries/QUnit)
-            - 3.11.1.4 [Validators](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Validators)
-                - 3.11.1.4.1 [W3C website Validator](./Handbook/Coding/Web%20Development/Web%20Development%20Toolkits/Validators/W3C%20website%20Validator)
-    - 3.12 [Security](./Handbook/Coding/Security)
-    - 3.13 [Databases](./Handbook/Coding/Databases)
-- 4 [Soft Skills (The Human Factor)](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29)
-    - 4.1 [How to effectively interact with other people](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20effectively%20interact%20with%20other%20people)
-    - 4.2 [Difficult Conversations](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Difficult%20Conversations)
-    - 4.3 [Effective Communications with Teams](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Teams)
-    - 4.4 [Effective Communications with Managers](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Effective%20Communications%20with%20Managers)
-    - 4.5 [Global Cultural Differences](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Global%20Cultural%20Differences)
-    - 4.6 [Influencing without being judgmental](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/Influencing%20without%20being%20judgmental)
-    - 4.7 [How to interview (skill testing)](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20interview%20%28skill%20testing%29)
-        - 4.7.1 [TestDome.com](./Handbook/Soft%20Skills%20%28The%20Human%20Factor%29/How%20to%20interview%20%28skill%20testing%29/TestDome.com)
+- **Development**:
+    - Development Environment and Tools:
+        - Environment Setup:
+            - Vagrant and VirtualBox
+        - Automation Scripts
+        - Common File Formats:
+            - YAML
+            - JSON
+            - Markdown
+            - XML
+        - Time Management
+        - Editors:
+            - Sublime
+            - Atom
+        - IDEs:
+            - Visual Studio
+            - MonoDevelop
+            - Eclipse
+            - IntelliJ
+            - NetBeans
+        - Diff and Merge Tools:
+            - DiffMerge
+            - WinMerge
+        - Linux skillset
+        - Developing with Docker:
+            - Docker concepts
+            - Docker Compose
+        - Choosing the right language
+    - Code Development Lifecycle:
+        - Documenting:
+            - Principles and Frameworks
+            - Lightweight Markup Languages
+            - Mind Mapping Tools
+        - Version Control:
+            - Tools
+            - Git
+            - SVN
+            - TFS
+            - CVS
+            - Perforce
+            - How to write commit messages and release notes
+        - Testing:
+            - Unit Test
+            - Integration and System Test
+            - Performance and Memory check (Big O)
+            - Test Code Coverage check
+            - Load and stress tests
+            - Static Analysis
+            - Effective Peer Code Review
+            - Root cause analysis
+            - Effective problem solving - Debugging Mindset
+        - Continuous Integration (CI):
+            - TravisCI
+            - CircleCI
+            - Jenkins
+        - Testing with Docker
+    - Software Development Processes
+- **Production**:
+    - Deployment Management:
+        - Virtualization
+        - Containerization:
+            - Deploying with Docker
+            - Docker orchestration
+        - Automation:
+            - Ansible
+            - Puppet
+            - Chef
+            - Terraform
+        - Build Servers:
+            - Jenkins
+        - Deployment workflows:
+            - Using a staging environment
+            - Green-Blue deployments
+        - Production tests (Acceptance-Smoke-Sanity)
+        - Continuous Deployment-Delivery (CD)
+    - DevOps:
+        - Building a solid infrastructure (monitoring, alerting, logging)
+        - High Availability
+        - Auto Scaling
+    - NOC (Network Operation Center)
+- **Coding**:
+    - Code Quality:
+        - General Coding Best Practices
+        - Optimization and Refactoring
+        - Clean Code and Code Smells:
+            - General Overview
+        - Common Smells - Patterns and Remedies
+        - Software quality metrics
+    - Development Models:
+        - Test First Approaches:
+            - Principles
+            - Hands on practices
+            - Supporting Frameworks
+        - Code Composition:
+            - Principles
+            - IoC, DIP, DI:
+                - Frameworks:
+                    - MEF
+                    - Unity
+            - Composite Applications:
+                - Principles (Vertical Concerns)
+                - Frameworks:
+                    - Microsoft PRISM
+        - Domain Specific Language (DSL) Based Development Model:
+            - Internal vs External DSL
+            - Externalization of code
+            - Supporting Frameworks
+        - Defensive Programming
+    - Design patterns
+    - Polyglotism:
+        - Side-by-side languages clusters syntax comparisons
+    - Regular Expressions - Syntax, Patterns and Tools
+    - Anonymous methods and lambda expressions
+    - Developing an Interpreter
+    - Frameworks and Libraries
+    - Ecosystem-Community-Open Source:
+        - Private repositories:
+            - GitHub
+            - BitBucket
+        - Public Repositories:
+            - How to choose an open source license
+    - Common Standards:
+        - Coding style standards
+        - Medical Domain Specific Standards:
+            - DICOM
+            - HLStandards
+    - Web Development:
+        - Web Development Toolkits:
+            - UI Toolkit:
+                - Bootstrap
+                - Foundation
+                - Kendo UI
+                - Material UI
+            - UI Frameworks:
+                - Angular
+                - React
+                - Vue
+            - Testing Libraries:
+                - Mocha.js
+                - Jasmine
+                - QUnit
+            - Validators:
+                - W3C website Validator
+    - Security
+    - Databases
+- **Soft Skills (The Human Factor)**:
+    - How to effectively interact with other people
+    - Difficult Conversations
+    - Effective Communications with Teams
+    - Effective Communications with Managers
+    - Global Cultural Differences
+    - Influencing without being judgmental
+    - How to interview (skill testing):
+        - TestDome.com
