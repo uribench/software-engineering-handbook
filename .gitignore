@@ -2,7 +2,3 @@
 _index
 .madness.yml
 
-# Jekyll files
-.sass-cache
-_site
-Gemfile.lock
