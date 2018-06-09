@@ -48,7 +48,7 @@ software-engineering-handbook/
 ├──Guides/                                      root of the authored contents for guides
 |  ├──<guides-subjects>/                        one or more folders for grouping subjects of related guides
 |  |  └──<guides-markdown-files>                markdown files related to the parent guide subject
-|  ├──index.md                                  "Internal Folder" message when rendered by GitHub pages
+|  ├──index.md                                  "Internal Folder" message when rendered by GitHub Pages
 |  └──README.md                                 policy and conventions for use on GitHub repository
 └──Handbook/                                    handbook navigation tree. created automatically
 |  ├──<first-level-handbook-subject>/           zero or more children folders for the hosting folder
@@ -60,12 +60,12 @@ software-engineering-handbook/
 |  ├──<topics-subjects>/                        one or more folders for grouping subjects of related topics
 |  |  └──<topic-subject-index-markdown-file>    main index.md file for the parent topic subject
 |  |  └──<guides-markdown-files>                sub-topics markdown files for the parent topic subject
-|  ├──index.md                                  "Internal Folder" message when rendered by GitHub pages
+|  ├──index.md                                  "Internal Folder" message when rendered by GitHub Pages
 |  └──README.md                                 policy and conventions for use on GitHub repository
 ├──.madness.yml                                 default options and arguments for madness
-├──_config.yml                                  configuration for GitHub
-├──CNAME                                        canonical name record for the domain to be used by GitHub pages
-├──index.md                                     gets priority over README.md on GitHub pages
+├──_config.yml                                  Jekyll configuration
+├──CNAME                                        canonical name record for the domain to be used by GitHub Pages
+├──index.md                                     gets priority over README.md on GitHub Pages
 ├──LICENSE.md
 ├──README.md                                    this README file for contributors
 └──TOC.md                                       automatically generated from scanning the Handbook tree
@@ -107,7 +107,7 @@ based on the configuration files under the `config` directory.
 *end users* visiting the [Software Engineering Handbook][1] site. 
 
 **GitHub repository** renders the `README.md` files by default. However, the `index.md` files get 
-priority by **GitHub pages** over neighboring `README.md` files.
+priority by [**GitHub Pages**][5] over neighboring `README.md` files.
 
 ---
 
@@ -115,4 +115,5 @@ priority by **GitHub pages** over neighboring `README.md` files.
 [2]: /config/navigation/README.md
 [3]: /config/metadata/README.md
 [4]: https://github.com/uribench/software-engineering-handbook-tools
+[5]: https://pages.github.com/
 

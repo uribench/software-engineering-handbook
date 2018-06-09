@@ -1,7 +1,7 @@
 Software Engineering Handbook
 =============================
 
-This [handbook](/Handbook) provides references and practical information on Software Engineering.
+This [**handbook**](/Handbook) provides references and practical information on Software Engineering.
 
 ## Table of Contents (high level)
 
