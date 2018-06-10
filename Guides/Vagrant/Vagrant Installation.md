@@ -12,10 +12,11 @@ supporting the [SSH Protocol][5].
 ## Customizing Oracle VM VirtualBox Settings
 
 After installing VirtualBox it requires some minor modifications to the settings as follows:
-    - Launch Oracle VM VirtualBox
-    - Select (File | Preferences... | General)
-    - Set the "Default Machine Folder:" (by default it is on Drive C and it will take at least 6 GB)
-        Example location: D:\VirtualBox VMs
+
+- Launch Oracle VM VirtualBox
+- Select 'File > Preferences... > General'
+- Set the "Default Machine Folder:" (by default it is on Drive C and it will take at least 6 GB)
+    Example location: D:\VirtualBox VMs
 
 
 ## Creating Directory Structure for Vagrant Boxes

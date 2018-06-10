@@ -118,10 +118,11 @@ The VM is powered off. To restart the VM, simply run `vagrant up`
 
 You can monitor the status of the Vagrant Virtual Machine also from the Oracle VM VirtualBox as 
 follows:
-    - Launch Oracle VM VirtualBox
-    - Select the "Machine Tools" tab
-    - On the left panel you will see the assigned name of the Virtual Box (e.g., Xenial64 Box)
-      with the Status below it (e.g., "Powered Off", "Running")
+
+- Launch Oracle VM VirtualBox
+- Select the "Machine Tools" tab
+- On the left panel you will see the assigned name of the Virtual Box (e.g., Xenial64 Box)
+  with the Status below it (e.g., "Powered Off", "Running")
 
 
 ### Stopping the Vagrant Virtual Machine
@@ -167,7 +168,7 @@ command (from the command window running from the directory containing the Vagra
 machine):
 
 ```
-[cmd]> vagrant ssh
+$ vagrant ssh
 ```
 
 
