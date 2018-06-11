@@ -11,9 +11,10 @@ Recommended [SSH Clients][1]:
 
 Auto-login with a given username can be set in PuTTY as follows:
 
-1. Load the relevant saved session for which this setting will apply
-2. Go to "Connection > Data" and set the text field 'Auto-login username' 
-3. Save the session 
+1. Launch PuTTY Application
+2. Load the relevant saved session for which this setting will apply
+3. Go to "Connection > Data" and set the text field 'Auto-login username' 
+4. Save the session 
 
 ### Creating a Shortcut to a Saved Session
 
@@ -21,6 +22,24 @@ To create a shortcut to PuTTY that automatically launches a given session do:
 
 1. Create a shortcut to the PuTTY Application
 2. Open the shortcut properties and modify the "Target" field: `"Path\To\PuTTY\putty.exe" -load "<saved-session-name>"`
+
+## Tips for using MobaXterm
+
+### Importing PuTTY Sessions 
+
+MobaXTerm imports the sessions database of PuTTY, making them available for use from MobaXterm:
+
+1. Launch MobaXterm Application
+2. Select the 'Sessions' tab on the left
+3. On the left panel select 'User sessions > PuTTY sessions > saved-putty-session-name' 
+
+### Creating a Shortcut to a Saved Session
+
+To create a shortcut to PuTTY that automatically launches a given session do:
+
+1. Launch MobaXterm Application
+2. Right-click on the required session and select 'Create a desktop shortcut'
+3. Alternatively, follow the same steps as in the 'Tips for using PuTTY' and replace the `-load` option with `-bookmark`
 
 ---
 
