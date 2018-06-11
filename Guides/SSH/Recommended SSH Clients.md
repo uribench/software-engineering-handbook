@@ -21,7 +21,9 @@ Auto-login with a given username can be set in PuTTY as follows:
 To create a shortcut to PuTTY that automatically launches a given session do:
 
 1. Create a shortcut to the PuTTY Application
-2. Open the shortcut properties and modify the "Target" field: `"Path\To\PuTTY\putty.exe" -load "<saved-session-name>"`
+2. Open the shortcut properties and modify the "Target" field: 
+`"Path\To\PuTTY\putty.exe" -load "<saved-session-name>"`  
+**Example:** `"C:\Program Files\PuTTY\putty.exe" -load "Vagrant Session"`
 
 ## Tips for using MobaXterm
 
@@ -35,11 +37,14 @@ MobaXTerm imports the sessions database of PuTTY, making them available for use 
 
 ### Creating a Shortcut to a Saved Session
 
-To create a shortcut to PuTTY that automatically launches a given session do:
+To create a shortcut to MobaXterm that automatically launches a given session do:
 
 1. Launch MobaXterm Application
-2. Right-click on the required session and select 'Create a desktop shortcut'
-3. Alternatively, follow the same steps as in the 'Tips for using PuTTY' and replace the `-load` option with `-bookmark`
+2. Right-click on the required session name and select 'Create a desktop shortcut'
+3. Alternatively, follow the same steps for creating a shortcut to PuTTY as in the 
+['Tips for using PuTTY'](#creating-a-shortcut-to-a-saved-session) and replace  
+the `-load` option with `-bookmark`  
+**Example:** `"C:\Program Files (x86)\Mobatek\MobaXterm\MobaXterm.exe" -bookmark "PuTTY sessions\Vagrant Session"`
 
 ---
 

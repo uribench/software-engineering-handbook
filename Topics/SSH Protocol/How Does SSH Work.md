@@ -44,7 +44,7 @@ credentials are always protected from network packet sniffers.
 Depending on the server, the client authenticates using his credentials by transferring them to the 
 server using the negotiated session key (the one that was generated on the first stage).
 
-Alternatively, the client authenticates using public and private SSH key pairs with an asymmetric 
+Alternatively, the client authenticates using public and private SSH key pair with an asymmetric 
 encryption method. The public key is used to encrypt data that can only be decrypted with the 
 private key. The public key can be freely shared, because, although it can encrypt for the private 
 key, there is no method of deriving the private key from the public key.
