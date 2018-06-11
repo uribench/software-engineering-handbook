@@ -116,7 +116,7 @@ $ vagrant ssh-config
 
 - Click on the "Load" button.
 - Open the Identityfile that is mentioned above (it doesn't have an extension and that's fine 
-  with PuTTYgen, as long as the File Dialog filter is set to "All Files (*.*)").
+  with PuTTYgen, as long as the File Dialog filter is set to "All Files (\*.\*)").
 - Toward the bottom of the PuTTYgen dialog box, review the selected "Type of key to generate" 
   and the value in the "Number of bits in a generated key" box. They should be RSA and 2048, 
   respectfully.
