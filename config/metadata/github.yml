@@ -3,6 +3,7 @@ intro: |
   collaboration.
 
 guides:
+  - Git/Git Overview
   - Git/Working with a Remote Git Repository
   - Git/Contributing to an Open Source Project
 
