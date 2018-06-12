@@ -1,0 +1,10 @@
+intro: |
+  GitHub is a Git repository hosting service with many additional features, mainly supporting 
+  collaboration.
+
+guides:
+  - Git/Working with a Remote Git Repository
+  - Git/Contributing to an Open Source Project
+
+Topics:
+  - GitHub

@@ -4,5 +4,5 @@
 
 - [Development](/Handbook/Development)
 - Production
-- Coding
+- [Coding](/Handbook/Coding)
 - Soft Skills (The Human Factor)

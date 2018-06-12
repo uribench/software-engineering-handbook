@@ -79,15 +79,15 @@ Handbook:
       - High Availability
       - Auto Scaling
     - NOC (Network Operation Center)
-  - Coding @stop:
-    - Code Quality:
+  - Coding:
+    - Code Quality @stop:
       - General Coding Best Practices
       - Optimization and Refactoring
       - Clean Code and Code Smells:
         - General Overview
       - Common Smells - Patterns and Remedies
       - Software quality metrics
-    - Development Models:
+    - Development Models @stop:
       - Test First Approaches:
         - Principles
         - Hands on practices
@@ -107,25 +107,25 @@ Handbook:
         - Externalization of code
         - Supporting Frameworks
       - Defensive Programming
-    - Design patterns
-    - Polyglotism:
+    - Design patterns @stop
+    - Polyglotism @stop:
       - Side-by-side languages clusters syntax comparisons
-    - Regular Expressions - Syntax, Patterns and Tools
-    - Anonymous methods and lambda expressions
-    - Developing an Interpreter
-    - Frameworks and Libraries
+    - Regular Expressions - Syntax, Patterns and Tools @stop
+    - Anonymous methods and lambda expressions @stop
+    - Developing an Interpreter @stop
+    - Frameworks and Libraries @stop
     - Ecosystem-Community-Open Source:
       - Private repositories:
         - GitHub
-        - BitBucket
-      - Public Repositories:
+        - BitBucket @stop
+      - Public Repositories @stop:
         - How to choose an open source license
-    - Common Standards:
+    - Common Standards @stop:
       - Coding style standards
       - Medical Domain Specific Standards:
         - DICOM
         - HLStandards
-    - Web Development:
+    - Web Development @stop:
       - Web Development Toolkits:
         - UI Toolkit:
           - Bootstrap
@@ -142,8 +142,8 @@ Handbook:
           - QUnit
         - Validators:
           - W3C website Validator
-    - Security
-    - Databases
+    - Security @stop
+    - Databases @stop
   - Soft Skills (The Human Factor) @stop:
     - How to effectively interact with other people
     - Difficult Conversations
