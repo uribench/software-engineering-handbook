@@ -35,12 +35,13 @@ From this point on, the authentication is handled on your behalf by the authenti
 
 ## Common Commands for Working with a Remote Git Repository
 
-Justing James provides about 1 hour [Intro to Version Control with Git and Github][9] on YouTube. 
+Justing James provides about 1 hour [Intro to Version Control with Git and GitHub][9] on YouTube. 
 
 For more details, see the comprehensive set of [guides for using GitHub][10].
 
-Following is a brief description of the most common commands for working with GitHub as the remote 
-repository:
+Following is a brief description of the most common commands for working with Git and GitHub as the 
+remote repository. To use these commands you have to have [Git installed][11] and be familiar with 
+the [basic use of Git][12]:
 
 - Pushing an existing local repository to a remote repository
 - Committing changes to a remote repository
@@ -64,7 +65,7 @@ this command does not yet send the local repository to remote server.
 $ git remote add origin https://github.com/<your_gitub_user_name>/<repo_name>.git
 
 Example: 
-	$ git remote add origin https://github.com/uribench/software-engineering-handbook-tools.git
+$ git remote add origin https://github.com/uribench/software-engineering-handbook-tools.git
 ```
 
 **When using the SHH Protocol:**
@@ -73,7 +74,7 @@ Example:
 $ git remote add origin git@github.com:<your_gitub_user_name>/<repo_name>.git
 
 Example: 
-	$ git remote add origin git@github.com:uribench/software-engineering-handbook-tools.git
+$ git remote add origin git@github.com:uribench/software-engineering-handbook-tools.git
 ```
 
 From that point on, the command to send the local repository to the remote server does not depend on
@@ -83,15 +84,15 @@ the protocol.
 $ git push -u origin master
 
 Output Example:
-	Counting objects: 7, done.
-	Delta compression using up to 4 threads.
-	Compressing objects: 100% (7/7), done.
-	Writing objects: 100% (7/7), 17.28 KiB | 2.16 MiB/s, done.
-	Total 7 (delta 1), reused 0 (delta 0)
-	remote: Resolving deltas: 100% (1/1), done.
-	To https://github.com/uribench/software-engineering-handbook-tools.git
-	 * [new branch]      master -> master
-	Branch 'master' set up to track remote branch 'master' from 'origin'.
+    Counting objects: 7, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (7/7), done.
+    Writing objects: 100% (7/7), 17.28 KiB | 2.16 MiB/s, done.
+    Total 7 (delta 1), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (1/1), done.
+    To https://github.com/uribench/software-engineering-handbook-tools.git
+     * [new branch]      master -> master
+    Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
 Notes:
@@ -115,19 +116,116 @@ Notes:
 
 1. There is no need to specify the `-u` flag and explicitly specify the tracking reference to the 
 remote branch.
-2. You can check the remote repository in Github online.
+2. You can check the remote repository in GitHub online.
 
 ### Committing Changes to a Remote Repository
 
-### Renaming a File on a Local Repository and Pushing the Change to a Remote Repository
-
-### Managing a Remote Repository
+1. Make changes and commit them locally: `$ commit -m "<message>"`
+2. Check status to see that the commit was successful: `$ git status`
+3. Push local repository to the respective remote repository on GitHub: `$ git push`
+   Note: Unlike the first time we did push, here we do not need the `-u` flag with the explicit 
+   specification of the tracking reference to the remote branch. It is already known.
+4. Check status to see that the push was successful: `$ git status`
 
 ### Pulling Changes you or other People did on the Remote Repository
 
+1. First commit your local changes, otherwise your changes will be overwritten by the pulled changes:
+    `$ git commit -m "<message>"`
+2. Pull changes other people have made: `$ git pull`
+3. Fix any conflicts locally and commit locally: `$ git commit -m "<message>"`
+4. Push the updated local repository to the remote repository: `$ git push`
+
+### Renaming a File on a Local Repository and Pushing the Change to a Remote Repository
+
+**Step 1: Rename the file using Git, specifying the old file name and the new name you'd like to 
+give the file.**  
+
+```bash
+$ git mv <old_filename> <new_filename>
+
+Example:
+$ git mv Readme.md README.md
+```
+
+Note: This will stage your change for commit.
+
+**Step 2: Check the repository status:**
+
+```bash
+$ git status
+Output Example:
+    On branch master
+    Your branch is up to date with 'origin/master'.
+
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+
+    renamed:    Readme.md -> README.md
+```
+
+**Step 3: Commit the file that you've staged in your local repository:**
+
+```bash
+$ git commit -m "Rename file"
+Output Example:
+    [master 6c93564] Rename file
+     1 file changed, 0 insertions(+), 0 deletions(-)
+     rename Readme.md => README.md (100%)
+```
+
+**Step 4: Push the changes in your local repository to GitHub:**
+
+```bash
+$ git push
+Output Example:
+    Counting objects: 2, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (2/2), 224 bytes | 224.00 KiB/s, done.
+    Total 2 (delta 1), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/uribench/SheetProperties.git
+       77c1868..6c93564  master -> master
+```
+
+### Managing a Remote Repository
+
+**Deleting a file or directory from a remote repository:**
+
+```bash
+$ git rm -r --cached <directory_name or file_name>
+$ git commit -m "Remove directory (or file) '<directory_name or file_name>'"
+$ git push
+```
+
+**Changing the GitHub repository name can be done as follows:**
+
+1. Log into your Github account.
+2. Go into 'Settings'
+3. Modify the repository name and press 'Rename'
+4. In the local repository change the name of the project directory (the one containing .git folder), 
+accordingly.
+5. In the local repository open `./git/config` file for editing
+6. Replace the value of the 'url' key in the `[remote "origin"]` block to point to the repository 
+with the new name.
+7. Check that the above actions were successful by issuing the following command locally:  
+   `$ git remote -v`
+
 ### Cloning: Getting a Local Copy of a Remote Repository
 
+1. Move to a folder that is supposes to be the parent of a new folder to be created automatically by 
+   Git for the clone of the remote repository:  
+   `$ cd <parent_of_the_future_project_folder>`
+2. Create a local clone of a remote repository:  
+   `$ git clone https://github.com/<your_gitub_user_name>/<repo_name>.git`
+3. Move to the newly created folder containing the clone:  
+   `$ cd <repo_name>`
+   Note: The `<repo_name>` folder has been created automatically by Git to store the clone of the 
+   remote repository.
+
 ### Contributing to an Open Source Project using Git and GitHub
+
+Read instruction in [Contributing to an Open Source Project][13].
 
 ---
 
@@ -141,3 +239,7 @@ remote branch.
 [8]: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 [9]: https://www.youtube.com/watch?v=KXKVA0mMihU&feature=youtu.be
 [10]: https://guides.github.com/
+[11]: /Guides/Git/Git%20Installation
+[12]: /Guides/Git/Getting%20Started%20with%20Git
+[13]: /Guides/Git/Contributing%20to%20an%20Open%20Source%20Project
+

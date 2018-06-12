@@ -21,4 +21,3 @@ his repository.
 [1]: https://github.com/
 [2]: https://git-scm.com/
 [3]: https://pages.github.com/
-[4]: 
