@@ -2,5 +2,5 @@
 
 ## Contents
 
-- [Private repositories](/Handbook/Coding/Ecosystem-Community-Open%20Source/Private%20repositories)
-- Public Repositories
+- [Repository Hosting Services](/Handbook/Coding/Ecosystem-Community-Open%20Source/Repository%20Hosting%20Services)
+- How to choose an open source license

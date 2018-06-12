@@ -116,11 +116,10 @@
     - Developing an Interpreter
     - Frameworks and Libraries
     - Ecosystem-Community-Open Source:
-        - Private repositories:
+        - Repository Hosting Services:
             - GitHub
             - BitBucket
-        - Public Repositories:
-            - How to choose an open source license
+        - How to choose an open source license
     - Common Standards:
         - Coding style standards
         - Medical Domain Specific Standards:

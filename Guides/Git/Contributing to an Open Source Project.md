@@ -30,8 +30,8 @@ original code.
 
 ---
 
-[1]: /Guides/Git/Git%20Overview
-[2]: /Topics/GitHub
+[1]: /Topics/GitHub
+[2]: /Guides/Git/Git%20Overview
 [3]: https://guides.github.com/activities/forking/
 [4]: /Guides/Git/Working%20with%20a%20Remote%20Git%20Repository#cloning-getting-a-local-copy-of-a-remote-repository
 [5]: /Guides/Git/Working%20with%20a%20Remote%20Git%20Repository#pushing-an-existing-local-repository-to-a-remote-repository

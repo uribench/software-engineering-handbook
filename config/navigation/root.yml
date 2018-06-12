@@ -115,11 +115,10 @@ Handbook:
     - Developing an Interpreter @stop
     - Frameworks and Libraries @stop
     - Ecosystem-Community-Open Source:
-      - Private repositories:
+      - Repository Hosting Services:
         - GitHub
         - BitBucket @stop
-      - Public Repositories @stop:
-        - How to choose an open source license
+      - How to choose an open source license @stop
     - Common Standards @stop:
       - Coding style standards
       - Medical Domain Specific Standards:

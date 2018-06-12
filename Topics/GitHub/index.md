@@ -1,7 +1,7 @@
 # GitHub
 
 [GitHub][1] is a [Git][2] repository hosting service with many additional features, mainly 
-supporting collaboration.
+for supporting collaboration.
 
 GitHub provides a Web-based graphical interface. It also provides access control and several 
 collaboration features, such as [GitHub Pages][3], Wikis, and basic task management tools for 
