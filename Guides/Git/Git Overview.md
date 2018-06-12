@@ -25,6 +25,7 @@ file-system.
 
 - [Git Installation][4]
 - [Getting Started with Git][5]
+- [Working with a Remote Git Repository][6]
 
 ---
 
@@ -33,3 +34,4 @@ file-system.
 [3]: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
 [4]: /Guides/Git/Git%20Installation
 [5]: /Guides/Git/Getting%20Started%20with%20Git
+[6]: /Guides/Git/Working%20with%20a%20Remote%20Git%20Repository

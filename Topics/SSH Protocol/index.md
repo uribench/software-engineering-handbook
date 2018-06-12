@@ -27,4 +27,4 @@ See [How Does SSH Works][2] for more details on SSH session stages and their enc
 ---
 
 [1]: https://www.ssh.com/ssh/protocol/
-[2]: /Topics/SSH%20Protocol/How%20Does%20SSH%20Works
+[2]: /Topics/SSH%20Protocol/How%20Does%20SSH%20Work

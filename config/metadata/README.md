@@ -8,15 +8,18 @@ All the metadata configuration files are placed directly under `/config/metadata
 additional grouping directories.
 
 There are two types of index.md files:
-- Non-leaf index files - hosted buy non-leaf directories
+- Non-leaf index files - hosted by non-leaf directories
 - Leaf index files - hosted by tree leaf directories
+
+From the engine generating the above mentioned index.md files, there is no difference between the
+two types.
 
 ## Anatomy of Index Files
 
 Index files are composed of the following parts:
 - Title - mandatory. taken from the navigation configuration (e.g., root.yml).
 - Introduction - optional. taken from metadata.
-- Contents - mandatory. exists only in Non-leaf index files. taken from the navigation configuration.
+- Contents - mandatory. exists only in non-leaf index files. taken from the navigation configuration.
 - Guides - optional. taken from metadata.
 - Topics - optional. taken from metadata.
 
@@ -28,6 +31,7 @@ tree configuration file and not from metadata.
 ### Introduction
 
 Free text providing an introduction to the subject of the hosting directory. An optional part. 
+Markdown is allowed in the introduction. It will be included in the respective `index.md` file as-is.
 It is provided by a metadata file associated with the hosting directory.
 
 YAML item type: dictionary
@@ -42,12 +46,11 @@ intro: |
   VirtualBox. It makes it easy to create and run a Virtual Machine (VM) from the command line.
 ```
 
-### Content
+### Contents
 
-List of the next navigation level. Equal to the names of the children directories
-of the hosting directory (siblings of the index file). It is taken automatically from the navigation  
-tree configuration file and not from metadata. A mandatory part that exists only in non-leaf index 
-files.
+List of the next navigation level. Equal to the names of the children directories of the hosting 
+directory (siblings of the index file). It is taken automatically from the navigation tree 
+configuration file and not from metadata. A mandatory part that exists only in non-leaf index files.
 
 ### Guides
 
@@ -71,7 +74,8 @@ guides:
 Notes: 
 1. The guides under the `/Guides` directory are grouped under one-level of grouping directories. 
    In the above example, the grouping directory is `Vagrant`.
-2. The links should be without leading or training `'/'`
+   See ['Guides Policy and Conventions'][1] for details.
+2. The links should be without leading or trailing `'/'`
 3. No Markdown syntax is allowed
 
 ### Topics
@@ -91,8 +95,9 @@ topics:
 ```
 
 Restrictions: 
-1. All the topics are placed immediately under `/Topics` without additional grouping directories.
-2. The links should be without leading or training `'/'`
+1. The guides under the `/Topics` directory are grouped under one-level of grouping directories.
+   See ['Topics Policy and Conventions'][2] for details.
+2. The links should be without leading or trailing `'/'`
 3. No Markdown syntax is allowed
 
 ## Metadata File Naming Principles
@@ -123,4 +128,9 @@ guides:
   - Vagrant/Getting Started with Vagrant
   - Vagrant/Known Issues
 ```
+
+---
+
+[1]: /Guides/README
+[2]: /Topics/README
 
