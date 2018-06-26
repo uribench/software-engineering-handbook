@@ -4,19 +4,19 @@
 to be covered.*
 
 <details>
-  <summary>**Development**:</summary>
+  <summary><b>Development</b></summary>
     &ensp;&ensp;&ensp;&ensp;- Development Environment and Tools<br>
     &ensp;&ensp;&ensp;&ensp;- Code Development Lifecycle<br>
     &ensp;&ensp;&ensp;&ensp;- Software Development Processes<br>
 </details>
 <details>
-  <summary>**Production**:</summary>
+  <summary><b>Production</b></summary>
     &ensp;&ensp;&ensp;&ensp;- Deployment Management<br>
     &ensp;&ensp;&ensp;&ensp;- DevOps<br>
     &ensp;&ensp;&ensp;&ensp;- NOC (Network Operation Center)<br>
 </details>
 <details>
-  <summary>**Coding**:</summary>
+  <summary><b>Coding</b></summary>
     &ensp;&ensp;&ensp;&ensp;- Code Quality<br>
     &ensp;&ensp;&ensp;&ensp;- Development Models<br>
     &ensp;&ensp;&ensp;&ensp;- Design patterns<br>
@@ -32,7 +32,7 @@ to be covered.*
     &ensp;&ensp;&ensp;&ensp;- Databases<br>
 </details>
 <details>
-  <summary>**Soft Skills (The Human Factor)**:</summary>
+  <summary><b>Soft Skills (The Human Factor)</b></summary>
     &ensp;&ensp;&ensp;&ensp;- How to effectively interact with other people<br>
     &ensp;&ensp;&ensp;&ensp;- Difficult Conversations<br>
     &ensp;&ensp;&ensp;&ensp;- Effective Communications with Teams<br>
