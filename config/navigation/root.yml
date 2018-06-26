@@ -80,13 +80,14 @@ Handbook:
       - Auto Scaling
     - NOC (Network Operation Center)
   - Coding:
-    - Code Quality @stop:
-      - General Coding Best Practices
-      - Optimization and Refactoring
+    - Code Quality:
+      - General Coding Best Practices @stop
+      - Optimization and Refactoring @stop
       - Clean Code and Code Smells:
-        - General Overview
-      - Common Smells - Patterns and Remedies
-      - Software quality metrics
+        - General Overview @stop
+        - Common Smells - Patterns and Remedies @stop
+        - Clean Design
+      - Software quality metrics @stop
     - Development Models @stop:
       - Test First Approaches:
         - Principles

@@ -1,0 +1,12 @@
+intro: |
+  The main attribute of clean design is about reversibility, or in other words, how easily can you 
+  change your mind with respect to design decisions. Learn how loose coupling can be introduced in 
+  your design to develop applications that respond well to change without unnecessarily making too 
+  complex design.
+
+guides:
+  - Clean Design/Clean Design Principles
+  - Clean Design/Clean Design Objectives
+  - Clean Design/Layering an Application
+  - Clean Design/Dependency Inversion Principle
+  - Clean Design/Service Locator

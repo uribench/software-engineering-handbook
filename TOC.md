@@ -86,7 +86,8 @@
         - Optimization and Refactoring
         - Clean Code and Code Smells:
             - General Overview
-        - Common Smells - Patterns and Remedies
+            - Common Smells - Patterns and Remedies
+            - Clean Design
         - Software quality metrics
     - Development Models:
         - Test First Approaches:

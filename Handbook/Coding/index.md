@@ -2,7 +2,7 @@
 
 ## Contents
 
-- Code Quality
+- [Code Quality](/Handbook/Coding/Code%20Quality)
 - Development Models
 - Design patterns
 - Polyglotism
