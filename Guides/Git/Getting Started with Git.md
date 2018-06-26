@@ -27,7 +27,7 @@ project).
 
 ## Basic Workflow
 
-The basic Git workflow typically involve the following steps, after creating the initial repository:
+The basic Git workflow typically involves the following steps, after creating the initial repository:
 
 1. Modify files in your working tree.
 2. Selectively stage changed files for the next commit.
@@ -95,8 +95,8 @@ $ git checkout <file_name>
 # Undoing local changes on a file after staging the file and after committing the new changes
 # Note: This actually is not removing the latest commit, it just does checkout of the revision 
 # pointed by <HASH>, and commit it as the newest commit (becoming the HEAD). All the historical 
-# revisions remain in Git. It is done so, in order to protect other developer that are depending on 
-# the revision that was "undone".
+# revisions remain in Git. It is done so, in order to protect other developers that are depending 
+# on the revision that was "undone".
 $ git revert <HASH>
 
 # Alternatively, same as above but without making the commit
@@ -109,7 +109,7 @@ $ git revert --no-commit <HASH>
 #      already been published.
 $ git commit -m "Corrected Message" --amend
 
-# Deleting a new file after staging the file and before committing it
+# Deleting a new file after staging the file and before committing it.
 # Note: This will remove the file from the staging list and it will not be committed automatically
 # on the next commit. You can look at 'git rm' as the inverse command of 'git add'.
 $ git rm <file_name>
@@ -151,7 +151,7 @@ work (e.g., POC) without affecting master branch. Anything done inside this bran
 anything else outside this branch. When ready, merge changes back into the master branch. Do the 
 merge as frequently as possible.
 
-Following are common command for creating and managing branches:
+Following are common commands for creating and managing branches:
 
 ```bash
 # Creating a new branch named <new_branch_name>
