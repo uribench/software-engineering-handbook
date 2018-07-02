@@ -27,7 +27,7 @@ on SSH session stages and their encryption technologies.
 
 Before you can authenticate using the SSH protocol you need to do the following:
 
-- [Generate an SSH key pair][6] 
+- [Generate an SSH key pair][6]
 - Set an [authentication agent][7]
 - Share the public key with the server (see [an example on how to do that with GitHub][8])
 
