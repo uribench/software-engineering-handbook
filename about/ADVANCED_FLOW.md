@@ -3,18 +3,18 @@
 The following workflow describes the advanced steps required to contribute content for a new 
 subject: 
 
-1. [Select a Subject](#select-a-subject)
-2. [Set a Development Environment](#set-a-development-environment)
-3. [Fork the Handbook Repository](#fork-the-handbook-repository)
+1. [Select Subject](#select-subject)
+2. [Set Development Environment](#set-development-environment)
+3. [Fork Handbook Repository](#fork-handbook-repository)
 4. [Create Content](#create-content)
 5. [Connect Content with the Handbook](#connect-content-with-the-handbook)
-6. [Build the Handbook](#build-the-handbook)
+6. [Build Handbook](#build-handbook)
 7. [Submit Pull Request](#submit-pull-request)
 
 When contributing enhancements to an existing subject only part of these steps are 
 relevant.
 
-## Select a Subject
+## Select Subject
 
 Think about a subject that is of interest to Software Engineers and from your own experience is not
 covered well by existing tutorials or is not easily accessible.
@@ -23,7 +23,7 @@ Explore the [detailed Table of Contents (TOC)](TOC.md) to get ideas of such subj
 where your contribution may fit. If you think that the current TOC requires changes, we recommend 
 that you open an issue that presents your change or fix, before submitting a pull request.
 
-## Set a Development Environment
+## Set Development Environment
 
 While developing your new content using this advanced workflow, it will be part of your local clone 
 of the forked [handbook repository on GitHub][1].
@@ -46,7 +46,7 @@ Markdown syntax highlighting and Markdown preview, which are both useful with de
 Sublime Text has a sophisticated [package control manager][5], simplifying the search and 
 installation of new packages.
 
-## Fork the Handbook Repository
+## Fork Handbook Repository
 
 Visit [Contributing to an Open Source Project][6] for instructions on how to fork and clone the 
 [handbook repository on GitHub][1].
@@ -86,7 +86,7 @@ navigation tree with the new content. The [github.yml](config/metadata/github.ym
 example of such configuration file, including a short introduction and references to GUides and 
 Topics.
 
-## Build the Handbook
+## Build Handbook
 
 This is an optional step.
 
