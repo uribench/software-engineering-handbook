@@ -3,11 +3,11 @@
 The following workflow describes the typical steps required to contribute contents for a new 
 subject: 
 
-1. [Select a Subject](#Select%20a%20Subject)
-2. [Fork the Handbook Repository](#Fork%20the%20Handbook%20Repository)
-3. [Author Contents](#Author%20Contents)
-4. [Connect Contents with the Handbook](#Connect%20Contents%20with%20the%20Handbook)
-5. [Submit Pull Request](#Submit%20Pull%20Request)
+1. [Select a Subject](#select-a-subject)
+2. [Fork the Handbook Repository](#fork-the-handbook-repository)
+3. [Author Contents](#author-contents)
+4. [Connect Contents with the Handbook](#connect-contents-with-the-handbook)
+5. [Submit Pull Request](#submit-pull-request)
 
 When contributing enhancements to an existing subject only part of these steps are 
 relevant.
