@@ -234,8 +234,8 @@ Read instruction in [Contributing to an Open Source Project][13].
 [3]: https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
 [4]: /Topics/SSH%20Protocol
 [5]: /Topics/SSH%20Protocol/How%20Does%20SSH%20Work
-[6]: Guides/SSH/Generating%20an%20SSH%20Key%20Pair
-[7]: Guides/SSH/Managing%20SSH%20Keys
+[6]: /Guides/SSH/Generating%20an%20SSH%20Key%20Pair
+[7]: /Guides/SSH/Managing%20SSH%20Keys
 [8]: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 [9]: https://www.youtube.com/watch?v=KXKVA0mMihU&feature=youtu.be
 [10]: https://guides.github.com/
