@@ -4,7 +4,7 @@ The following workflow describes the typical steps required to contribute conten
 subject: 
 
 1. [Select a Subject](#select-a-subject)
-2. [Set a Development Environment](#set-a-developmen-environment)
+2. [Set a Development Environment](#set-a-development-environment)
 3. [Fork the Handbook Repository](#fork-the-handbook-repository)
 4. [Author Contents](#author-contents)
 5. [Connect Contents with the Handbook](#connect-contents-with-the-handbook)
