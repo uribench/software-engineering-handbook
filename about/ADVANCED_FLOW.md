@@ -95,10 +95,10 @@ the new content placed under Guides, Topics, and config folders of your local cl
 handbook repository.
 
 If you like, you can skip this step of building the complete handbook and reviewing it, and jump 
-straight to submitting a Pull Request with the authored content. 
+straight to submitting a pull request with the authored content. 
 
 However, building and reviewing the complete handbook may help you identify issues prior to 
-submitting a Pull Request.
+submitting a pull request.
 
 If you decide to build the handbook, you will have to install the right tools. This is done easily
 with pip, which is a tool for installing Python packages.
@@ -107,7 +107,7 @@ ToDo: Provide instructions.
 
 ## Submit Pull Request
 
-We use [GitHub Flow][8], which means all changes happen through [pull requests][1].
+We use [GitHub Flow][8], which means all changes happen through [pull requests][6].
 
 If you are a first time contributor, we recommend that you open an issue that presents your 
 change or fix, before submitting a pull request.
