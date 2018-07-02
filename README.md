@@ -1,6 +1,5 @@
 # Software Engineering Handbook
 
-
 The contents of this repository is used to dynamically build the [Software Engineering Handbook][1] 
 site. 
 
@@ -22,7 +21,6 @@ software-engineering-handbook/
 ├──Guides/                                      root of the authored contents for guides
 ├──Topics/                                      root of the authored contents for topics
 └──Handbook/                                    handbook navigation tree. created automatically
-
 ```
 
 All the authored content is placed under the [`Guides`](Guides) and [`Topics`](Topics) directories.
