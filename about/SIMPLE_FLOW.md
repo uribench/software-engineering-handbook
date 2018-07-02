@@ -17,9 +17,9 @@ that you open an issue that presents your change or fix.
 
 ## Create Content
 
-Goto the [handbook repository on GitHub][1] and use the 'Create new file' button. When finished,
-optionally add description using the 'Propose new file' dialog, and finally submit the file
-using the 'Propose new file' button.
+Goto the [handbook repository on GitHub][1] and use the 'Create new file' button to start editing 
+the content online. When finished, optionally add description using the 'Propose new file' dialog, 
+and finally submit the file using the 'Propose new file' button.
 
 ### Prerequisites
 
@@ -28,9 +28,9 @@ Software Engineering Handbook.
 
 ### Guides and Topics Authoring
 
-Create Guides and/or Topics for the selected subject. Include appropriate references to external 
-sources with minimal duplications of exiting materials. Create internal links associating the 
-set of Guides and Topics for the subject. 
+Create Guides and/or Topics for the selected subject as described above. Include appropriate 
+references to external sources with minimal duplications of exiting materials. Create internal 
+links associating between the Guides and Topics documents for the subject. 
 
 ### Content Style Guides
 
