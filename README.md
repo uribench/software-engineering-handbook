@@ -9,7 +9,7 @@ The main two data elements in this repository are:
 - **Configuration data files** to construct the handbook navigation tree
 
 Contributors are invited to propose additions and improvements to any of these 
-two elements following the [contributing guidelines](CONTRIBUTING.md).
+two elements following the [contributing guidelines](about/CONTRIBUTING.md).
 
 ## Structure of the Repository
 
@@ -34,6 +34,7 @@ On the differences between the contents of `Guides` and `Topics` see their respe
 
 ```
 software-engineering-handbook/
+├──about/                                       directory for contribution instructions
 ├──config/                                      main directory for the configuration files
 |  ├──metadata/                                 metadata for the template file of navigation index.md files
 |  |  ├──<metadata-configuration-yml-files>     metadata files with optional contents expected by the template
@@ -48,7 +49,7 @@ software-engineering-handbook/
 |  |  └──<guides-markdown-files>                markdown files related to the parent guide subject
 |  ├──index.md                                  "Internal Folder" message when rendered by GitHub Pages
 |  └──README.md                                 policy and conventions for use on GitHub repository
-└──Handbook/                                    handbook navigation tree. created automatically
+├──Handbook/                                    handbook navigation tree. created automatically
 |  ├──<first-level-handbook-subject>/           zero or more children folders for the hosting folder
 |  |  ├──<second-level-handbook-subjects>/      zero or more children folders for the hosting folder
 |  |  └──index.md                               current level index file with next level navigation links
@@ -64,8 +65,7 @@ software-engineering-handbook/
 ├──_config.yml                                  Jekyll configuration
 ├──CNAME                                        canonical name record for the domain to be used by GitHub Pages
 ├──index.md                                     gets priority over README.md on GitHub Pages
-├──README.md                                    this README file for contributors
-└──TOC.md                                       automatically generated from scanning the Handbook tree
+└──README.md                                    this README file for contributors
 ```
 
 ## Key Concepts and Principles

@@ -22,10 +22,15 @@ unacceptable behavior to [uribench@gmail.com](mailto:uribench@gmail.com).
 If you spot a problem in any part of this project, or wish to make a 
 suggestion, open an issue using the repository's [issues tab][2].
 
-## Typical Contribution Workflow
+## Typical Contribution Workflows
 
-The [Handbook Flow](HANDBOOK_FLOW.md) presents a typical workflow for
-contributing contents to the Software Engineering Handbook.
+There are two extremes of workflows for contributing contents to the 
+Software Engineering Handbook:
+
+- The [simple workflow](SIMPLE_FLOW.md) requires almost no initial setup, but is limited
+- The [advanced workflow](ADVANCED_FLOW.md) requires knowledge of forking and using Git.
+
+The use of anyone of these two workflows, or even a combination of them, is **acceptable**. 
 
 ---
 
