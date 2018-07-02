@@ -28,10 +28,14 @@ Visit [Contributing to an Open Source Project][1] for instructions on how to for
 
 ## Author Contents
 
+### Prerequisites
+
 Learn about the differences between [Guides](Guides) and [Topics](Topics) in the context of the 
 Software Engineering Handbook.
 
-Understand the [structure and conventions](README.md) used for the handbook
+Understand the [structure and conventions](README.md) used for the handbook.
+
+### Guides and Topics Authoring
 
 Create Guides and/or Topics for the selected subject. Include appropriate references to external 
 sources with minimal duplications of exiting materials. Create internal links associating the 
@@ -64,8 +68,8 @@ Topics.
 
 We use [GitHub Flow][5], which means all changes happen through [pull requests][1].
 
-If you are a first time contributor, we recommend that you open an issue 
-that presents your change or fix, before submitting a pull request.
+If you are a first time contributor, we recommend that you open an issue that presents your 
+change or fix, before submitting a pull request.
 
 ---
 
