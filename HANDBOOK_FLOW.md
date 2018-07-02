@@ -1,4 +1,4 @@
-# Typical Workflow for Contribution to the Handbook
+# Typical Workflow for Contributing to the Handbook
 
 The following workflow describes the typical steps required to contribute contents for a new 
 subject: 
