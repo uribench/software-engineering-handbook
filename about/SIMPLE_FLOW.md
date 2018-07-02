@@ -17,7 +17,9 @@ that you open an issue that presents your change or fix.
 
 ## Create Content
 
-Goto the [handbook repository on GitHub][1] and use the 'Create new file' button.
+Goto the [handbook repository on GitHub][1] and use the 'Create new file' button. When finished,
+optionally add description using the 'Propose new file' dialog, and finally submit the file
+using the 'Propose new file' button.
 
 ### Prerequisites
 
