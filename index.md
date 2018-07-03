@@ -2,8 +2,8 @@ This handbook is all about Software Engineering, from overview on
 general topics to step-by-step guides and recipes:
 
 - Visit the [handbook](/Handbook)
-- Browse the [Table of Contents](about/TOC_HIGH_LEVEL.md)
-- Explore the [detailed Table of Contents](about/TOC.md)
+- Browse the [Table of Contents](about/toc_high_level.md)
+- Explore the [detailed Table of Contents](about/toc.md)
 - Contribute to the [handbook content on GitHub][1]
 - Improve the [handbook tools on GitHub][2]
 

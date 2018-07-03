@@ -19,7 +19,7 @@ relevant.
 Think about a subject that is of interest to Software Engineers and from your own experience is not
 covered well by existing tutorials or is not easily accessible.
 
-Explore the [detailed Table of Contents (TOC)](TOC.md) to get ideas of such subjects and identify 
+Explore the [detailed Table of Contents (TOC)](toc.md) to get ideas of such subjects and identify 
 where your contribution may fit. If you think that the current TOC requires changes, we recommend 
 that you open an issue that presents your change or fix, before submitting a pull request.
 

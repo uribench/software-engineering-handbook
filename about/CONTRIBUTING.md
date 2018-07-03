@@ -27,8 +27,8 @@ suggestion, open an issue using the repository's [issues tab][2].
 There are two extremes of workflows for contributing contents to the 
 Software Engineering Handbook:
 
-- The [simple workflow](SIMPLE_FLOW.md) requires almost no initial setup, but is limited
-- The [advanced workflow](ADVANCED_FLOW.md) requires knowledge of forking and using Git.
+- The [simple workflow](simple_flow.md) requires almost no initial setup, but is limited
+- The [advanced workflow](advanced_flow.md) requires knowledge of forking and using Git.
 
 The use of anyone of these two workflows, or even a combination of them, is **acceptable**. 
 
