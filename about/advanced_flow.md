@@ -123,10 +123,10 @@ change or fix, before submitting a pull request.
 
 [1]: https://github.com/uribench/software-engineering-handbook
 [2]: http://software-engineering-handbook.com/Guides/Git/Git%20Overview
-[3]: /Guides/Git/Git%20Installation
+[3]: http://software-engineering-handbook.com/Guides/Git/Git%20Installation
 [4]: http://software-engineering-handbook.com/Topics/Git%20Bash/
 [5]: http://software-engineering-handbook.com/Guides/Vagrant/Vagrant%20Overview
-[6]: /Guides/SSH/Recommended%20SSH%20Clients
+[6]: http://software-engineering-handbook.com/Guides/SSH/Recommended%20SSH%20Clients
 [7]: http://software-engineering-handbook.com/Guides/Git/Contributing%20to%20an%20Open%20Source%20Project
 [8]: https://daringfireball.net/projects/markdown
 [9]: https://guides.github.com/introduction/flow/index.html
