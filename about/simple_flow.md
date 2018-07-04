@@ -24,7 +24,7 @@ and finally submit the file using the 'Propose new file' button.
 
 Note: Since you are creating a file in a project you don’t have write access to. Submitting a 
 change will create the file in a new branch in your fork, so you can send a pull request. Visit 
-[Contributing to an Open Source Project][6] for more details on fork and pull request.
+[Contributing to an Open Source Project][4] for more details on fork and pull request.
 
 ### Prerequisites
 
