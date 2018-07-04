@@ -12,7 +12,7 @@ subject:
 Think about a subject that is of interest to Software Engineers and from your own experience is not
 covered well by existing tutorials or is not easily accessible.
 
-Explore the [detailed Table of Contents (TOC)](TOC.md) to get ideas of such subjects and identify 
+Explore the [detailed Table of Contents (TOC)](toc.md) to get ideas of such subjects and identify 
 where your contribution may fit. If you think that the current TOC requires changes, we recommend 
 that you open an issue that presents your change or fix.
 
@@ -40,8 +40,7 @@ links associating between the Guides and Topics documents for the subject.
 ### Content Style Guides
 
 * Use [Markdown][2].
-* See relevant examples in [Guides](Guides), [Topics](Topics), and 
-  [config](config) directories.
+* See relevant examples in [Guides](Guides) and [Topics](Topics) directories.
 * Use preview tools for Markdown (e.g., GitHub itself for files ending with `.md`).
 
 ## Submit Pull Request

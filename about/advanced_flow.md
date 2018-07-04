@@ -4,15 +4,19 @@ The following workflow describes the advanced steps required to contribute conte
 subject: 
 
 1. [Select Subject](#select-subject)
-2. [Set Development Environment](#set-development-environment)
-3. [Fork Handbook Repository](#fork-handbook-repository)
+2. [Set Development Environment](#set-development-environment) -- *optional step*
+3. [Fork Handbook Repository](#fork-handbook-repository) -- *optional step*
 4. [Create Content](#create-content)
-5. [Connect Content with the Handbook](#connect-content-with-the-handbook)
-6. [Build Handbook](#build-handbook)
+5. [Connect Content with the Handbook](#connect-content-with-the-handbook) -- *optional step*
+6. [Build Handbook](#build-handbook) -- *optional step*
 7. [Submit Pull Request](#submit-pull-request)
 
-When contributing enhancements to an existing subject only part of these steps are 
-relevant.
+Steps 2, 3, 5, and 6 above are the additional steps differentiating between this advanced workflow
+and the [simple workflow](simple_flow.md). Any of these additional steps is **optional** and can be 
+skipped at your own discretion. Skipped steps will be taken care by the repository moderator when 
+reviewing your pull request.
+
+When contributing enhancements to an existing subject only part of these steps are relevant.
 
 ## Select Subject
 
@@ -25,30 +29,29 @@ that you open an issue that presents your change or fix, before submitting a pul
 
 ## Set Development Environment
 
+*This is an optional step*.
+
 While developing your new content using this advanced workflow, it will be part of your local clone 
 of the forked [handbook repository on GitHub][1].
 
 Therefore, you have to set an environment that will allow you to conveniently edit content and 
-use [Git][2] to track the changes you are doing and push changes back to the fork on GitHub.
+use [Git][2] to track the changes you are doing and push the changes back to the fork on GitHub.
 
-Such environment could be your Windows PC with Git for Windows installed. However, Linux and MacOS
-are more natural environment for this task. If you do not have a Linux or MacOS computer, we 
-recommend using a Linux Virtual Machine (VM) hosted on a Windows PC. This may sound complex if you 
-do not have experience with that. However, using [Vagrant][3], for instance, can simplify this task 
-significantly. 
+Following are several examples of common environments for Windows PC:
 
-Such setup allows you to work on your Windows PC and on the VM and share files between these two 
-machines transparently. For instance, you could use your favorite text editor on Windows and commit
-the changes using Git on the Linux VM.
-
-A recommended text editor for Windows is [Sublime Text][4]. It support many plug-ins, including 
-Markdown syntax highlighting and Markdown preview, which are both useful with developing content.
-Sublime Text has a sophisticated [package control manager][5], simplifying the search and 
-installation of new packages.
+- [Git for Windows][3], ['Git Bash'][4] command window (bundled with Git for Windows)
+- ['Git Bash'][4] command window, [Vagrant][5]
+- [SSH Client][6], [Vagrant][5]
 
 ## Fork Handbook Repository
 
-Visit [Contributing to an Open Source Project][6] for instructions on how to fork and clone the 
+*This is an optional step*.
+ 
+When skipped, this tep will be done automatically for you by GitHub if you create content directly 
+on the GitHub repository using the 'Create new file' option, as in the 
+[simple workflow](simple_flow.md).
+
+Visit [Contributing to an Open Source Project][7] for instructions on how to fork and clone the 
 [handbook repository on GitHub][1].
 
 ## Create Content
@@ -68,7 +71,7 @@ set of Guides and Topics for the subject.
 
 ### Content Style Guides
 
-* Use [Markdown][7].
+* Use [Markdown][8].
 * See relevant examples in [Guides](Guides), [Topics](Topics), and 
   [config](config) directories.
 * Use preview tools for Markdown
@@ -81,14 +84,18 @@ set of Guides and Topics for the subject.
 
 ## Connect Content with the Handbook
 
-Compose at least one [Metadata configuration file](config/metadata) to connect the Handbook
-navigation tree with the new content. The [github.yml](config/metadata/github.yml) is a simple 
-example of such configuration file, including a short introduction and references to GUides and 
-Topics.
+*This is an optional step*.
+
+The Guides and Topics that you have created can be previewed directly. However, in order to make
+them part of the Handbook you will have to connect them the Handbook navigation tree. This is done
+by adding configuration one or more [Metadata configuration file](config/metadata).
+
+The [github.yml](config/metadata/github.yml) is a simple example of such configuration file, 
+including a short introduction and references to Guides and Topics.
 
 ## Build Handbook
 
-This is an optional step.
+*This is an optional step*.
 
 At any time during the development of new content, you can build a new version of the handbook with
 the new content placed under Guides, Topics, and config folders of your local clone of the forked 
@@ -107,7 +114,7 @@ ToDo: Provide instructions.
 
 ## Submit Pull Request
 
-We use [GitHub Flow][8], which means all changes happen through [pull requests][6].
+We use [GitHub Flow][9], which means all changes happen through [pull requests][7].
 
 If you are a first time contributor, we recommend that you open an issue that presents your 
 change or fix, before submitting a pull request.
@@ -116,9 +123,10 @@ change or fix, before submitting a pull request.
 
 [1]: https://github.com/uribench/software-engineering-handbook
 [2]: http://software-engineering-handbook.com/Guides/Git/Git%20Overview
-[3]: http://software-engineering-handbook.com/Guides/Vagrant/Vagrant%20Overview
-[4]: https://www.sublimetext.com/
-[5]: https://packagecontrol.io/
-[6]: http://software-engineering-handbook.com/Guides/Git/Contributing%20to%20an%20Open%20Source%20Project
-[7]: https://daringfireball.net/projects/markdown
-[8]: https://guides.github.com/introduction/flow/index.html
+[3]: /Guides/Git/Git%20Installation
+[4]: http://software-engineering-handbook.com/Topics/Git%20Bash/
+[5]: http://software-engineering-handbook.com/Guides/Vagrant/Vagrant%20Overview
+[6]: /Guides/SSH/Recommended%20SSH%20Clients
+[7]: http://software-engineering-handbook.com/Guides/Git/Contributing%20to%20an%20Open%20Source%20Project
+[8]: https://daringfireball.net/projects/markdown
+[9]: https://guides.github.com/introduction/flow/index.html
