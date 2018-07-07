@@ -107,10 +107,35 @@ straight to submitting a pull request with the authored content.
 However, building and reviewing the complete handbook may help you identify issues prior to 
 submitting a pull request.
 
-If you decide to build the handbook, you will have to install the right tools. This is done easily
-with pip, which is a tool for installing Python packages.
+If you decide to build the handbook, you will have to install the [handbook tools][9]. This is done 
+easily with pip, which is a tool for installing Python packages.
 
-ToDo: Provide instructions.
+The handbook tools are implemented in Python 3 as a command line and are available as a Pip package.
+
+Make sure you have the Python 3 version of pip installed:
+
+```bash
+$ sudo apt upgrade python3-pip
+```
+
+Install the handbook-tools package:
+
+```bash
+$ pip3 install handbook-tools --user
+```
+
+The tools are used with a dispatcher called `handbook` that is executing dedicated commands in the
+following pattern:
+
+```bash
+$ handbook [options] <command> [<args>...]
+```
+
+Run the following command to get help on the handbook tools usage:
+
+```bash
+$ handbook -h 
+```
 
 ## Submit Pull Request
 
@@ -129,4 +154,5 @@ change or fix, before submitting a pull request.
 [6]: http://software-engineering-handbook.com/Guides/SSH/Recommended%20SSH%20Clients
 [7]: http://software-engineering-handbook.com/Guides/Git/Contributing%20to%20an%20Open%20Source%20Project
 [8]: https://daringfireball.net/projects/markdown
-[9]: https://guides.github.com/introduction/flow/index.html
+[9]: https://github.com/uribench/software-engineering-handbook-tools
+[10]: https://guides.github.com/introduction/flow/index.html
