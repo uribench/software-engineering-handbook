@@ -56,29 +56,29 @@ Handbook:
         - Jenkins
       - Testing with Docker @stop
     - Software Development Processes @stop
-  - Production @stop:
+  - Production:
     - Deployment Management:
-      - Virtualization
+      - Virtualization @stop
       - Containerization:
         - Deploying with Docker
-        - Docker orchestration
-      - Automation:
+        - Docker orchestration @stop
+      - Automation @stop:
         - Ansible
         - Puppet
         - Chef
         - Terraform
-      - Build Servers:
+      - Build Servers @stop:
         - Jenkins
-      - Deployment workflows:
+      - Deployment workflows @stop:
         - Using a staging environment
         - Green-Blue deployments
-      - Production tests (Acceptance-Smoke-Sanity)
-      - Continuous Deployment-Delivery (CD)
-    - DevOps:
+      - Production tests (Acceptance-Smoke-Sanity) @stop
+      - Continuous Deployment-Delivery (CD) @stop
+    - DevOps @stop:
       - Building a solid infrastructure (monitoring, alerting, logging)
       - High Availability
       - Auto Scaling
-    - NOC (Network Operation Center)
+    - NOC (Network Operation Center) @stop
   - Coding:
     - Code Quality:
       - General Coding Best Practices @stop

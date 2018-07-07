@@ -45,16 +45,15 @@ Drive:\                           For instance D:\
 ## Provisioning the Virtual Machine
 
 Once you have VirtualBox, Vagrant, and optionally an [SSH Client][4] installed on your system, then 
-you can move on to provisioning the Virtual Machine as 
-described in the next section.
+you can move on to provisioning the Virtual Machine as described in the next section.
 
 
 ### Vagrant Configuration File
 
 To create and provision the Virtual Machine you will need a [Vagrant configuration file][6] called 
-**Vagrantfile**. You can use the 
+**Vagrantfile**. You can use the [example Vagrantfile][7] as-is.
 
-If you decide to use the included Vagarantfile as-is (recommended at least for a start), then 
+If you decide to use the example Vagarantfile as-is (recommended at least for a start), then 
 make sure to name the guest_os_name directory as `xenial` (or any other name that will remind you
 the selected Guest OS for all the child projects).
 
@@ -71,7 +70,7 @@ consistency:
 **Related Guides:**
 
 - [Vagrant Overview][8]
-- [Getting Started with Vagrant][7]
+- [Getting Started with Vagrant][9]
 
 ---
 
@@ -81,5 +80,6 @@ consistency:
 [4]: /Guides/SSH/Recommended%20SSH%20Clients
 [5]: /Topics/SSH%20Protocol
 [6]: /Topics/Vagrantfile
-[7]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant
+[7]: /Topics/Vagrantfile#example-vagrantfile
 [8]: /Guides/Vagrant/Vagrant%20Overview
+[9]: /Guides/Vagrant/Getting%20Started%20with%20Vagrant

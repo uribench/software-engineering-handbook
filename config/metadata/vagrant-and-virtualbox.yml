@@ -7,3 +7,6 @@ guides:
   - Vagrant/Vagrant Installation
   - Vagrant/Getting Started with Vagrant
   - Vagrant/Known Issues
+
+topics:
+  - Vagrantfile

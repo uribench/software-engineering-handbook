@@ -1,0 +1,11 @@
+intro: |
+  Docker is a virtualization software that provides a way to run applications securely isolated in 
+  a container, packaged with all its dependencies and libraries.
+
+guides:
+  - Docker/Docker Overview
+  - Docker/Docker Installation
+  - Docker/Getting Started with Docker
+
+Topics:
+  - Dockerfile

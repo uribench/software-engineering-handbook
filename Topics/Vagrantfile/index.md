@@ -1,7 +1,7 @@
 # Vagrantfile
 
-The configuration file for [Vagrant][1] is called **Vagrantfile** (casing does not matter unless your 
-file system is running in a strict case sensitive mode).
+The configuration file for [Vagrant][1] is called **Vagrantfile** (casing does not matter unless 
+your file system is running in a strict case sensitive mode).
 
 As described in [vagrantup.com][2]: 
 
@@ -17,7 +17,7 @@ As described in [vagrantup.com][2]:
 > necessary to make modifications to the Vagrantfile, since it is mostly simple variable assignment.
 
 
-## Example Vegrantfile
+## Example Vagrantfile
 
 Following is an example for a Vagrantfile. It is minimalist, but fully functional.
 
