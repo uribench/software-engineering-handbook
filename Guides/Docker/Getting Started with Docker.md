@@ -27,6 +27,15 @@ To build a [Docker image][6] from a [Dockerfile][7] use: [`docker build PATH | U
 
 Where `PATH | URL` are two alternatives to specify the location of the Dockerfile.
 
+Example:
+
+```bash
+$ docker build -t myimage .
+```
+
+This command builds an image from a Dockerfile found in the current directory. The created image is 
+named `myimage`.
+
 ## Create a Docker Container from Docker Image
 
 To create a new Docker container from a Docker Image use:
@@ -35,11 +44,23 @@ To create a new Docker container from a Docker Image use:
 This creates a writeable container layer over the specified image and prepares it for running the 
 specified command. 
 
+Example:
+
+```bash
+$ docker create myimage
+```
+
+This command creates a container from an image named `myimage`.
+
 ## Run a Docker Container 
 
-To run a Docker container from a Docker image use: [`docker run [OPTIONS] IMAGE`][10].
+To run a Docker container from a Docker image use: 
+[`docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`][10].
 
 Where IMAGE is a local image or a remote pre-built image, as in the following two examples.
+
+The `docker run` command first creates a writeable container layer over the specified image, and 
+then starts it using the specified command.
 
 ### Use pre-built Docker Images
 
