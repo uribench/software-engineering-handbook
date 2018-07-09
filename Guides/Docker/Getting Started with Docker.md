@@ -23,7 +23,7 @@ visit the Docker official documentation in [Use the Docker command line][5]
 
 ## Build a Docker Image from Dockerfile
 
-To build a [Docker image][6] from a [Dockerfile][7] use: [`docker image build PATH | URL`][8].
+To build a [Docker image][6] from a [Dockerfile][7] use: [`docker build PATH | URL`][8].
 
 Where `PATH | URL` are two alternatives to specify the location of the Dockerfile.
 
@@ -247,7 +247,7 @@ For more details, see [`COPY` docs][15].
 [5]: https://docs.docker.com/engine/reference/commandline/cli/
 [6]: /Guides/Docker/Docker%20Overview
 [7]: /Topics/Dockerfile
-[8]: https://docs.docker.com/edge/engine/reference/commandline/image_build/
+[8]: https://docs.docker.com/edge/engine/reference/commandline/build/
 [9]: https://docs.docker.com/engine/reference/commandline/create/
 [10]: https://docs.docker.com/engine/reference/run/
 [11]: https://hub.docker.com/_/alpine/
