@@ -1,0 +1,11 @@
+# .madness.yml
+path: '.'
+port: '3000'
+bind: '0.0.0.0'
+sidebar: true
+auto_h1: true
+auto_nav: false
+highlighter: true
+line_numbers: false
+index: true
+# toc: Table of Contents
