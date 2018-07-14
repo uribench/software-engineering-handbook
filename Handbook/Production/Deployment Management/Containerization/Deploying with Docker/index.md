@@ -1,7 +1,7 @@
 # Deploying with Docker
 
-Docker is a virtualization software that provides a way to run applications securely isolated in 
-a container, packaged with all its dependencies and libraries.
+Docker is an OS level virtualization software that provides a way to run applications securely 
+isolated in a container, packaged with all its dependencies and libraries.
 
 ## Guides
 
