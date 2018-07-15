@@ -1,13 +1,13 @@
 This handbook is all about Software Engineering, from overview on 
-general topics to step-by-step guides and recipes:
+general topics to step-by-step guides and recipes.
 
-- Visit the [handbook](/Handbook)
-- Browse the [Table of Contents](about/toc_high_level.md)
-- Explore the [detailed Table of Contents](about/toc.md)
-- Contribute to the [handbook content on GitHub][1]
-- Improve the [handbook tools on GitHub][2]
+Visit the [handbook](/Handbook)
+
+[![handbook access](/images//geeky-boy-16-9.png)](/Handbook)
+
+
+Contribute to the [handbook content on GitHub][1]
 
 ---
 
 [1]: https://github.com/uribench/software-engineering-handbook
-[2]: https://github.com/uribench/software-engineering-handbook-tools
