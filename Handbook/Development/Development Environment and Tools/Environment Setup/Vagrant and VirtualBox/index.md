@@ -9,6 +9,8 @@ VirtualBox. It makes it easy to create and run a Virtual Machine (VM) from the c
 - [Vagrant Installation](/Guides/Vagrant/Vagrant%20Installation)
 - [Getting Started with Vagrant](/Guides/Vagrant/Getting%20Started%20with%20Vagrant)
 - [Known Issues](/Guides/Vagrant/Known%20Issues)
+
 ## Topics
 
 - [Vagrantfile](/Topics/Vagrantfile)
+

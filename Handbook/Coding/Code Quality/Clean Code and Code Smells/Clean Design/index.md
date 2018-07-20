@@ -12,3 +12,4 @@ complex design.
 - [Layering an Application](/Guides/Clean%20Design/Layering%20an%20Application)
 - [Dependency Inversion Principle](/Guides/Clean%20Design/Dependency%20Inversion%20Principle)
 - [Service Locator](/Guides/Clean%20Design/Service%20Locator)
+
