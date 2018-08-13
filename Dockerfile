@@ -1,0 +1,2 @@
+FROM dannyben/madness
+COPY . .
