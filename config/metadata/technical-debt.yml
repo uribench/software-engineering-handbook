@@ -1,0 +1,10 @@
+intro: |
+  A practical definition of technical debt *could* be:
+
+  **Technical debt is a measure of cost-of-change and risk-of-defects**.
+
+guides:
+  - Technical Debt/Technical Debt Overview
+
+topics:
+  - Technical Debt
