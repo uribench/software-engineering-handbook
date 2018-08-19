@@ -81,6 +81,7 @@ Handbook:
     - NOC (Network Operation Center) @stop
   - Coding:
     - Code Quality:
+      - Technical Debt
       - General Coding Best Practices @stop
       - Optimization and Refactoring @stop
       - Clean Code and Code Smells:
