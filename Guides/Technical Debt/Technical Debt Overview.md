@@ -2,7 +2,7 @@
 
 [Technical Debt][1] is a metaphor developed by [Ward Cunningham][2] to help dealing effectively with 
 code design problems. It compares taking bad design choices to taking a financial debt. The interest 
-on the debt has to be continually payed, as long as the principle is not payed down by refactoring 
+on the debt has to be continually paid, as long as the principle is not paid down by refactoring 
 the code into a better design. 
 
 Technical debt is inevitable and thus should be expected. It has multiple forms and causes, some are 
