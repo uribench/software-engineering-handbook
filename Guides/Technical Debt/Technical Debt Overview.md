@@ -1,5 +1,7 @@
 # Technical Debt Overview
 
+![Technical Debt](/images/technical-debt-381x232.png)
+
 [Technical Debt][1] is a metaphor developed by [Ward Cunningham][2] to help dealing effectively with 
 code design problems. It compares taking bad design choices to taking a financial debt. The interest 
 on the debt has to be continually paid, as long as the principle is not paid down by refactoring 
