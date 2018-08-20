@@ -9,4 +9,3 @@ highlighter: true
 line_numbers: false
 index: true
 # toc: Table of Contents
-theme: ../_theme
