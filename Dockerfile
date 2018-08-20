@@ -1,2 +1,2 @@
-FROM dannyben/madness
+FROM uribench/madness
 COPY . .
