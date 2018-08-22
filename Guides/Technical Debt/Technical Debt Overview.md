@@ -26,9 +26,11 @@ In order to manage Technical Debt effectively, the following questions have to b
 The following practical guides attempt to address some of these questions:
 
 - [Basic Example of Function Level Technical Debt][3]
+- [Payback Illustration][4]
 
 ---
 
 [1]: https://en.wikipedia.org/wiki/Technical_debt
 [2]: https://en.wikipedia.org/wiki/Ward_Cunningham
 [3]: /Topics/Technical%20Debt
+[4]: /Guides/Technical%20Debt/Payback%20Illustration
