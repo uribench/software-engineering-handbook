@@ -1,3 +1,4 @@
 title: Software Engineering Handbook
 exclude: [config]
 remote_theme: dannyben/jekyll-theme-proxima
+google_analytics: UA-124614028-1
