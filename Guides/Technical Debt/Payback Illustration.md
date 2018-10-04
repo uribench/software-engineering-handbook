@@ -1,18 +1,14 @@
 # Illustration: It's payback time
-
-Let's finish the debt-metaphor quickly and progress to actions.
-If financial debt leaves you with less money for expenses, technical debt leaves you less time for innovation.
-
-Left unpaid, the penalty keeps increasing. Switching to a lower 'rate of interest' frees up resources for innovation. 
-
-Often, corners are cut to deliver software 'on time'. Sometimes this works. Sometimes, quality issues and other factors cause delay. It takes more time to reach production due to compromised quality. These quality issues are remembered long after delays are forgotten.
+Often, development is tight (when is it not!). Corners are cut to deliver software 'on time'. 
+Sometimes this works, we re-pay the cut-corners and the software remains maintainable. 
+Sometimes, quality issues and other factors cause delay. It takes more time to reach production due to compromised quality. These quality issues are remembered long after delays are forgotten.
 
 ## What takes away effort from innovation?
 When small changes require complex analysis and elaborate test-cycles, you know some debt has accumulated. Was it because of pressure? An illusion of pressure? Developer didn't know his job? *Does it really matter?* Any debt or asset has a limiting effect. Buying a car takes longer if the one in the garage needs to be sold.
 Similarly, writing code takes longer if there's some existing code. Or is that true?
 
 ## Let's explore with a small illustration
-Let's say there's a request to disable a particular button when some parts of the system aren't available. Think of a protocol on a modality requiring multiple parts of the system.
+Think of a feature that requires multiple parts of the system. When one of those parts isn't available, the feature isn't available. However, the UI-widget that gives access to the feature remains enabled, even when the feature isn't available. So there's a request now to disable the button when the feature isn't available. 
 The logic we want to write may look like:
 ```
 parts_state = fetch_parts_availability()
@@ -53,4 +49,4 @@ While the second method takes the same time, we now have better understanding. W
 In future, whenever things related to part-availability change, developers can iterate freely and be confident that the code delivered will work at the end of their day.
 
 ## What just happened?
-Congratulations, you have switched to a lower rate of interest! And you didn't need another loan to do that. Was it your debt to pay? Was the 'second approach' your responsibility anyway? **It doesn't really matter**. Try it and see :)
+Congratulations, you have paid back some debt! And you didn't need another loan to do that. Was it your debt to pay? Was the 'second approach' your responsibility anyway? **It doesn't really matter**. Try it and see :)
