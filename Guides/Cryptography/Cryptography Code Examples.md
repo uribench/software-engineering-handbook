@@ -4,13 +4,13 @@ A [GitHub repository][1] dedicated for [Cryptography][2] code examples covers th
 
 - **Substitution ciphers** - [GitHub Repo (Python)][3]: 
 
-    - caesar_cipher - [Try it out!][4]
-    - deranged_alphabet_cipher - [Try it out!][5]
+    - `caesar_cipher` - [Try it out!][4]
+    - `deranged_alphabet_cipher` - [Try it out!][5]
 
-- **Book ciphers**: [GitHub Repo (JavaScript)][6]:
+- **Book ciphers** - [GitHub Repo (JavaScript)][6]:
 
-    - book_cipher_async - [Try it out!][7]
-    - book_cipher_sync - [Try it out!][8]
+    - `book_cipher_async` - [Try it out!][7]
+    - `book_cipher_sync` - [Try it out!][8]
 
 **Notes**: 
 
@@ -18,6 +18,7 @@ A [GitHub repository][1] dedicated for [Cryptography][2] code examples covers th
     - You can run the code as-is (using the green `Run >` button at the top)
     - You can also experiment with modifying the code
 2. The [Cryptography GitHub repository][1] includes detailed description of the code
+
 ---
 
 [1]: https://github.com/uribench/cryptography
