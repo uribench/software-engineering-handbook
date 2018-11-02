@@ -51,7 +51,7 @@ How about using the **elements of design** to get rid of some waste?
 
 |Day 1|Day 2|Day 3|Day 4|Day 5|
 | --- | --- | --- | --- | --- |
-|Clarify intended behavior, use a system and iterate a few quick trials|Mock `fetch_parts_availability`, write a small driver|Code, test and fix at your desk, several times a day is required|Find and setup test system|Fix integration issues, strengthen the test driver|
+|Clarify intended behavior, use a system and iterate a few quick trials|Mock `fetch_parts_availability`, write a small driver|Code, test and fix at your desk, several times a day if required|Find and setup test system|Fix integration issues, strengthen the test driver|
 
 While the second method takes the same time, we now have better understanding. What's more, we've 
 coded our understanding in a test. If you have friends in the CI/CD team, they would make the test 
