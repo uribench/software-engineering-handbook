@@ -1,3 +1,6 @@
 FROM uribench/madness:1.0.3
+
 COPY . .
-ENTRYPOINT ["madness", "--theme=/_theme"]
+
+ENTRYPOINT ["bash", "-c"]
+CMD ["madness --theme /_theme --port ${PORT:-3000}"]
