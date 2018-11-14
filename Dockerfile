@@ -1,4 +1,4 @@
-FROM uribench/madness:1.0.3
+FROM uribench/madness
 
 COPY . .
 
