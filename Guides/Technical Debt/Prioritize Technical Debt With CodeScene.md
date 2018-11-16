@@ -77,7 +77,7 @@ actually works with the code. Use this information to your advantage.
 ## Supported Platforms and Programming Languages
 
 CodeScene works with Git repositories out of the box. In case you have another version-control system you have to convert
-to a (read-only) Git repository for the analysis. This is an [automated conversion][4]. Continue to work in your
+to a (read-only) Git repository for the analysis. This is an [automated conversion][3]. Continue to work in your
 version-control of choice, and synchronize changes to the read-only Git repository under analysis.
 
 CodeScene supports all major programming languages, and there's a complete list of supported languages
