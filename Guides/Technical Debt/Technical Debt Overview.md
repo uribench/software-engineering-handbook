@@ -27,6 +27,7 @@ The following practical guides attempt to address some of these questions:
 
 - [Basic Example of Function Level Technical Debt][3]
 - [Payback Illustration][4]
+- [Prioritize Technical Debt With CodeScene][5]
 
 ---
 
@@ -34,3 +35,4 @@ The following practical guides attempt to address some of these questions:
 [2]: https://en.wikipedia.org/wiki/Ward_Cunningham
 [3]: /Topics/Technical%20Debt
 [4]: /Guides/Technical%20Debt/Payback%20Illustration
+[5]: /Guides/Technical%20Debt/Prioritize%20Technical%20Debt%20With%20CodeScene
