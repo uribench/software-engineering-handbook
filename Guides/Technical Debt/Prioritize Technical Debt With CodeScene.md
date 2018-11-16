@@ -16,20 +16,53 @@ CodeScene works by analysing behavioral data as recorded in version-control syst
 
 A hotspot is complicated code that the organization has to work with often. CodeScene identifies hotspots by measuring
 how the developers interact with the codebase, and we detect in which direction each piece of code evolves – does it
-get better or worse?
+get better or worse? In principle, the change frequency of each hotspot is used as a proxy for the *interest rate* on
+any technical debt we might find in that code.
 
-Each hotspot is also assigned a [Code Biomarker Score][4]. In medicine, a biomarker is a measure that might indicate a
-particular disease or physiological state of an organism. CodeScene’s biomarkers do the same for code, and each
-hotspots is scored from `A` to `E` where `A` is the best and `E` indicates code with severe maintenance problems.
+To identify potential problems, each hotspot is assigned a [Code Biomarker Score][4]. In medicine, a biomarker is a
+measure that might indicate a particular disease or physiological state of an organism. CodeScene’s biomarkers do the
+same for code, and each hotspots is scored from `A` to `E` where `A` is the best and `E` indicates code with severe
+maintenance problems.
 
-The next figure shows an example on a prioritized hotspot in the Android codebase with a biomarker score of `E`:
+The next figure shows an example on how CodeScene visualizes a prioritized hotspot in the Android codebase with
+a biomarker score of `E`:
 
 ![CodeScene](/images/codescene-android.png)
 
 The hotspot analysis is completely automated, and CodeScene is able to prioritize a small part of your codebase –
 typically 2-4% – that identifies the most likely return on any code quality investments. Let's see how to act on it.
 
-### Drill Deeper With Virtual Code Reviews and X-Ray
+### Drill Deeper With Virtual Code Reviews
+
+Once you have identified a prioritized hotspot, you request a virtual code review to get a detailed description of
+the potential quality issues in that module. The virtual code review will aggregate the most significant
+metrics for your chosen file:
+
+![CodeScene's Virtual Code Reviewer](/images/codescene-virtual-code-reviewer.png)
+
+The virtual code reviewer combines the social and technical analysis data you need to assess the severity of the
+hotspot:
+
+* Review the detailed biomarker indications to spot maintenance and quality issues.
+* Detect potential inter-team coordination bottlenecks that should drive refactorings through the social metrics such as the team autonomy measure.
+* See if it's a growing problem in the Complexity Trend.
+* Investigate the change coupling, filtered for your selected file under review.
+* Use the defect trend to estimate the cost of any technical or social debt you might find in the review.
+
+### Prioritize Small and Iterative Refactorings with the X-Ray Analysis
+
+Based on the outcome of our review we might detect the need to initiate some refactorings to pay-off the accumulated debt.
+This might easily turn into a Sisyphus task due to the severity and scale of the identified hotspot. For example, the
+hotspot identified in Android (see the previous figure) is a file with +20.000 lines of code! Where do we start?
+
+In addition, the virtual code review might warn us that there's a high degree of development fragmentation with much
+parallel work by different teams in the identified hotspot. That means we need to keep our refactoring efforts small
+and iterative.
+
+CodeScene's X-Ray analysis lets you identify hotspots on a function/method level. That means you can use the X-Ray
+results to drive refactorings. Let's look at an example from our Android hotspot:
+
+![An X-Ray Analysis of a Large Hotspot](/images/codescene-xray.png)
 
 
 
