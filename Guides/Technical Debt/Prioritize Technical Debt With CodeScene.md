@@ -64,9 +64,15 @@ results to drive refactorings. Let's look at an example from our Android hotspot
 
 ![An X-Ray Analysis of a Large Hotspot](/images/codescene-xray.png)
 
+In the preceding X-Ray visualization, we see that the number one hotspot on a method level is `handleMessage` with
+500 lines of code that changes often and has a complexity number, `106`, that is well above the cut-off point for
+"very high complexity", which is `15`. The high change frequency, `98` changes to this method alone, indicates that
+any improvements we can do to that code are likely to give an immediate return on investment.
 
-
-## Look Beyond Code to Uncover the Social Side of Technical Debt
+Now, a method with 500 lines of code is a lot. But it's still less than 20.000 lines, which was the size of the
+hotspot. And it's definitely less than 3 million lines of code, which is the size of the total Android codebase. More
+important, we are now on a level where we can do a focused refactoring based on data from how we -- as an organization --
+actually works with the code. Use this information to your advantage.
 
 ## Supported Platforms and Programming Languages
 
@@ -76,7 +82,6 @@ version-control of choice, and synchronize changes to the read-only Git reposito
 
 CodeScene supports all major programming languages, and there's a complete list of supported languages
 in [CodeScene's documentation][4].
-
 
 ---
 
