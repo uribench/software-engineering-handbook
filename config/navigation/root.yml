@@ -83,7 +83,8 @@ Handbook:
     - Code Quality:
       - Technical Debt
       - General Coding Best Practices @stop
-      - Optimization and Refactoring @stop
+      - Optimization and Refactoring:
+        - Continuous Improvements
       - Clean Code and Code Smells:
         - General Overview @stop
         - Common Smells - Patterns and Remedies @stop
