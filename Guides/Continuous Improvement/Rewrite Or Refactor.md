@@ -1,8 +1,10 @@
 # Rewrite or Refactor
+
 The software rewrite vs refactor debate  
 ![Debate](/images/2012-wildebeest-fight.jpg "(c) Yathin sk on Wikimedia")
 
 ## When is "Rewrite" an option?
+
 Recently I read the book ["Knigge für Softwarearchitekten"][1] (translates to something like 'etiquette manual for software architects') from two well-known German authors of software engineering textbooks.  
 One topic within this book addresses the "Rewrite or Refactor" question: When is it feasible to "rewrite" a complete (working) product from scratch?  
 The (working) product is the software that produces the current value for the organization and hence needs to be maintained. Sometimes people talk lightly of this product as "legacy software" and think it needs a rewrite to cope with new technologies or requirements.  
@@ -10,7 +12,7 @@ The (working) product is the software that produces the current value for the or
 But what does "legacy software" mean?  
 I personally like a definition from Michael Feathers: "legacy code is code without tests" (author of ["Working Effectively with Legacy Code"][2]).  
 As a consequence, the current product, is not legacy software as long as it has tests. And therefore new source code, just written some days ago is legacy, if it has no tests. As discussed further on this article, the current product is the place where all the business value is currently implemented. It can be seen as the business treasure chamber.  
-Often there is the assumption that "exiting new things" cannot be integrated into old software. I think quite the opposite is true; with tests in place (and/or a good modularized architecture), it is possible to do refactorings to address also fairly major architectural changes without throwing away the code.  
+Often there is the assumption that "exiting new things" cannot be integrated into old software. I think quite the opposite is true; with tests in place (and/or a good modularized architecture), it is possible to do refactoring to address also fairly major architectural changes without throwing away the code.  
 
 The authors of the book are not discussing about small services (e.g. micro services) or tools within one product, where rewriting may be the right option, but instead refer to complete re-architecting and rewriting a complex software product.  
 They reference the well-known article ["Things You Should Never Do, Part I"][3] from Joel Spolsky. In his article, Joel also argues against rewrite and mentions Netscape as a negative example. They went out of business because they decided to rewrite the browser engine from scratch. While this took years to finish, they neglected their working product. 
@@ -18,6 +20,7 @@ They reference the well-known article ["Things You Should Never Do, Part I"][3] 
 ![OldvsModern](/images/Old_tower_with_modern_building.jpg "(c) Piotrus on Wikimedia")
 
 ## A small research on the web
+
 From this starting point, I tried to do some web research on this topic.
 I found a nice article from Robert C. Martin ["The Big Redesign In The Sky"][4] with the following statement:
 
@@ -44,6 +47,7 @@ But sooner or later teams end up in the same situation: the new product has the 
 
 The article ["Rewrites vs. refactoring: 17 essential reads for developers"][7] also collects some material around this topic.  
 It refers to the book [Code Simplicity][8], by Max Kanat-Alexander, where the following checklist is shown, that claims you shall only consider a rewrite if **all** of the following are **true**:
+
 * You've done extensive research and you're nearly certain it will be less expensive and less time-consuming to rewrite. 
 * You have a ton of time to devote to building the new system.
 * You're a better designer than the system's original architect. If you are the system's original architect, are you sure you're significantly better now?
@@ -51,6 +55,7 @@ It refers to the book [Code Simplicity][8], by Max Kanat-Alexander, where the fo
 * You're rich enough and have enough time to maintain both systems while you build the new one.
 
 ## How a rewrite feels like
+
 The article ["How to Survive a Software Rewrite"][9] comes up with a stage model that might sound familiar for some of us.  
 It describes the vicious circle that often happens during rewrite projects that get under time pressure.
 
@@ -71,6 +76,7 @@ and in 2015 the logistics company DHL (from the German Post) failed when develop
 > Evolution instead of revolution"
 
 ## What does that mean for us?
+
 It seems to be collective wisdom that a complete rewrite of a "working" software product should only be done under extreme circumstances and that an evolution of the existing product is usually the better approach.
 
 But Lidl and DHL are not the only ones who made bad experiences.  
@@ -79,6 +85,7 @@ The continuous improvement resulted in an architecture that allows the refactori
 It also led to a high quality of the developed software, recognized by e.g. winning the [TIOBE Software Quality Award][14].
 
 ## How about sustainability?
+
 The material that I found on the web seems to clearly argue against rewrite (all opinions and experiences, not scientific evidence).  
 Even though the web argues for evolution and refactoring, there are still often projects started to attempt a complete rewrite and fail.  
 
