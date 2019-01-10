@@ -83,7 +83,7 @@ The material that I found on the web seems to clearly argue against rewrite (all
 Even though the web argues for evolution and refactoring, there are still often projects started to attempt a complete rewrite and fail.  
 
 Can we extract best practices from these experiences?  
-A good starting point could be the collection of patterns and best practices on architecture improvement, evolution and refactoring which can found at [aim42][15].
+A good starting point could be the collection of patterns and best practices on architecture improvement, evolution and refactoring which can found at [aim42][15].  
 [aim42][15] is the systematic approach to improve software systems and architectures.    
 Complementing this with the test design and refactoring techniques from e.g. ["Working Effectively with Legacy Code"][2] is enabling the continuous improvement of existing software systems.
 
