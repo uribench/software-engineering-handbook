@@ -1,6 +1,25 @@
 # Continuous Improvements
 
-When is it feasible to "rewrite" a complete (working) product from scratch?
+Software is one of the main differentiators for new products and serves as an innovation driver. 
+This has been acknowldged also by the recent shift from hardware-centric to software-centric that 
+is taking place by major companies in sectors like healthcare and the automotive industry. 
+
+Software becomes an important investment for the businesses. In order to protect this investment, 
+the software needs to be continuously improved and maintained. Otherwise, software erosion begins 
+and [technical dept](https://software-engineering-handbook.com/Handbook/Coding/Code%20Quality/Technical%20Debt/) 
+gets accumulated.
+
+The Consortium of IT Software Quality (CISQ) recently published a report on 
+[“Cost of Poor Software Quality in US.”](https://it-cisq.org/wp-content/uploads/2018/10/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf). 
+This report fills a gap in our understanding of the financial implications of poor-quality software. 
+
+In short, the bottom line of this report is:
+
+> The cost of poor quality software in the US in 2018 is $2.84 trillion, 
+> 40% of which is attributed to legacy system problems and technical debt.
+
+Refactoring is one technique to continuously improve the design of an existing code base. A common 
+debate is the "Rewrite or Refactor" question. The following article addresses this question.
 
 ## Guides
 
