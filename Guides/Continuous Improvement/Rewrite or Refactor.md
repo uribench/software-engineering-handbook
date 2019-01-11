@@ -80,7 +80,7 @@ and in 2015 the logistics company DHL (from the German Post) failed when develop
 It seems to be collective wisdom that a complete rewrite of a "working" software product should only be done under extreme circumstances and that an evolution of the existing product is usually the better approach.
 
 But Lidl and DHL are not the only ones who made bad experiences.  
-Also Philips had stopped a big rewrite project around the year 2000. As a consequence it was decided to pick up the existing product software from before rewrite and since then it evolved to a successful, maintainable and extensible software platform with regular releases for different diagnostic X-ray modalities.  
+Also Philips had stopped a big rewrite project around the year 2000. As a consequence it was decided to pick up the existing product software from before rewrite and since then it has been evolving to a successful, maintainable and extensible software platform with regular releases for different diagnostic X-ray modalities.  
 The continuous improvement resulted in an architecture that allows the refactoring or even exchange of certain services where necessary, to extend the platform when needed and to evolve existing ("legacy") components.  
 It also led to a high quality of the developed software, recognized by e.g. winning the [TIOBE Software Quality Award][14].
 

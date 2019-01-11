@@ -1,5 +1,11 @@
 intro: |
-  When is it feasible to "rewrite" a complete (working) product from scratch?
+  Software is one of the main differentiator for new products as an innovation driver.
+  We also see a shift from hardware-centric to software-centric companies in sectors like healthcare or the automotive industry.
+  Software becomes an important investment for the businesses.
+  In order to protect this investment the software needs to be continuously improved and maintained.
+  Refactoring is one technique to continuously improve the design of an existing code base.
+  Likewise refactorings on architectural level must be considered regularly.
+  Otherwise software erosion begins and "Technical Dept" gets accumulated.
 
 guides:
   - Continuous Improvement/Rewrite or Refactor
