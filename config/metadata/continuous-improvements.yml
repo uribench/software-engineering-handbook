@@ -5,7 +5,7 @@ intro: |
 
   Software becomes an important investment for the businesses. In order to protect this investment, 
   the software needs to be continuously improved and maintained. Otherwise, software erosion begins 
-  and [technical dept](https://software-engineering-handbook.com/Handbook/Coding/Code%20Quality/Technical%20Debt/) 
+  and [technical debt](https://software-engineering-handbook.com/Handbook/Coding/Code%20Quality/Technical%20Debt/) 
   gets accumulated.
   
   The Consortium of IT Software Quality (CISQ) recently published a report on 
