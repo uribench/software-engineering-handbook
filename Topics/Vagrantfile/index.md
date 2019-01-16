@@ -21,7 +21,7 @@ As described in [vagrantup.com][2]:
 
 Following is an example for a Vagrantfile. It is minimalist, but fully functional.
 
-```
+```ruby
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
