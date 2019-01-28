@@ -124,7 +124,7 @@ be done under extreme circumstances and that an evolution of the existing produc
 better approach.
 
 But Lidl and DHL are not the only ones who made bad experiences. A major Health-tech company had 
-stopped a big rewrite project around the year 2000. INstead, it was decided to pick up the existing 
+stopped a big rewrite project around the year 2000. Instead, it was decided to pick up the existing 
 product software from before the rewrite. As a consequence, since then it has been evolving to a successful, maintainable and extensible software platform with regular releases for different 
 diagnostic X-ray modalities.
 
