@@ -40,16 +40,17 @@ Handbook:
         - CVS @stop
         - Perforce @stop
         - How to write commit messages and release notes @stop
-      - Testing @stop:
-        - Unit Test
-        - Integration and System Test
-        - Performance and Memory check (Big O)
-        - Test Code Coverage check
-        - Load and stress tests
-        - Static Analysis
-        - Effective Peer Code Review
-        - Root cause analysis
-        - Effective problem solving - Debugging Mindset
+      - Testing:
+        - Unit Test @stop
+        - Integration and System Test @stop
+        - Performance and Memory check (Big O) @stop
+        - Test Code Coverage check @stop
+        - Load and stress tests @stop
+        - Static Analysis:
+          - Code Duplication Analysis
+        - Effective Peer Code Review @stop
+        - Root cause analysis @stop
+        - Effective problem solving - Debugging Mindset @stop
       - Continuous Integration (CI) @stop:
         - TravisCI
         - CircleCI

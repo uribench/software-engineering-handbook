@@ -1,0 +1,6 @@
+intro: |
+  Avoiding code duplications is a fundamental step towards achieving quality code. 
+  A comprehensive evaluation of existing code duplication detection tools is provided.
+
+guides:
+  - Static Analysis/Code Duplication Detection Tools
