@@ -1,6 +1,6 @@
 # Code Duplication Detection Tools: Comprehensive Evaluation
 
-One of the stems in achieving code quality is to avoid duplication in the source code. Duplication in code causes the program to have more lines of unnecessary code. Over time, code changes in the duplicated parts may be done inconsistently. Hence, increasing maintenance cost and changes of having defects. 
+One of the stems in achieving code quality is to avoid duplication in the source code. Duplication in code causes the program to have more lines of unnecessary code. Over time, code changes in the duplicated parts may be done inconsistently. Hence, increasing maintenance cost and chances of having defects. 
 
 There are no best practices in this area and practices that are proven in some contexts, may not be good for others. 
 
