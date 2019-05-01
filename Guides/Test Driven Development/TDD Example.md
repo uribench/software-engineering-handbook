@@ -435,7 +435,7 @@ This is just one way to implement this class, I'm sure that you can come up with
 ## Finished StringCalculatorTest Class
 
 ```java
-package com.philips;
+package com.acme;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -508,7 +508,7 @@ public class StringCalculatorTest {
 ## Finished StringCalculator Class
 
 ```java
-package com.philips;
+package com.acme;
 
 import java.util.List;
 import java.util.regex.Pattern;
