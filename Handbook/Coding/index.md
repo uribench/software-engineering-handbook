@@ -3,7 +3,7 @@
 ## Contents
 
 - [Code Quality](/Handbook/Coding/Code%20Quality)
-- Development Models
+- [Development Models](/Handbook/Coding/Development%20Models)
 - Design patterns
 - Polyglotism
 - Regular Expressions - Syntax, Patterns and Tools

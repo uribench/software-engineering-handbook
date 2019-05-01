@@ -16,15 +16,16 @@ Uncle Bob calls these three laws the _nano-cycle_ of TDD.  They are to be follow
 
 ## TDD Development Iteration Steps
 
-1.  Write a failing test
-2.  Implement the production code necessary to make the test past.
+1.  Write a failing test.
+2.  Implement the production code necessary to make the test pass.
 3.  Refactor and remove _all_ duplication.
 
 ## Practice Makes Perfect
 
-Test Driven Development can be difficult to master.  The best way to master something is to practice it.  TDD [_katas_][3] is one way to do this.  A kata, defined by wikipedia, is ".. an exercise in programming which helps programmers hone their skills through practice and repetition."  A list of different TDD katas can be found [here][4].  The provided [example](/Example) is one such exercise.
+Test Driven Development can be difficult to master.  The best way to master something is to practice it.  TDD [_katas_][3] is one way to do this.  A kata, defined by wikipedia, is ".. an exercise in programming which helps programmers hone their skills through practice and repetition."  A list of different TDD katas can be found [here][4].  The provided [example][5] is one such exercise.
 
-[1]:http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
-[2]:https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
-[3]:https://en.wikipedia.org/wiki/Kata_(programming)
-[4]:https://sites.google.com/site/tddproblems/all-problems-1
+[1]: http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
+[2]: https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
+[3]: https://en.wikipedia.org/wiki/Kata_(programming)
+[4]: https://sites.google.com/site/tddproblems/all-problems-1
+[5]: /Guides/Test%20Driven%20Development/TDD%20Example

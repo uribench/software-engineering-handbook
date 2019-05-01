@@ -1,0 +1,10 @@
+intro: |
+  Test-driven development (TDD), is a test-first development approach, where you write a test before 
+  you write **just enough** production code to fulfill that test.  
+
+  Following are practical guides to TDD, illustrating the combination of test-first approach with 
+  refactoring in an evolutionary development process.
+
+guides:
+  - Test Driven Development/TDD Overview
+  - Test Driven Development/TDD Example
