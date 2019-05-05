@@ -1,0 +1,8 @@
+intro: |
+  A side-effect is defined as any application state change that is observable outside the called 
+  function other than its return value.
+
+  The following guide uses a code challenge to illustrate a common side-effect and ways to avoid it.
+
+guides:
+  - Coding Best Practices/Avoiding Side-Effects

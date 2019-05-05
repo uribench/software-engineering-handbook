@@ -83,7 +83,8 @@ Handbook:
   - Coding:
     - Code Quality:
       - Technical Debt
-      - General Coding Best Practices @stop
+      - General Coding Best Practices:
+        - Avoiding Side-Effects
       - Optimization and Refactoring:
         - Continuous Improvements
       - Clean Code and Code Smells:
