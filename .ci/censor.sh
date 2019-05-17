@@ -4,7 +4,7 @@ BLACKLIST=$1
 
 for FILE in "${@:2}"
 do
-  grep -Rin --color -f $BLACKLIST $FILE
+  grep -Rinw --color -f $BLACKLIST $FILE
 
   if [[ $? == 0 ]]; then
     echo "FAIL: There are some blacklisted words in the repository"
