@@ -1,43 +1,27 @@
-# Search for Blacklisted Words in the Handbook
+# Test
 
-## Blacklisting
+The tests included in this repository are currently checking the following things:
 
-Put all the blacklisted words in the `./.ci/blacklist.tx` file. Each word has to be placed in a separate line, as `grep` takes the whole line for pattern match.
+- [Search for blacklisted words in the Handbook](#search-for-blacklisted-words-in-the-handbook)
 
-## Execution
+## Test Execution
 
-Run the `censor.sh` script as follows:
-
-```bash
-$ ./.ci/censor.sh ./.ci/blacklist.txt Guides Topics config
-```
-
-Note:
-
-There is no need to include the `Handbook` folder as a target for the search, as it is generated automatically from the contents in the `config` folder and includes only `index.md` files with references to the contents in the `Guides` and `Topics` folders.
-
-## Testing
-
-Two test files were provided:
-
-- pass-example.md
-- fail-example.md
-
-The following command should pass:
+The tests can be executed locally using:
 
 ```bash
-./.ci/censor.sh ./.ci/blacklist.txt ./.ci/tests/pass-example.md
-
-# Example Output:
-PASS: There are no known blacklisted words in the repository
+$ cd test
+$ ./test.sh
 ```
 
-The following command should fail:
+They are also executed automatically on the build server (e.g., Travis-CI) when changes are committed to GitHub or when a Pull Request is created.
 
-```bash
-./.ci/censor.sh ./.ci/blacklist.txt ./.ci/tests/fail-example.md
+## Search for Blacklisted Words in the Handbook
 
-# Example Output:
-3:Philips philips PHILIPS john.dow@philips.com
-FAIL: There are some blacklisted words in the repository
-```
+This test is based on the `censor.sh` script from the [uribench/censor][1] GitHub repo.
+
+For details on the `censor.sh` script and how to maintain the blacklist file see the [README][2] file of the [uribench/censor][1] GitHub repo.
+
+---
+
+[1]: https://github.com/uribench/censor
+[2]: https://github.com/uribench/censor/blob/master/README.md
