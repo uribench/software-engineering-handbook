@@ -1,0 +1,8 @@
+os: linux
+dist: bionic
+language: bash
+before_script:
+- sudo apt-get install gnupg2
+script:
+- cd test
+- ./test.sh
