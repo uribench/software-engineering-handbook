@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/uribench/software-engineering-handbook.svg?branch=master)](https://travis-ci.com/uribench/software-engineering-handbook)
+
 # Test
 
 The tests included in this repository are currently checking the following things:
