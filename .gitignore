@@ -2,3 +2,5 @@
 _index
 .sass-cache
 _theme
+# Censor files
+*blacklist.txt
