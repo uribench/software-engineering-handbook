@@ -4,3 +4,4 @@ _index
 _theme
 # Censor files
 *blacklist.txt
+censor.sh
