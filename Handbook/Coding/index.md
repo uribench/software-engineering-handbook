@@ -5,7 +5,7 @@
 - [Code Quality](/Handbook/Coding/Code%20Quality)
 - [Development Models](/Handbook/Coding/Development%20Models)
 - Design patterns
-- Polyglotism
+- [Programming Languages](/Handbook/Coding/Programming%20Languages)
 - Regular Expressions - Syntax, Patterns and Tools
 - Anonymous methods and lambda expressions
 - Developing an Interpreter

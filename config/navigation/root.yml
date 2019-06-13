@@ -114,8 +114,10 @@ Handbook:
         - Supporting Frameworks
       - Defensive Programming @stop
     - Design patterns @stop
-    - Polyglotism @stop:
-      - Side-by-side languages clusters syntax comparisons
+    - Programming Languages:
+      - Python Tips
+      - Polyglotism @stop:
+        - Side-by-side languages clusters syntax comparisons
     - Regular Expressions - Syntax, Patterns and Tools @stop
     - Anonymous methods and lambda expressions @stop
     - Developing an Interpreter @stop
