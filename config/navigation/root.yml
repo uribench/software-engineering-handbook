@@ -42,6 +42,7 @@ Handbook:
         - How to write commit messages and release notes @stop
       - Testing:
         - Unit Test @stop
+        - Property Based Testing
         - Integration and System Test @stop
         - Performance and Memory check (Big O) @stop
         - Test Code Coverage check @stop
