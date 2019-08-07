@@ -13,7 +13,7 @@ to find out and share suggestions or links for this list.
 
 ## What If - Extreme Programming Experiments
 
-This is a [curated series of extreme programming technique videos][1] you can submit additions to.
+This is a [curated series of extreme programming techniques videos][1] you can submit additions to.
 
 Visit the [youtube channel](https://www.youtube.com/channel/UCbObifuqh2tvqQotlr8Lb9g)
 for direct access to that community.

@@ -1,7 +1,6 @@
 # What If - Extreme Programming Experiments
 
-This is a curated series of videos which explores extreme programming technique
-videos you can submit additions to.
+This is a curated series of videos which explores extreme programming techniques you can submit additions to.
 
 Here is a non exhaustive list of video series recorded so far:
 
