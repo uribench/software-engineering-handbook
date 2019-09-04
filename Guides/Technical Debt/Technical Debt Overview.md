@@ -25,14 +25,16 @@ In order to manage Technical Debt effectively, the following questions have to b
 
 The following practical guides attempt to address some of these questions:
 
-- [Basic Example of Function Level Technical Debt][3]
-- [Payback Illustration][4]
-- [Prioritize Technical Debt With CodeScene][5]
+- [Technical Debt Handling Guidelines][3]
+- [Basic Example of Function Level Technical Debt][4]
+- [Payback Illustration][5]
+- [Prioritize Technical Debt With CodeScene][6]
 
 ---
 
 [1]: https://en.wikipedia.org/wiki/Technical_debt
 [2]: https://en.wikipedia.org/wiki/Ward_Cunningham
-[3]: /Topics/Technical%20Debt
-[4]: /Guides/Technical%20Debt/Payback%20Illustration
-[5]: /Guides/Technical%20Debt/Prioritize%20Technical%20Debt%20With%20CodeScene
+[3]: /Guides/Technical%20Debt/Technical%20Debt%20Handling%20Guidelines
+[4]: /Topics/Technical%20Debt
+[5]: /Guides/Technical%20Debt/Payback%20Illustration
+[6]: /Guides/Technical%20Debt/Prioritize%20Technical%20Debt%20With%20CodeScene
