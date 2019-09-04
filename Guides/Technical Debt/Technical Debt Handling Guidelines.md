@@ -185,14 +185,12 @@ Following are few suggestions when using a backlog:
 Have a continuous improvement backlog that is: 
 
 1. Treated as an equal citizen:
-    
-- Stories are defined, refined and estimated as any other 
-- Prioritized
-- Included in the scope of each PI, not “only if we have time”
+    * Stories are defined, refined and estimated as any other 
+    * Prioritized
+    * Included in the scope of each PI, not “only if we have time”
 
 2. Measured and trended:
-
-Example - Predictability measure (80% of committed) measured separately for this group of backlog items to prevent (or make visible) when de-prioritized during PI.
+    * Example - Predictability measure (80% of committed) measured separately for this group of backlog items to prevent (or make visible) when de-prioritized during PI.
 
 ### Prevention
 
@@ -201,12 +199,11 @@ Where is it cheapest to prevent debt?
 1. Have a policy.
 2. Introduce specific automatic quality gates in the CI pipeline to indicate where technical debt may be increasing and break the build or emit clear warnings that require further action.
 3. Consider in a Definition of Done:
-
-- Static analysis
-- Dynamic analysis
-- Reviewed code
-- No tech debt increase
-- Unit tests
+    * Static analysis
+    * Dynamic analysis
+    * Reviewed code
+    * No tech debt increase
+    * Unit tests
 
 ---
 
