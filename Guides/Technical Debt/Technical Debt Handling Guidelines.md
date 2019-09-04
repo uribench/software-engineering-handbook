@@ -47,7 +47,7 @@ The following causalities are **not** considered here as TD:
 - Security
 - Additional non-TD causalities
 
-They are not considered here as TD mainly because that are typically handled anyway using other business justifications as described in the following sections. Therefore, "branding" them as TD is a missed opportunity.
+They are not considered here as TD mainly because they are typically handled anyway using other business justifications as described in the following sections. Therefore, "branding" them as TD is a missed opportunity.
 
 #### Software Obsolescence
 
