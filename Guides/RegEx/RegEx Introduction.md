@@ -116,7 +116,7 @@ Riddles are a great way to learn and practice RegEx. Check the following riddles
 
 ### RegEx Crossword Puzzles
 
-When it comes to RegEx riddles, [regexcrossword][7] offers an interesting approach of combining RegEx with the traditional crossword puzzles. They are classified according to difficulty level.
+When it comes to RegEx riddles, [regexcrossword][7] offers an interesting approach of combining RegEx with the traditional crossword puzzles. The puzzles are classified according to their difficulty level.
 
 ### BBC Radio 4 - RegEx Crossword Puzzle
 
