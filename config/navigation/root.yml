@@ -119,7 +119,7 @@ Handbook:
       - Python Tips
       - Polyglotism @stop:
         - Side-by-side languages clusters syntax comparisons
-    - Regular Expressions - Syntax, Patterns and Tools @stop
+    - Regular Expressions - Syntax, Patterns and Tools
     - Anonymous methods and lambda expressions @stop
     - Developing an Interpreter @stop
     - Frameworks and Libraries @stop

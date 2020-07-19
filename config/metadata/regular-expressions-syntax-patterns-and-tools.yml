@@ -1,0 +1,7 @@
+intro: |
+  Regular expression (aka, RegEx) is a powerful technique used for text processing.
+
+  The following guide introduces RegEx syntax, useful resources, and riddles.
+
+guides:
+  - RegEx/RegEx Introduction
