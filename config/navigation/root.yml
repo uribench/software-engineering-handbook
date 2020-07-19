@@ -49,6 +49,7 @@ Handbook:
         - Load and stress tests @stop
         - Static Analysis:
           - Code Duplication Analysis
+          - Spell Check
         - Effective Peer Code Review @stop
         - Root cause analysis @stop
         - Effective problem solving - Debugging Mindset @stop
